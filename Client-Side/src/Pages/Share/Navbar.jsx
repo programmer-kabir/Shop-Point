@@ -11,7 +11,7 @@ const Navbar = () => {
     <section className="">
       <div>
         {/* Top */}
-        <div className="flex flex-col sm:flex-row items-center justify-between border border-[rgba(209, 209, 209, 1)] px-4 py-2">
+        <div className="flex items-center justify-between border border-[rgba(209, 209, 209, 1)] px-4 py-2">
           {/* Left Side */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-7 items-center">
             <div className="flex items-center gap-1 font-bold">
@@ -19,12 +19,12 @@ const Navbar = () => {
               <p className="text-green-900 ">
                 <Link>Sign in </Link>
               </p>
-              <p>or</p>
-              <p className="text-green-900">
+              <p className="lg:block hidden">or</p>
+              <p className="text-green-900 lg:block hidden">
                 <Link>register</Link>
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-5">
+            <div className="flex-col sm:flex-row items-center gap-2 sm:gap-5 lg:flex hidden">
               <Link>Deil Deals</Link>
               <p>
                 <Link>Help</Link> & <Link>Contact</Link>
@@ -34,9 +34,9 @@ const Navbar = () => {
           {/* Right Side */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 items-center">
             <div className="flex items-center gap-2">
-              <p>Ship to</p>
+              <p className="lg:block hidden">Ship to</p>
               <p>Sell</p>
-              <select name="" id="">
+              <select name="" id="" className="lg:block hidden">
                 <option value="">Watch list</option>
               </select>
               <select name="" id="">
