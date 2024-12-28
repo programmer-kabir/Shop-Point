@@ -18,17 +18,17 @@ const Footer = () => {
     <>
       <footer>
         {/* footer top */}
-        <div className="bg-customGreen ">
-          <div className="container grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-14 pt-[84px] pb-[84px] text-white">
+        <div className="bg-[#1F7634]">
+          <div className="container mx-auto grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-14 pt-10 pb-4  text-white">
             <div>
               <a href="">
                 <img
                   src="/images/logo.png"
                   alt=""
-                  className="w-[103px] mb-[14px] "
+                  className="w-7/12	"
                 />
               </a>
-              <p className="mb-8 mt-8">
+              <p className="mb-8 mt-8 primaryColor">
                 Lorem Sohel Rana sit amet, consectetur adipiscing elit. Ut elit
                 tellus luctus.
               </p>

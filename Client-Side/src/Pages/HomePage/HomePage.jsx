@@ -2,7 +2,10 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className='space-y-20'>
+      <p>saf</p>
+      <p>s</p>
+    </div>
   )
 }
 
