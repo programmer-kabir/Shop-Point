@@ -1,0 +1,260 @@
+[
+    {
+      "id": "prod_001",
+      "name": "Wireless Noise Cancelling Headphones",
+      "description": "High-quality over-ear wireless headphones with active noise cancellation.",
+      "category": "cat_001",
+      "subCategory": "Audio",
+      "price": 199.99,
+      "discount": 15,
+      "stock": 150,
+      "sku": "WHNC-1234",
+      "seller_email": "seller@gmail.com",
+      "images": [
+        "https://example.com/images/headphones1.jpg",
+        "https://example.com/images/headphones2.jpg",
+        "https://example.com/images/headphones3.jpg",
+        "https://example.com/images/headphones4.jpg"
+      ],
+      "specifications": {
+        "brand": "SoundPro",
+        "model": "SP-400",
+        "color": "Black",
+        "connectivity": "Bluetooth 5.0",
+        "batteryLife": "30 hours",
+        "weight": "250g",
+        "dimensions": "7.6 x 6.5 x 3.2 inches"
+      },
+      "tags": [
+        "headphones",
+        "wireless",
+        "noise cancelling",
+        "Bluetooth",
+        "audio",
+        "electronics"
+      ],
+      "shippingDetails": {
+        "weight": "300g",
+        "dimensions": "8 x 7 x 4 inches",
+        "origin": "USA",
+        "availableCountries": ["USA", "Canada", "UK", "Australia"],
+        "shippingCost": {
+          "USA": 5.99,
+          "Canada": 9.99,
+          "UK": 12.99,
+          "Australia": 14.99
+        },
+        "shipping_charge": 100
+      },
+      "createdAt": "2024-12-26",
+      "updatedAt": "2024-12-26",
+      "isActive": true
+    },
+    {
+      "id": "prod_002",
+      "name": "Smartwatch with Fitness Tracking",
+      "description": "Feature-rich smartwatch with heart rate monitoring and GPS.",
+      "category": "cat_002",
+      "subCategory": "Wearables",
+      "price": 149.99,
+      "discount": 10,
+      "stock": 200,
+      "sku": "SWFT-5678",
+      "seller_email": "seller@gmail.com",
+      "images": [
+        "https://example.com/images/smartwatch1.jpg",
+        "https://example.com/images/smartwatch2.jpg",
+        "https://example.com/images/smartwatch3.jpg",
+        "https://example.com/images/smartwatch4.jpg"
+      ],
+      "specifications": {
+        "brand": "FitStyle",
+        "model": "FS-100",
+        "color": "Silver",
+        "connectivity": "Bluetooth 4.0",
+        "batteryLife": "10 hours",
+        "weight": "50g",
+        "dimensions": "1.5 x 1.5 x 0.4 inches"
+      },
+      "tags": [
+        "smartwatch",
+        "fitness",
+        "heart rate monitor",
+        "GPS",
+        "wearables",
+        "electronics"
+      ],
+      "shippingDetails": {
+        "weight": "150g",
+        "dimensions": "2 x 2 x 1 inches",
+        "origin": "USA",
+        "availableCountries": ["USA", "UK", "India"],
+        "shippingCost": {
+          "USA": 4.99,
+          "UK": 10.99,
+          "India": 15.99
+        },
+        "shipping_charge": 100
+      },
+      "createdAt": "2024-12-26",
+      "updatedAt": "2024-12-26",
+      "isActive": true
+    },
+    {
+      "id": "prod_003",
+      "name": "Gaming Laptop",
+      "description": "High-performance gaming laptop with the latest GPU and 16GB RAM.",
+      "category": "cat_003",
+      "subCategory": "Laptops",
+      "price": 1299.99,
+      "discount": 20,
+      "stock": 25,
+      "sku": "GLPT-9876",
+      "seller_email": "user3@gmail.com",
+      "images": [
+        "https://example.com/images/laptop1.jpg",
+        "https://example.com/images/laptop2.jpg",
+        "https://example.com/images/laptop3.jpg",
+        "https://example.com/images/laptop4.jpg"
+      ],
+      "specifications": {
+        "brand": "GameMax",
+        "model": "GX-15",
+        "color": "Black",
+        "processor": "Intel i7",
+        "RAM": "16GB",
+        "storage": "1TB SSD",
+        "graphics": "NVIDIA RTX 3070",
+        "weight": "2.5kg",
+        "dimensions": "15 x 10 x 1 inches"
+      },
+      "tags": [
+        "laptop",
+        "gaming",
+        "high performance",
+        "RTX 3070",
+        "electronics",
+        "computers"
+      ],
+      "shippingDetails": {
+        "weight": "3kg",
+        "dimensions": "16 x 12 x 3 inches",
+        "origin": "Bangladesh",
+        "availableCountries": ["USA", "Canada", "Germany"],
+        "shippingCost": {
+          "USA": 10.99,
+          "Canada": 19.99,
+          "Germany": 29.99
+        },
+        "shipping_charge": 150
+      },
+      "createdAt": "2024-12-26",
+      "updatedAt": "2024-12-26",
+      "isActive": false
+    },
+    {
+      "id": "prod_004",
+      "name": "4K Ultra HD Smart TV",
+      "description": "55-inch 4K Smart TV with HDR and built-in streaming apps.",
+      "category": "cat_004",
+      "subCategory": "Television",
+      "price": 599.99,
+      "discount": 25,
+      "stock": 75,
+      "sku": "TVHD-4455",
+      "seller_email": "user4@gmail.com",
+      "images": [
+        "https://example.com/images/tv1.jpg",
+        "https://example.com/images/tv2.jpg",
+        "https://example.com/images/tv3.jpg",
+        "https://example.com/images/tv4.jpg"
+      ],
+      "specifications": {
+        "brand": "ViewMax",
+        "model": "VM-4K55",
+        "color": "Black",
+        "screenSize": "55 inches",
+        "resolution": "4K Ultra HD",
+        "HDR": "Yes",
+        "smartFeatures": "Netflix, YouTube, Hulu",
+        "weight": "18kg",
+        "dimensions": "48 x 28 x 3 inches"
+      },
+      "tags": [
+        "smart tv",
+        "4k",
+        "ultra hd",
+        "television",
+        "electronics",
+        "streaming"
+      ],
+      "shippingDetails": {
+        "weight": "20kg",
+        "dimensions": "50 x 30 x 5 inches",
+        "origin": "Bangladesh",
+        "availableCountries": ["USA", "Canada", "UK", "India"],
+        "shippingCost": {
+          "USA": 19.99,
+          "Canada": 29.99,
+          "UK": 39.99,
+          "India": 49.99
+        },
+        "shipping_charge": 200
+      },
+      "createdAt": "2024-12-26",
+      "updatedAt": "2024-12-26",
+      "isActive": true
+    },
+    {
+      "id": "prod_005",
+      "name": "Ergonomic Office Chair",
+      "description": "Comfortable office chair with lumbar support and adjustable height.",
+      "category": "cat_005",
+      "subCategory": "Furniture",
+      "price": 149.99,
+      "discount": 10,
+      "stock": 300,
+      "sku": "EOC-3021",
+      "seller_email": "user5@gmail.com",
+      "images": [
+        "https://example.com/images/chair1.jpg",
+        "https://example.com/images/chair2.jpg",
+        "https://example.com/images/chair3.jpg",
+        "https://example.com/images/chair4.jpg"
+      ],
+      "specifications": {
+        "brand": "SitWell",
+        "model": "SW-2020",
+        "color": "Grey",
+        "material": "Mesh",
+        "weightCapacity": "250 lbs",
+        "adjustableFeatures": "Height, Armrests, Recline",
+        "weight": "15kg",
+        "dimensions": "24 x 24 x 36 inches"
+      },
+      "tags": [
+        "office chair",
+        "ergonomic",
+        "furniture",
+        "comfortable",
+        "adjustable",
+        "work from home"
+      ],
+      "shippingDetails": {
+        "weight": "16kg",
+        "dimensions": "26 x 26 x 38 inches",
+        "origin": "Bangladesh",
+        "availableCountries": ["USA", "UK", "Germany"],
+        "shippingCost": {
+          "USA": 9.99,
+          "UK": 19.99,
+          "Germany": 24.99
+        },
+        "shipping_charge": 120
+      },
+      "createdAt": "2024-12-26",
+      "updatedAt": "2024-12-26",
+      "isActive": true
+    }
+  ]
+  
