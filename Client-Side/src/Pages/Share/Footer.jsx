@@ -12,7 +12,7 @@ import {
   faEnvelope,
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
-
+import { MdOutlineMailOutline } from "react-icons/md";
 const Footer = () => {
   return (
     <>
@@ -176,6 +176,21 @@ const Footer = () => {
                 <h4 className="text-white mb-[14px] mt-[32px] font-bold text-2xl tracking-[4%]">
                   Community
                 </h4>
+                <div className="space-y-2">
+                  {/* Email */}
+                  <div className="flex items-center gap-1">
+                    <MdOutlineMailOutline />
+                    <p>Email@gmail.com</p>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <MdOutlineMailOutline />
+                    <p>Email@gmail.com</p>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <MdOutlineMailOutline />
+                    <p>Email@gmail.com</p>
+                  </div>
+                </div>
                 <ul className="flex flex-col gap-3">
                   <li>
                     <a href="">
