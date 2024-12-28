@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
           </div>
           {/* Right Side */}
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 items-center">
+          <div className="flex gap-4 sm:gap-10 items-center">
             <div className="flex items-center gap-2">
               <p className="lg:block hidden">Ship to</p>
               <p>Sell</p>
@@ -51,25 +51,25 @@ const Navbar = () => {
         </div>
 
         {/* Middle */}
-        <div className="flex flex-col sm:flex-row items-center border border-[rgba(209, 209, 209, 1)] px-4 py-2 gap-4 sm:gap-0">
+        <div className="flex items-center border border-[rgba(209, 209, 209, 1)] px-4 py-2 gap-4 sm:gap-0">
           {/* Logo */}
-          <div className="flex gap-3 w-44 items-center cursor-pointer">
+          <div className="flex gap-3 w-16 lg:w-44 items-center cursor-pointer">
             <img src={logoImg} alt="" />
-            <div>
+            <div className="lg:block hidden">
               <p>Shop</p>
               <p>Point</p>
             </div>
-            <div>
+            <div className="lg:block hidden">
               <IoIosArrowDown />
             </div>
           </div>
           {/* Search */}
-          <div className="flex-1 border-2 py-2 px-3 rounded-full border-green-900 flex">
+          <div className="flex-1 border-2 py-2 px-3 rounded-full border-green-900 flex ">
             <label
-              className="flex flex-1 items-center gap-3 cursor-text"
+              className="flex lg:flex-row flex-row-reverse flex-1 items-center gap-3 cursor-text"
               htmlFor="search"
             >
-              <FaMagnifyingGlass />
+              <FaMagnifyingGlass className="sm:cursor-pointer lg:text-black lg:bg-white text-white bg-blue-900 size-8 p-2 rounded-full"/>
               <input
                 type="text"
                 name=""
@@ -78,12 +78,12 @@ const Navbar = () => {
                 className="focus-visible:outline-0 flex-1"
               />
             </label>
-            <select name="" id="">
+            <select name="" id="" className="lg:block hidden">
               <option value="">All Category</option>
             </select>
           </div>
           {/* Buttons */}
-          <div className="flex gap-2">
+          <div className="gap-2 mx-2 lg:flex hidden">
             <button className="bg-green-900 text-white rounded-full py-2 px-6 sm:px-12">
               Search
             </button>
