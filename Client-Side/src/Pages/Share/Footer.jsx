@@ -1,17 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import {
-  faFacebook,
-  faXTwitter,
-  faInstagram,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
-import {
-  faPhone,
-  faEnvelope,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
+
 import { MdOutlineMailOutline } from "react-icons/md";
 const Footer = () => {
   return (
@@ -38,10 +27,7 @@ const Footer = () => {
                     to=""
                     className="bg-white w-[51px] h-[51px] rounded-full flex justify-center items-center"
                   >
-                    <FontAwesomeIcon
-                      icon={faFacebook}
-                      style={{ color: "#1F7634" }}
-                    />
+                   
                   </Link>
                 </li>
                 <li>
@@ -49,10 +35,7 @@ const Footer = () => {
                     to=""
                     className="bg-white w-[51px] h-[51px] rounded-full flex justify-center items-center"
                   >
-                    <FontAwesomeIcon
-                      icon={faXTwitter}
-                      style={{ color: "#1F7634" }}
-                    />
+                   
                   </Link>
                 </li>
                 <li>
@@ -60,10 +43,7 @@ const Footer = () => {
                     to=""
                     className="bg-white w-[51px] h-[51px] rounded-full flex justify-center items-center"
                   >
-                    <FontAwesomeIcon
-                      icon={faInstagram}
-                      style={{ color: "#1F7634" }}
-                    />
+                  
                   </Link>
                 </li>
                 <li>
@@ -71,10 +51,7 @@ const Footer = () => {
                     to=""
                     className="bg-white w-[51px] h-[51px] rounded-full flex justify-center items-center"
                   >
-                    <FontAwesomeIcon
-                      icon={faYoutube}
-                      style={{ color: "#1F7634" }}
-                    />
+                  
                   </Link>
                 </li>
               </ul>
@@ -148,12 +125,12 @@ const Footer = () => {
               <ul className="flex flex-col gap-3">
                 <li>
                   <a href="">
-                    <FontAwesomeIcon icon={faFacebook} /> Facebook{" "}
+                   
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <FontAwesomeIcon icon={faInstagram} /> instragrum{" "}
+                  
                   </a>
                 </li>
               </ul>
@@ -194,18 +171,15 @@ const Footer = () => {
                 <ul className="flex flex-col gap-3">
                   <li>
                     <a href="">
-                      <FontAwesomeIcon icon={faPhone} /> 01922272631{" "}
                     </a>
                   </li>
                   <li>
                     <a href="">
-                      <FontAwesomeIcon icon={faEnvelope} />{" "}
                       sohel672rana@gmail.com{" "}
                     </a>
                   </li>
                   <li>
                     <a href="">
-                      <FontAwesomeIcon icon={faMapMarkerAlt} /> Ramgoti
                       Alexander Jela Laxmipur{" "}
                     </a>
                   </li>
