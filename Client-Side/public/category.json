@@ -1,0 +1,24 @@
+[
+    {
+        "_id":"cat_001",
+        "category":"name",
+        "subCategory":["a","b","c","d"]
+    },
+    {
+        "_id":"cat_002",
+        "subCategory":["a","b","c","d"]
+    },
+    {
+        "_id":"cat_003",
+        "subCategory":["a","b","c","d"]
+    },
+    {
+        "_id":"cat_004",
+        "subCategory":["a","b","c","d"]
+    },
+    {
+        "_id":"cat_005",
+        "subCategory":["a","b","c","d"]
+    }
+
+]
