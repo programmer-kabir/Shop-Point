@@ -1,58 +1,65 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faXTwitter,
-  faInstagram,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
-import {
-  faPhone,
-  faEnvelope,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
+import { MdOutlineMailOutline } from "react-icons/md";
 const Footer = () => {
   return (
     <>
       <footer>
         {/* footer top */}
-        <div className="bg-customGreen ">
-          <div className="container grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-14 pt-[84px] pb-[84px] text-white">
+        <div className="bg-[#1F7634]">
+          <div className="container mx-auto grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-14 pt-10 pb-4  text-white">
             <div>
               <a href="">
-                <img src="/images/logo.png" alt="" className="w-[103px] mb-[14px] " />
+                <img
+                  src="/images/logo.png"
+                  alt=""
+                  className="w-7/12	"
+                />
               </a>
-              <p className="mb-8 mt-8">
+              <p className="mb-8 mt-8 primaryColor">
                 Lorem Sohel Rana sit amet, consectetur adipiscing elit. Ut elit
                 tellus luctus.
               </p>
               <ul className="flex gap-2 ">
                 <li>
-                  <a href="">
-                    {" "}
-                    <FontAwesomeIcon icon={faFacebook}  />
-                  </a>
+                  <Link
+                    to=""
+                    className="bg-white w-[51px] h-[51px] rounded-full flex justify-center items-center"
+                  >
+                   
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
-                    <FontAwesomeIcon icon={faXTwitter} />
-                  </a>
+                  <Link
+                    to=""
+                    className="bg-white w-[51px] h-[51px] rounded-full flex justify-center items-center"
+                  >
+                   
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
-                    <FontAwesomeIcon icon={faInstagram} />
-                  </a>
+                  <Link
+                    to=""
+                    className="bg-white w-[51px] h-[51px] rounded-full flex justify-center items-center"
+                  >
+                  
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
-                    <FontAwesomeIcon icon={faYoutube} />
-                  </a>
+                  <Link
+                    to=""
+                    className="bg-white w-[51px] h-[51px] rounded-full flex justify-center items-center"
+                  >
+                  
+                  </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="text-white mb-[14px] font-bold text-2xl tracking-[4%] ">About</h4>
+              <h4 className="text-white mb-[14px] font-bold text-2xl tracking-[4%] ">
+                About
+              </h4>
               <ul className="flex flex-col gap-3">
                 <li>
                   <a href="">Company info</a>
@@ -79,7 +86,9 @@ const Footer = () => {
             </div>
             <div>
               <div>
-                <h4 className="text-white mb-[14px] font-bold text-2xl tracking-[4%]">Sell</h4>
+                <h4 className="text-white mb-[14px] font-bold text-2xl tracking-[4%]">
+                  Sell
+                </h4>
                 <ul className="flex flex-col gap-3">
                   <li>
                     <a href="">Start selling</a>
@@ -93,7 +102,9 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="text-white mb-[14px] mt-[32px] font-bold text-2xl tracking-[4%]">Tools & apps</h4>
+                <h4 className="text-white mb-[14px] mt-[32px] font-bold text-2xl tracking-[4%]">
+                  Tools & apps
+                </h4>
                 <ul className="flex flex-col gap-3">
                   <li>
                     <a href="">Developers</a>
@@ -108,23 +119,27 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <h4 className="text-white mb-[14px] font-bold text-2xl tracking-[4%]">Stay connected</h4>
+              <h4 className="text-white mb-[14px] font-bold text-2xl tracking-[4%]">
+                Stay connected
+              </h4>
               <ul className="flex flex-col gap-3">
                 <li>
                   <a href="">
-                    <FontAwesomeIcon icon={faFacebook} /> Facebook{" "}
+                   
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <FontAwesomeIcon icon={faInstagram} /> instragrum{" "}
+                  
                   </a>
                 </li>
               </ul>
             </div>
             <div>
               <div>
-                <h4 className="text-white mb-[14px] font-bold text-2xl tracking-[4%]">Help & Contact</h4>
+                <h4 className="text-white mb-[14px] font-bold text-2xl tracking-[4%]">
+                  Help & Contact
+                </h4>
                 <ul className="flex flex-col gap-3">
                   <li>
                     <a href=""> Seller Inforrmation Center </a>
@@ -135,22 +150,36 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="text-white mb-[14px] mt-[32px] font-bold text-2xl tracking-[4%]">Community</h4>
+                <h4 className="text-white mb-[14px] mt-[32px] font-bold text-2xl tracking-[4%]">
+                  Community
+                </h4>
+                <div className="space-y-2">
+                  {/* Email */}
+                  <div className="flex items-center gap-1">
+                    <MdOutlineMailOutline />
+                    <p>Email@gmail.com</p>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <MdOutlineMailOutline />
+                    <p>Email@gmail.com</p>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <MdOutlineMailOutline />
+                    <p>Email@gmail.com</p>
+                  </div>
+                </div>
                 <ul className="flex flex-col gap-3">
                   <li>
                     <a href="">
-                      <FontAwesomeIcon icon={faPhone} /> 01922272631{" "}
                     </a>
                   </li>
                   <li>
                     <a href="">
-                      <FontAwesomeIcon icon={faEnvelope} />{" "}
                       sohel672rana@gmail.com{" "}
                     </a>
                   </li>
                   <li>
                     <a href="">
-                      <FontAwesomeIcon icon={faMapMarkerAlt} /> Ramgoti
                       Alexander Jela Laxmipur{" "}
                     </a>
                   </li>
@@ -163,7 +192,9 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="text-white mb-[14px] mt-[32px] font-bold text-2xl tracking-[4%]">Shop Point</h4>
+                <h4 className="text-white mb-[14px] mt-[32px] font-bold text-2xl tracking-[4%]">
+                  Shop Point
+                </h4>
               </div>
             </div>
           </div>
