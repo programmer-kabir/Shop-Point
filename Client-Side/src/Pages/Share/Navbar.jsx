@@ -69,7 +69,7 @@ const Navbar = () => {
               className="flex lg:flex-row flex-row-reverse flex-1 items-center gap-3 cursor-text"
               htmlFor="search"
             >
-              <FaMagnifyingGlass className="sm:cursor-pointer lg:text-black lg:bg-white text-white bg-blue-900 size-8 p-2 rounded-full"/>
+              <FaMagnifyingGlass className="sm:cursor-pointer lg:text-black lg:bg-white text-white bg-blue-900 size-8 p-2 rounded-full" />
               <input
                 type="text"
                 name=""
