@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "book_001",
+    "product_id": "prod_001",
+    "name":"name",
+    "email": "buyer@gmail.com",
+    "quantity": 1,
+    "price": 1,
+    "address": [
+      {
+        "divison": "",
+        "disctict": "d",
+        "city":"v",
+        "area":"area name",
+        "zipCode":15
+      }
+    ],
+    "number":15
+  }
+]
