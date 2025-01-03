@@ -7,7 +7,7 @@ const Footer_link = ({ menu, url }) => {
     <>
       <ul className="flex flex-col gap-3">
           <li>
-            <Link to={url} className="text-white md:text-sm lg:text-xs">{menu}</Link>
+            <Link to={url} className="text-white xl:text-lg md:text-sm lg:text-xs">{menu}</Link>
           </li>
       </ul>
     </>
