@@ -7,7 +7,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 
-const Social = ({ icon }) => {
+const Social = ({ icon , url}) => { 
   let icon_name;
   switch (icon) {
     case "facebook":
@@ -30,8 +30,8 @@ const Social = ({ icon }) => {
   return (
     <>
       <Link
-        to=""
-        className="bg-white w-[51px] h-[51px] rounded-full flex justify-center items-center"
+        to={url}
+        className="bg-white w-[51px] h-[51px] md:w-[31px] md:h-[31px] rounded-full flex justify-center items-center "
       >
         {icon_name}
       </Link>
