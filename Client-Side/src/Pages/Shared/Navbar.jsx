@@ -1,12 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { FiShoppingCart } from "react-icons/fi";
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { IoMdNotificationsOutline } from "react-icons/io";
-import logoImg from "../../assets/logo.png";
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const primaryItems = [
+    { text: "Explore(New!)", link: "/" },
+    { text: "Saved", link: "/saved" },
+    { text: "Electronics", link: "/electronics" },
+  ];
+
+  const secondaryItems = [
+    { text: "Motors", link: "/motors" },
+    { text: "Fashion", link: "/fashion" },
+    { text: "Collectibles Art", link: "/collectibles" },
+    { text: "Sports", link: "/sports" },
+    { text: "Health & Beauty", link: "/health" },
+    { text: "Industrial equipment", link: "/industrial" },
+    { text: "Home & Garden", link: "/home" },
+    { text: "Dells", link: "/dells" },
+    { text: "Sells", link: "/sells" },
+  ];
+
   return (
     <section className="">
       <div>
@@ -17,11 +37,11 @@ const Navbar = () => {
             <div className="flex items-center gap-1 font-bold">
               <p className="mr-1">Hi! </p>
               <p className="text-green-900 ">
-                <Link>Sign in </Link>
+                <Link to='/signin'>Sign In </Link>
               </p>
               <p className="lg:block hidden">or</p>
               <p className="text-green-900 lg:block hidden">
-                <Link>register</Link>
+                <Link to='/signup'>Sign Up</Link>
               </p>
             </div>
             <div className="flex-col sm:flex-row items-center gap-2 sm:gap-5 lg:flex hidden">
@@ -60,7 +80,7 @@ const Navbar = () => {
         <div className="flex items-center border border-[rgba(209, 209, 209, 1)] px-4 py-2 gap-4 sm:gap-0">
           {/* Logo */}
           <div className="flex gap-3 w-16 lg:w-44 items-center cursor-pointer">
-            <img src={logoImg} alt="" />
+            <img src={logo} alt="logo of website" />
             <div className="lg:block hidden">
               <select
                 name="cars"
@@ -107,44 +127,61 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Down */}
-        <div className="flex flex-wrap items-center gap-2 sm:gap-5 justify-center border border-[rgba(209, 209, 209, 1)] px-4 py-2">
-          <Link>
-            <p>Explore(New!)</p>
-          </Link>
-          <Link>
-            <p>Saved</p>
-          </Link>
-          <Link>
-            <p>Electronics</p>
-          </Link>
-          <Link>
-            <p>Motors</p>
-          </Link>
-          <Link>
-            <p>Fashion</p>
-          </Link>
-          <Link>
-            <p>Collectibles Art</p>
-          </Link>
-          <Link>
-            <p>Sports</p>
-          </Link>
-          <Link>
-            <p>Health & Beauty</p>
-          </Link>
-          <Link>
-            <p>Industrial equipment</p>
-          </Link>
-          <Link>
-            <p>Home & Garden</p>
-          </Link>
-          <Link>
-            <p>Dells</p>
-          </Link>
-          <Link>
-            <p>Sells</p>
-          </Link>
+        {/* Down - Responsive Navigation */}
+        <div className="border border-[rgba(209, 209, 209, 1)] px-4 py-2">
+          <div className="flex  items-center gap-2 sm:gap-5 justify-center">
+            {/* Always visible items */}
+            {primaryItems.map((item) => (
+              <Link
+                key={item.text}
+                to={item.link}
+                className="whitespace-nowrap hover:text-green-700 transition-colors"
+              >
+                <p>{item.text}</p>
+              </Link>
+            ))}
+
+            {/* More button for mobile */}
+            <div className="relative md:hidden">
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                className="flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full hover:bg-gray-200 transition-colors"
+              >
+                <span>More</span>
+                {isOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+              </button>
+
+              {/* Dropdown menu */}
+              {isOpen && (
+                <div className="absolute z-50 top-full right-0 mt-1 w-48 bg-white border border-gray-200 rounded-lg shadow-lg">
+                  <div className="py-1">
+                    {secondaryItems.map((item) => (
+                      <Link
+                        key={item.text}
+                        to={item.link}
+                        className="block px-4 py-2 hover:bg-gray-100 transition-colors"
+                      >
+                        <p>{item.text}</p>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Additional items for desktop */}
+            <div className="hidden md:flex md:flex-wrap md:items-center md:gap-5">
+              {secondaryItems.map((item) => (
+                <Link
+                  key={item.text}
+                  to={item.link}
+                  className="whitespace-nowrap hover:text-green-700 transition-colors"
+                >
+                  <p>{item.text}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
