@@ -1,10 +1,10 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { FaMapMarkerAlt, FaClock } from "react-icons/fa";
-import Social from "../../components/Social";
-import Footer_link from "../../components/Footer_link";
+import { HiOutlineLocationMarker } from "react-icons/hi";
+import Social from "../../components/FooterComponents/Social";
+import Footer_link from "../../components/FooterComponents/Footer_link";
+import Container from "../../components/Container";
 const Footer = () => {
-
   const [dropdown, setDropdown] = useState(false);
   const social = [
     { url: "https://www.facebook.com/", icon: "facebook" },
@@ -43,16 +43,19 @@ const Footer = () => {
     { title: "Contact us", url: "/Contact-us" },
   ];
 
-  const toggleDropdown = ()=>{
-    setDropdown(!dropdown)
-  }
+  const toggleDropdown = () => {
+    setDropdown(!dropdown);
+  };
 
   return (
-    <>
-      <footer>
-        {/* footer top */}
-        <div className="bg-[#1F7634]">
-          <div className="text-center lg:text-left md:text-left container mx-auto grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-14 lg:gap-6 pt-10 pb-4  px-7 pb-20 lg:px-4">
+
+      <footer >
+<div className="bg-[#1F7634]">
+
+      <Container >
+          {/* footer top */}
+          <div >
+          <div className="text-center lg:text-left md:text-left  mx-auto grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-14 lg:gap-6 pt-10 pb-4  px-7 pb-20 lg:px-4">
             <div className="">
               <a href="">
                 <img
@@ -61,7 +64,7 @@ const Footer = () => {
                   className="w-4/12 lg:w-7/12 md:w-7/12  mx-auto	lg:ml-0 md:ml-0"
                 />
               </a>
-              <p className="mb-8 mt-8 md:text-sm xl:text-sm lg:text-xs text-white">
+              <p className="mb-8 mt-8 text-base text-white">
                 Lorem Sohel Rana sit amet, consectetur adipiscing elit. Ut elit
                 tellus luctus.
               </p>
@@ -72,85 +75,87 @@ const Footer = () => {
                 ))}
               </div>
             </div>
-
+            {/* About Section */}
             <div>
               <h4 className="text-white mb-[14px] font-bold xl:text-2xl lg:text-lg tracking-[4%] ">
                 About
               </h4>
-              {about.map((item, index) => (
-                <Footer_link key={index} menu={item.title} url={item.url} />
-              ))}
+              <div className="space-y-3">
+                {about.map((item, index) => (
+                  <Footer_link key={index} menu={item.title} url={item.url} />
+                ))}
+              </div>
             </div>
 
             <div>
+              {/* sell */}
               <div>
                 <h4 className="text-white mb-[14px] font-bold xl:text-2xl  lg:text-lg tracking-[4%] ">
                   Sell
                 </h4>
-                {sell.map((item, index) => (
-                  <Footer_link key={index} menu={item.title} url={item.url} />
-                ))}
+                <div className="space-y-3">
+                  {sell.map((item, index) => (
+                    <Footer_link key={index} menu={item.title} url={item.url} />
+                  ))}
+                </div>
               </div>
-
+              {/*  Tools & apps */}
               <div className="mt-7">
                 <h4 className="text-white mb-[14px] font-bold xl:text-2xl  lg:text-lg tracking-[4%] ">
                   Tools & apps
                 </h4>
+                <div className="space-y-3">
+                  {Tools.map((item, index) => (
+                    <Footer_link key={index} menu={item.title} url={item.url} />
+                  ))}
+                </div>
+              </div>
+            </div>
+            {/* Stay Connected */}
+            <div>
+              <h4 className="text-white mb-[14px] font-bold xl:text-2xl  lg:text-lg tracking-[4%] ">
+                Stay Connected
+              </h4>
+              <div className="space-y-3">
                 {Tools.map((item, index) => (
                   <Footer_link key={index} menu={item.title} url={item.url} />
                 ))}
               </div>
             </div>
             <div>
-              <h4 className="text-white mb-[14px] font-bold xl:text-2xl  lg:text-lg tracking-[4%] ">
-                Stay Connected
-              </h4>
-              {Tools.map((item, index) => (
-                <Footer_link key={index} menu={item.title} url={item.url} />
-              ))}
-            </div>
-            <div>
+              {/*   Help & Contact */}
               <div>
                 <h4 className="text-white mb-[14px] font-bold xl:text-2xl  lg:text-lg tracking-[4%] ">
                   Help & Contact
                 </h4>
-
-                {help.map((item, index) => (
-                  <Footer_link key={index} menu={item.title} url={item.url} />
-                ))}
+                <div className="space-y-3">
+                  {help.map((item, index) => (
+                    <Footer_link key={index} menu={item.title} url={item.url} />
+                  ))}
+                </div>
               </div>
-
+              {/* Community */}
               <div className="mt-7">
                 <h4 className="text-white mb-[14px] font-bold xl:text-2xl  lg:text-lg tracking-[4%] ">
                   Community
                 </h4>
 
-                <div className="space-y-2">
+                <div className="space-y-2 text-white">
                   {/* Email */}
                   <div className="flex items-center gap-1">
-                    <MdOutlineMailOutline className="text-white" />
-                    <p className="text-white md:text-sm lg:text-xs xl:text-lg">
-                      sohel672rana@gmail.com{" "}
-                    </p>
+                    <MdOutlineMailOutline size={24} />
+                    <p className=" text-base">sohel672rana@gmail.com </p>
                   </div>
                   <div className="flex items-center gap-1">
-                    <FaMapMarkerAlt className="text-white" />
-                    <p className="text-white md:text-sm lg:text-xs xl:text-lg">
-                      Alexander Jela Laxmipur
-                    </p>
+                    <HiOutlineLocationMarker size={24} className="font-bold" />
+                    <p className="text-base">Alexander Jela Laxmipur</p>
                   </div>
-                  <div className="flex items-center md:items-start gap-1">
-                    <FaClock className="text-white" />
-                    <p className="text-white md:text-sm lg:text-xs xl:text-lg">
-                      Sunday: 08:00 AM - 10:00 PM
-                    </p>
-                  </div>
-                  <div className="flex items-center md:items-start gap-1">
-                    <FaClock className="text-white" />
-                    <p className="text-white md:text-sm lg:text-xs xl:text-lg">
-                      Monday - Friday: 06:00 AM - 12:00 AM
-                    </p>
-                  </div>
+
+                  <p className="text-base">Sunday: 08:00 AM - 10:00 PM</p>
+
+                  <p className=" text-base">
+                    Monday - Friday: 06:00 AM - 12:00 AM
+                  </p>
                 </div>
               </div>
               <div>
@@ -164,8 +169,7 @@ const Footer = () => {
                     className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded-md focus:outline-none"
                     onClick={toggleDropdown}
                   >
-                   
-                    <img src="images/bd.png" alt=""  />
+                    <img src="images/bd.png" alt="" />
                     <span>Bangladesh</span>
                     <svg
                       className="w-4 h-4 "
@@ -184,38 +188,45 @@ const Footer = () => {
                   </button>
 
                   {/* dropdown */}
-                  {
-                    dropdown && (
-                      <div
-          className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg"
-         
-        >
-          <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
-            Option 1
-          </a>
-          <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
-            Option 2
-          </a>
-          <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
-            Option 3
-          </a>
-        </div>
-                    )
-                  }
+                  {dropdown && (
+                    <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg">
+                      <a
+                        href="#"
+                        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                      >
+                        Option 1
+                      </a>
+                      <a
+                        href="#"
+                        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                      >
+                        Option 2
+                      </a>
+                      <a
+                        href="#"
+                        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                      >
+                        Option 3
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* footer bottom */}
-        <div className="container mx-auto py-4 ">
-          <p className="text-center font-inter ">
+       
+      </Container>
+</div>
+       {/* footer bottom */}
+       <div className=" mx-auto py-4 ">
+          <p className="text-center text-base ">
             Copyright © 2024 Rometheme. All Rights Reserved.
           </p>
         </div>
       </footer>
-    </>
+
   );
 };
 
