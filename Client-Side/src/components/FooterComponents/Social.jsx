@@ -31,9 +31,9 @@ const Social = ({ icon , url}) => {
     <>
       <Link
         to={url}
-        className="bg-white w-[51px] h-[51px] md:w-[31px] md:h-[31px] rounded-full flex justify-center items-center "
+        className="bg-white w-[51px] h-[51px] xl:w-[45px] xl:h-[45px] rounded-full flex justify-center items-center "
       >
-        {icon_name}
+       <button className="text-[#28A745] text-[24px]"> {icon_name}</button>
       </Link>
     </>
   );
