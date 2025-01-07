@@ -3,16 +3,18 @@
     "id": "prod_001",
     "name": "Wireless Noise Cancelling Headphones",
     "description": "High-quality over-ear wireless headphones with active noise cancellation.",
-    "category": "Electronics",
-    "subCategory": "Audio Devices",
+    "category": "cat_001",
+    "subCategory": "Chargers",
     "price": 199.99,
     "discount": 15,
     "stock": 150,
     "sku": "WHNC-1234",
-    "seller_email": "seller1@gmail.com",
+    "seller_email": "seller@gmail.com",
     "images": [
       "https://example.com/images/headphones1.jpg",
-      "https://example.com/images/headphones2.jpg"
+      "https://example.com/images/headphones2.jpg",
+      "https://example.com/images/headphones3.jpg",
+      "https://example.com/images/headphones4.jpg"
     ],
     "specifications": {
       "brand": "SoundPro",
@@ -23,164 +25,148 @@
       "weight": "250g",
       "dimensions": "7.6 x 6.5 x 3.2 inches"
     },
-    "tags": ["headphones", "wireless", "noise cancelling"],
+    "tags": [
+      "headphones",
+      "wireless",
+      "noise cancelling",
+      "Bluetooth",
+      "audio",
+      "electronics"
+    ],
     "shippingDetails": {
       "weight": "300g",
       "dimensions": "8 x 7 x 4 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "Canada"],
-      "shippingCost": {"USA": 5.99, "Canada": 9.99}
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
     },
     "createdAt": "2024-12-26",
     "updatedAt": "2024-12-26",
     "isActive": true
   },
   {
-    "id": "prod_002",
-    "name": "Smartphone with AMOLED Display",
-    "description": "Feature-packed smartphone with a stunning AMOLED display and long-lasting battery.",
-    "category": "Electronics",
-    "subCategory": "Mobile Phones",
-    "price": 699.99,
+    "id": "prod_001",
+    "name": "Intel Core i3 10th Gen Processor",
+    "description": "The Intel Core i3 10105 10th Gen Processor comes with 3.70 GHz up to 4.40 GHz clock speed, 4 cores and 8 threads. This new 10th gen Comet Lake microarchitecture is manufactured with the 14nm process that comes with four cores but lacks in HyperThreading. As this chip is updated to the latest BIOS revision, it nicely fits into any Intel 400 and 500 series motherboard.",
+    "category": "cat_001",
+    "subCategory": "Computer Components",
+    "price": 259.99,
     "discount": 10,
-    "stock": 100,
-    "sku": "SP-AMOLED-1234",
-    "seller_email": "seller2@gmail.com",
-    "images": [
-      "https://example.com/images/smartphone1.jpg",
-      "https://example.com/images/smartphone2.jpg"
-    ],
-    "specifications": {
-      "brand": "TechX",
-      "model": "TX-500",
-      "color": "Blue",
-      "connectivity": "5G",
-      "batteryLife": "36 hours",
-      "weight": "180g",
-      "dimensions": "6.1 x 3 x 0.3 inches"
-    },
-    "tags": ["smartphone", "AMOLED", "5G"],
-    "shippingDetails": {
-      "weight": "200g",
-      "dimensions": "7 x 4 x 1 inches",
-      "origin": "USA",
-      "availableCountries": ["USA", "UK"],
-      "shippingCost": {"USA": 4.99, "UK": 11.99}
-    },
-    "createdAt": "2024-12-28",
-    "updatedAt": "2024-12-28",
-    "isActive": true
-  },
-  {
-    "id": "prod_003",
-    "name": "Gaming Laptop",
-    "description": "High-performance gaming laptop with RTX graphics and a sleek design.",
-    "category": "Computers",
-    "subCategory": "Laptops",
-    "price": 1299.99,
-    "discount": 20,
     "stock": 50,
-    "sku": "GL-RTX-3000",
-    "seller_email": "seller3@gmail.com",
+    "sku": "WHNC-9089",
+    "seller_email": "seller1@gmail.com",
     "images": [
-      "https://example.com/images/laptop1.jpg",
-      "https://example.com/images/laptop2.jpg"
+      "https://www.startech.com.bd/image/cache/catalog/processor/intel/core-i3-10105/core-i3-10105-001-500x500.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-500x500.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/processor/intel/i3-12100/i3-12100-500x500.jpg"
     ],
     "specifications": {
-      "brand": "GameCore",
-      "model": "GC-7000",
-      "color": "Silver",
-      "processor": "Intel Core i7",
-      "RAM": "16GB",
-      "storage": "512GB SSD",
-      "graphics": "NVIDIA RTX 3060",
-      "weight": "2.5kg",
-      "dimensions": "14 x 9 x 0.8 inches"
+      "brand": "Intel",
+      "model": "i3 10gen",
+      "baseFrequency": "3.30 GHz",
+      "Cores": "4"
     },
-    "tags": ["laptop", "gaming", "RTX"],
+    "tags": ["Computer Components", "electronics"],
     "shippingDetails": {
-      "weight": "3kg",
-      "dimensions": "15 x 10 x 2 inches",
-      "origin": "China",
-      "availableCountries": ["USA", "Canada", "India"],
-      "shippingCost": {"USA": 15.99, "Canada": 18.99, "India": 25.99}
-    },
-    "createdAt": "2024-12-29",
-    "updatedAt": "2024-12-29",
-    "isActive": true
-  },
-  {
-    "id": "prod_004",
-    "name": "4K Ultra HD Smart TV",
-    "description": "Experience brilliant visuals with this 55-inch 4K Ultra HD Smart TV.",
-    "category": "Electronics",
-    "subCategory": "Televisions",
-    "price": 499.99,
-    "discount": 12,
-    "stock": 75,
-    "sku": "TV-4K-55",
-    "seller_email": "seller4@gmail.com",
-    "images": [
-      "https://example.com/images/tv1.jpg",
-      "https://example.com/images/tv2.jpg"
-    ],
-    "specifications": {
-      "brand": "ViewPro",
-      "model": "VP-4K-55",
-      "color": "Black",
-      "screenSize": "55 inches",
-      "resolution": "4K Ultra HD",
-      "connectivity": "Wi-Fi, HDMI, USB",
-      "weight": "12kg",
-      "dimensions": "48 x 28 x 3 inches"
-    },
-    "tags": ["TV", "4K", "Smart TV"],
-    "shippingDetails": {
-      "weight": "14kg",
-      "dimensions": "50 x 30 x 5 inches",
-      "origin": "South Korea",
-      "availableCountries": ["USA", "Canada", "UK", "Germany"],
-      "shippingCost": {"USA": 25.99, "Canada": 29.99, "UK": 35.99, "Germany": 39.99}
-    },
-    "createdAt": "2024-12-30",
-    "updatedAt": "2024-12-30",
-    "isActive": true
-  },
-  {
-    "id": "prod_005",
-    "name": "Stainless Steel Blender",
-    "description": "Powerful blender with stainless steel blades and multiple speed settings.",
-    "category": "Home Appliances",
-    "subCategory": "Kitchen Appliances",
-    "price": 59.99,
-    "discount": 5,
-    "stock": 200,
-    "sku": "BL-SS-2024",
-    "seller_email": "seller5@gmail.com",
-    "images": [
-      "https://example.com/images/blender1.jpg",
-      "https://example.com/images/blender2.jpg"
-    ],
-    "specifications": {
-      "brand": "KitchenMaster",
-      "model": "KM-Blender",
-      "color": "Silver",
-      "power": "500W",
-      "capacity": "1.5L",
-      "weight": "2kg",
-      "dimensions": "8 x 8 x 15 inches"
-    },
-    "tags": ["blender", "kitchen", "appliance"],
-    "shippingDetails": {
-      "weight": "2.5kg",
-      "dimensions": "10 x 10 x 16 inches",
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "Canada", "Mexico"],
-      "shippingCost": {"USA": 7.99, "Canada": 10.99, "Mexico": 12.99}
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
     },
-    "createdAt": "2024-12-31",
-    "updatedAt": "2024-12-31",
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
     "isActive": true
   },
-  // 25 additional objects with varying categories, subcategories, and unique properties
+  {
+    "id": "prod_001",
+    "name": "Transcend USB Flash Drive",
+    "description": "Transcend USB Flash Drive DataTraveler Disk Memory Stick Pack Storage Device lot.",
+    "category": "cat_001",
+    "subCategory": "Storage Devices",
+    "price": 149.99,
+    "discount": 5,
+    "stock": 150,
+    "sku": "WHNC-1234",
+    "seller_email": "seller1@gmail.com",
+    "images": ["https://i.ebayimg.com/images/g/XOcAAOSwYgFmeUMh/s-l960.webp", "https://i.ebayimg.com/images/g/E20AAOSwdABmeUMl/s-l140.webp", "https://i.ebayimg.com/images/g/3UEAAOSw~yBmeUMm/s-l140.webp", "https://i.ebayimg.com/images/g/QrcAAOSwkvRmeUMm/s-l140.webp"],
+    "specifications": {
+      "brand": "Transcend",
+      "color": "Black",
+      "capacity":["64gb","128gb"]
+    },
+    "tags": [
+      "pendrive",
+      "electronics"
+    ],
+    "shippingDetails": {
+      "weight": "300g",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_001",
+    "name": "Wireless Noise Cancelling Headphones",
+    "description": "High-quality over-ear wireless headphones with active noise cancellation.",
+    "category": "cat_001",
+    "subCategory": "Chargers",
+    "price": 199.99,
+    "discount": 5,
+    "stock": 150,
+    "sku": "WHNC-1234",
+    "seller_email": "seller1@gmail.com",
+    "images": ["", "", "", ""],
+    "specifications": {
+      "brand": "",
+      "model": "",
+      "color": "",
+      "connectivity": "",
+      "batteryLife": "",
+      "weight": "",
+      "dimensions": ""
+    },
+    "tags": [
+      "headphones",
+      "wireless",
+      "noise cancelling",
+      "Bluetooth",
+      "audio",
+      "electronics"
+    ],
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  }
 ]
