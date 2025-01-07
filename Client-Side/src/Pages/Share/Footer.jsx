@@ -55,7 +55,7 @@ const Footer = () => {
       <Container >
           {/* footer top */}
           <div >
-          <div className="text-center lg:text-left md:text-left  mx-auto grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-14 lg:gap-6 pt-10 pb-4  px-7 pb-20 lg:px-4">
+          <div className="text-center lg:text-left md:text-left  mx-auto grid grid-cols-1  md:grid-cols-3 lg:grid-cols-5 gap-14 lg:gap-6 pt-10 pb-4   ">
             <div className="">
               <a href="">
                 <img
