@@ -28,36 +28,38 @@ const SubNavigation = () => {
     }
   };
 
+
   return (
-    <div className="relative hidden py-2 md:block">
+    <div className="relative hidden py-2 md:block w-[95%] mx-auto">
       {/* Sub-navigation menu */}
       <div
-        ref={menuRef}
-        className="flex items-center gap-2 px-4 overflow-x-auto text-sm md:gap-3 whitespace-nowrap scroll-smooth no-scrollbar"
+         ref={menuRef}
+        className="flex w-full gap-3 items-center overflow-x-auto text-sm md:gap-5 whitespace-nowrap scroll-smooth no-scrollbar"
       >
-        <Link className="p-2 bg-gray-200 rounded-md">
-          Books, Hobbies & Education
+        <Link>
+        Explore (New!)
         </Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Electronics</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Motors</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Fashion</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Collectibles Art</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Sports & Outdoors</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Health & Beauty</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Industrial Equipment</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Home & Garden</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Food & Beverages</Link>
+        <Link className="">Saved</Link>
+        <Link className="primaryColor">Motors</Link>
+        <Link className="primaryColor">Fashion</Link>
+        <Link className="primaryColor">Collectibles Art</Link>
+        <Link className="primaryColor">Sports </Link>
+        <Link className="primaryColor">Health & Beauty</Link>
+        <Link className="primaryColor">Industrial Equipment</Link>
+        <Link className="primaryColor">Home & Garden</Link>
+        <Link className="primaryColor">Deals</Link>
+        <Link className="primaryColor">Sells</Link>
       </div>
 
       {/* Scroll Buttons */}
       <button
-        className="absolute left-0 z-10 p-2 -translate-y-1/2 bg-white rounded-full top-1/2 "
+        className="absolute left-0 z-10 p-2 xl:hidden -translate-y-1/2 bg-white rounded-full top-1/2 "
         onClick={() => scrollMenu("left")}
       >
         <AiOutlineLeft />
       </button>
       <button
-        className="absolute right-0 z-10 p-2 -translate-y-1/2 bg-white rounded-full top-1/2 "
+        className="absolute right-0 z-10 p-2 xl:hidden -translate-y-1/2 bg-white rounded-full top-1/2 "
         onClick={() => scrollMenu("right")}
       >
         <AiOutlineRight />

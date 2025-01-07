@@ -1,6 +1,5 @@
 [
     {
-      "id": "prod_001",
       "name": "Wireless Noise Cancelling Headphones",
       "description": "High-quality over-ear wireless headphones with active noise cancellation.",
       "category": "cat_001",
@@ -36,7 +35,7 @@
       "shippingDetails": {
         "weight": "300g",
         "dimensions": "8 x 7 x 4 inches",
-        "origin": "USA",
+        "origin": "Bangladesh",
         "availableCountries": ["USA", "Canada", "UK", "Australia"],
         "shippingCost": {
           "USA": 5.99,

@@ -8,7 +8,11 @@ body {
 .primaryColor {
   color: #4b4b4b;
 }
-
+.primaryButton{
+  background-color: #28A745;
+  color: white;
+  border-radius: 30px;
+}
 .no-scrollbar {
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For IE and Edge */
