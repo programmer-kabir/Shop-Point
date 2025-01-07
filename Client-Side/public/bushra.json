@@ -1,0 +1,668 @@
+[
+    {
+      "id": "prod_001",
+      "name": "Kids Casual Shirt",
+      "description": "Comfortable and stylish casual shirt for kids.",
+      "category": "cat_006",
+      "subCategory": "Clothing",
+      "price": 15.99,
+      "discount": 10,
+      "stock": 50,
+      "sku": "KC-001",
+      "seller_email": "seller_fashion@gmail.com",
+      "images": [
+        "https://example.com/images/kids_shirt1.jpg"
+      ],
+      "tags": ["kids", "shirt", "fashion"],
+      "createdAt": "2025-01-06",
+      "updatedAt": "2025-01-06",
+      "isActive": true
+    },
+    {
+      "id": "prod_002",
+      "name": "Kids Sneakers",
+      "description": "Durable and stylish sneakers for active kids.",
+      "category": "cat_006",
+      "subCategory": "Footwear",
+      "price": 25.99,
+      "discount": 15,
+      "stock": 40,
+      "sku": "KS-001",
+      "seller_email": "seller_fashion@gmail.com",
+      "images": [
+        "https://example.com/images/kids_sneakers.jpg"
+      ],
+      "tags": ["kids", "footwear", "sneakers"],
+      "createdAt": "2025-01-06",
+      "updatedAt": "2025-01-06",
+      "isActive": true
+    },
+    {
+      "id": "prod_003",
+      "name": "Kids Soft Teddy Bear",
+      "description": "Cuddly and safe teddy bear for kids.",
+      "category": "cat_006",
+      "subCategory": "Toys",
+      "price": 12.99,
+      "discount": 5,
+      "stock": 60,
+      "sku": "KT-001",
+      "seller_email": "seller_fashion@gmail.com",
+      "images": [
+        "https://example.com/images/kids_toy1.jpg"
+      ],
+      "tags": ["kids", "toys", "teddy bear"],
+      "createdAt": "2025-01-06",
+      "updatedAt": "2025-01-06",
+      "isActive": true
+    },
+    {
+      "id": "prod_004",
+      "name": "Kids School Backpack",
+      "description": "Spacious and ergonomic backpack for school kids.",
+      "category": "cat_006",
+      "subCategory": "Backpacks",
+      "price": 20.99,
+      "discount": 20,
+      "stock": 30,
+      "sku": "KB-001",
+      "seller_email": "seller_fashion@gmail.com",
+      "images": [
+        "https://example.com/images/kids_backpack.jpg"
+      ],
+      "tags": ["kids", "backpack", "school"],
+      "createdAt": "2025-01-06",
+      "updatedAt": "2025-01-06",
+      "isActive": true
+    },
+    {
+      "id": "prod_005",
+      "name": "Kids Sunglasses",
+      "description": "UV protection sunglasses for kids.",
+      "category": "cat_006",
+      "subCategory": "Accessories",
+      "price": 10.99,
+      "discount": 8,
+      "stock": 80,
+      "sku": "KA-001",
+      "seller_email": "seller_fashion@gmail.com",
+      "images": [
+        "https://example.com/images/kids_accessories.jpg"
+      ],
+      "tags": ["kids", "sunglasses", "accessories"],
+      "createdAt": "2025-01-06",
+      "updatedAt": "2025-01-06",
+      "isActive": true
+    },
+    {
+      "id": "prod_006",
+      "name": "Kids Stationery Kit",
+      "description": "Complete school supplies kit for kids.",
+      "category": "cat_006",
+      "subCategory": "School Supplies",
+      "price": 9.99,
+      "discount": 10,
+      "stock": 90,
+      "sku": "KSUP-001",
+      "seller_email": "seller_fashion@gmail.com",
+      "images": [
+        "https://example.com/images/kids_stationery.jpg"
+      ],
+      "tags": ["kids", "stationery", "school"],
+      "createdAt": "2025-01-06",
+      "updatedAt": "2025-01-06",
+      "isActive": true
+    },
+    {
+      "id": "prod_007",
+      "name": "Kids Sun Hat",
+      "description": "Lightweight sun hat for kids.",
+      "category": "cat_006",
+      "subCategory": "Hats",
+      "price": 5.99,
+      "discount": 5,
+      "stock": 100,
+      "sku": "KH-001",
+      "seller_email": "seller_fashion@gmail.com",
+      "images": [
+        "https://example.com/images/kids_hat.jpg"
+      ],
+      "tags": ["kids", "hat", "fashion"],
+      "createdAt": "2025-01-06",
+      "updatedAt": "2025-01-06",
+      "isActive": true
+    },
+    {
+      "id": "prod_008",
+      "name": "Moisturizing Skin Lotion",
+      "description": "Gentle skin lotion for everyday use.",
+      "category": "cat_007",
+      "subCategory": "Skin Care",
+      "price": 8.99,
+      "discount": 15,
+      "stock": 70,
+      "sku": "SKL-001",
+      "seller_email": "seller_health@gmail.com",
+      "images": [
+        "https://example.com/images/skin_lotion.jpg"
+      ],
+      "tags": ["skin care", "lotion", "beauty"],
+      "createdAt": "2025-01-06",
+      "updatedAt": "2025-01-06",
+      "isActive": true
+    },
+    {
+          "id": "prod_009",
+          "name": "Herbal Shampoo",
+          "description": "Natural herbal shampoo for healthy hair.",
+          "category": "cat_007",
+          "subCategory": "Hair Care",
+          "price": 12.49,
+          "discount": 10,
+          "stock": 60,
+          "sku": "HC-001",
+          "seller_email": "seller_health@gmail.com",
+          "images": [
+            "https://example.com/images/herbal_shampoo.jpg"
+          ],
+          "tags": ["hair care", "shampoo", "beauty"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+          "id": "prod_010",
+          "name": "Matte Lipstick Set",
+          "description": "A set of five long-lasting matte lipsticks.",
+          "category": "cat_007",
+          "subCategory": "Makeup",
+          "price": 25.99,
+          "discount": 20,
+          "stock": 50,
+          "sku": "MU-001",
+          "seller_email": "seller_health@gmail.com",
+          "images": [
+            "https://example.com/images/lipstick_set.jpg"
+          ],
+          "tags": ["makeup", "lipstick", "beauty"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+          "id": "prod_011",
+          "name": "Luxury Bath Soap",
+          "description": "Moisturizing bath soap for personal hygiene.",
+          "category": "cat_007",
+          "subCategory": "Personal Hygiene",
+          "price": 5.99,
+          "discount": 5,
+          "stock": 80,
+          "sku": "PH-001",
+          "seller_email": "seller_health@gmail.com",
+          "images": [
+            "https://example.com/images/bath_soap.jpg"
+          ],
+          "tags": ["personal hygiene", "soap", "beauty"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+          "id": "prod_012",
+          "name": "Whitening Toothpaste",
+          "description": "Fluoride-rich toothpaste for sparkling white teeth.",
+          "category": "cat_007",
+          "subCategory": "Oral Care",
+          "price": 3.99,
+          "discount": 0,
+          "stock": 90,
+          "sku": "OC-001",
+          "seller_email": "seller_health@gmail.com",
+          "images": [
+            "https://example.com/images/toothpaste.jpg"
+          ],
+          "tags": ["oral care", "toothpaste", "hygiene"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+          "id": "prod_013",
+          "name": "Unisex Eau De Parfum",
+          "description": "Long-lasting fragrance for men and women.",
+          "category": "cat_007",
+          "subCategory": "Fragrances",
+          "price": 29.99,
+          "discount": 15,
+          "stock": 40,
+          "sku": "FR-001",
+          "seller_email": "seller_health@gmail.com",
+          "images": [
+            "https://example.com/images/perfume.jpg"
+          ],
+          "tags": ["fragrance", "perfume", "beauty"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+          "id": "prod_014",
+          "name": "Electric Hair Trimmer",
+          "description": "Precision hair trimmer with multiple settings.",
+          "category": "cat_007",
+          "subCategory": "Grooming Tools",
+          "price": 19.99,
+          "discount": 10,
+          "stock": 30,
+          "sku": "GT-001",
+          "seller_email": "seller_health@gmail.com",
+          "images": [
+            "https://example.com/images/hair_trimmer.jpg"
+          ],
+          "tags": ["grooming tools", "trimmer", "beauty"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+          "id": "prod_015",
+          "name": "Adjustable Dumbbells",
+          "description": "Set of adjustable dumbbells for fitness training.",
+          "category": "cat_008",
+          "subCategory": "Fitness Equipment",
+          "price": 50.99,
+          "discount": 10,
+          "stock": 20,
+          "sku": "FE-001",
+          "seller_email": "seller_sports@gmail.com",
+          "images": [
+            "https://example.com/images/dumbbells.jpg"
+          ],
+          "tags": ["fitness", "equipment", "sports"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+          "id": "prod_016",
+          "name": "Waterproof Camping Tent",
+          "description": "Spacious tent for outdoor camping.",
+          "category": "cat_008",
+          "subCategory": "Camping Gear",
+          "price": 79.99,
+          "discount": 20,
+          "stock": 15,
+          "sku": "CG-001",
+          "seller_email": "seller_sports@gmail.com",
+          "images": [
+            "https://example.com/images/camping_tent.jpg"
+          ],
+          "tags": ["camping", "gear", "outdoors"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+          "id": "prod_017",
+          "name": "Mountain Bike",
+          "description": "High-performance bike for rough terrain.",
+          "category": "cat_008",
+          "subCategory": "Bicycles",
+          "price": 299.99,
+          "discount": 10,
+          "stock": 10,
+          "sku": "BC-001",
+          "seller_email": "seller_sports@gmail.com",
+          "images": [
+            "https://example.com/images/mountain_bike.jpg"
+          ],
+          "tags": ["bicycle", "bike", "sports"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+          "id": "prod_018",
+          "name": "Men's Sports T-Shirt",
+          "description": "Breathable sportswear for athletes.",
+          "category": "cat_008",
+          "subCategory": "Sportswear",
+          "price": 18.99,
+          "discount": 5,
+          "stock": 30,
+          "sku": "SW-001",
+          "seller_email": "seller_sports@gmail.com",
+          "images": [
+            "https://example.com/images/sports_tshirt.jpg"
+          ],
+          "tags": ["sportswear", "t-shirt", "clothing"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+          "id": "prod_019",
+          "name": "Outdoor Hiking Shoes",
+          "description": "Durable hiking footwear for outdoor enthusiasts.",
+          "category": "cat_008",
+          "subCategory": "Footwear",
+          "price": 49.99,
+          "discount": 15,
+          "stock": 25,
+          "sku": "FW-001",
+          "seller_email": "seller_sports@gmail.com",
+          "images": [
+            "https://example.com/images/hiking_shoes.jpg"
+          ],
+          "tags": ["footwear", "hiking", "sports"],
+          "createdAt": "2025-01-06",
+          "updatedAt": "2025-01-06",
+          "isActive": true
+        },
+        {
+            "id": "prod_023",
+            "name": "Sports Backpack",
+            "description": "Durable backpack for outdoor activities.",
+            "category": "cat_008",
+            "subCategory": "Outdoor Backpacks",
+            "price": 39.99,
+            "discount": 10,
+            "stock": 20,
+            "sku": "BP-001",
+            "seller_email": "seller_sports@gmail.com",
+            "images": [
+              "https://example.com/images/sports_backpack.jpg"
+            ],
+            "tags": ["backpack", "outdoor", "sports"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+        {
+            "id": "prod_024",
+            "name": "Sports Wristband",
+            "description": "Sweat-absorbent wristband for workouts.",
+            "category": "cat_008",
+            "subCategory": "Sports Accessories",
+            "price": 5.99,
+            "discount": 5,
+            "stock": 200,
+            "sku": "SA-001",
+            "seller_email": "seller_sports@gmail.com",
+            "images": [
+              "https://example.com/images/sports_wristband.jpg"
+            ],
+            "tags": ["sports", "accessories", "fitness"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_025",
+            "name": "Paperback Novel",
+            "description": "Engaging fiction novel for book lovers.",
+            "category": "cat_009",
+            "subCategory": "Fiction",
+            "price": 12.99,
+            "discount": 10,
+            "stock": 100,
+            "sku": "FIC-001",
+            "seller_email": "seller_books@gmail.com",
+            "images": [
+              "https://example.com/images/novel.jpg"
+            ],
+            "tags": ["books", "fiction", "reading"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_026",
+            "name": "Science Encyclopedia",
+            "description": "Informative non-fiction book about science.",
+            "category": "cat_009",
+            "subCategory": "Non-Fiction",
+            "price": 19.99,
+            "discount": 5,
+            "stock": 50,
+            "sku": "NF-001",
+            "seller_email": "seller_books@gmail.com",
+            "images": [
+              "https://example.com/images/science_encyclopedia.jpg"
+            ],
+            "tags": ["books", "non-fiction", "science"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_027",
+            "name": "Mathematics Textbook",
+            "description": "Comprehensive academic textbook for students.",
+            "category": "cat_009",
+            "subCategory": "Academic Books",
+            "price": 29.99,
+            "discount": 10,
+            "stock": 40,
+            "sku": "ACB-001",
+            "seller_email": "seller_books@gmail.com",
+            "images": [
+              "https://example.com/images/math_textbook.jpg"
+            ],
+            "tags": ["books", "academic", "math"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_028",
+            "name": "Leather Notebook",
+            "description": "Premium leather-bound notebook for notes.",
+            "category": "cat_009",
+            "subCategory": "Notebooks",
+            "price": 14.99,
+            "discount": 5,
+            "stock": 80,
+            "sku": "NB-001",
+            "seller_email": "seller_books@gmail.com",
+            "images": [
+              "https://example.com/images/leather_notebook.jpg"
+            ],
+            "tags": ["stationery", "notebooks", "writing"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_029",
+            "name": "Gel Pens Set",
+            "description": "Set of smooth writing gel pens in various colors.",
+            "category": "cat_009",
+            "subCategory": "Pens",
+            "price": 8.99,
+            "discount": 0,
+            "stock": 150,
+            "sku": "PEN-001",
+            "seller_email": "seller_books@gmail.com",
+            "images": [
+              "https://example.com/images/gel_pens.jpg"
+            ],
+            "tags": ["stationery", "pens", "writing"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_030",
+            "name": "Watercolor Painting Set",
+            "description": "A professional-grade watercolor set with 36 vibrant colors.",
+            "category": "cat_009",
+            "subCategory": "Art Supplies",
+            "price": 24.99,
+            "discount": 10,
+            "stock": 60,
+            "sku": "ART-001",
+            "seller_email": "seller_books@gmail.com",
+            "images": [
+              "https://example.com/images/watercolor_set.jpg"
+            ],
+            "tags": ["art supplies", "watercolors", "painting"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_031",
+            "name": "2025 Productivity Planner",
+            "description": "A stylish planner with monthly and weekly layouts for optimal productivity.",
+            "category": "cat_009",
+            "subCategory": "Planners",
+            "price": 19.99,
+            "discount": 5,
+            "stock": 100,
+            "sku": "PLAN-001",
+            "seller_email": "seller_books@gmail.com",
+            "images": [
+              "https://example.com/images/planner.jpg"
+            ],
+            "tags": ["planner", "stationery", "organization"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_032",
+            "name": "Car Phone Mount",
+            "description": "A secure phone mount for cars with adjustable angles.",
+            "category": "cat_010",
+            "subCategory": "Car Accessories",
+            "price": 15.99,
+            "discount": 10,
+            "stock": 200,
+            "sku": "CAR-001",
+            "seller_email": "seller_automotive@gmail.com",
+            "images": [
+              "https://example.com/images/car_phone_mount.jpg"
+            ],
+            "tags": ["car accessories", "phone mount", "automotive"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_033",
+            "name": "LED Bike Lights",
+            "description": "A set of front and rear LED lights for bikes, ideal for night rides.",
+            "category": "cat_010",
+            "subCategory": "Bike Accessories",
+            "price": 12.99,
+            "discount": 5,
+            "stock": 150,
+            "sku": "BIKE-001",
+            "seller_email": "seller_automotive@gmail.com",
+            "images": [
+              "https://example.com/images/bike_lights.jpg"
+            ],
+            "tags": ["bike accessories", "lights", "automotive"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_034",
+            "name": "Car Brake Pads",
+            "description": "High-quality brake pads compatible with most car models.",
+            "category": "cat_010",
+            "subCategory": "Spare Parts",
+            "price": 35.99,
+            "discount": 15,
+            "stock": 50,
+            "sku": "SPARE-001",
+            "seller_email": "seller_automotive@gmail.com",
+            "images": [
+              "https://example.com/images/car_brake_pads.jpg"
+            ],
+            "tags": ["spare parts", "car", "brake pads"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_035",
+            "name": "Car Wax Polish",
+            "description": "Premium wax polish for a glossy and protected car finish.",
+            "category": "cat_010",
+            "subCategory": "Car Care Products",
+            "price": 22.99,
+            "discount": 10,
+            "stock": 80,
+            "sku": "CARE-001",
+            "seller_email": "seller_automotive@gmail.com",
+            "images": [
+              "https://example.com/images/car_wax_polish.jpg"
+            ],
+            "tags": ["car care", "polish", "wax"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_036",
+            "name": "Car Repair Tool Kit",
+            "description": "Comprehensive tool kit for basic car repairs and maintenance.",
+            "category": "cat_010",
+            "subCategory": "Tools",
+            "price": 49.99,
+            "discount": 10,
+            "stock": 40,
+            "sku": "TOOLS-001",
+            "seller_email": "seller_automotive@gmail.com",
+            "images": [
+              "https://example.com/images/car_tool_kit.jpg"
+            ],
+            "tags": ["tools", "car repair", "automotive"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_037",
+            "name": "Portable GPS Navigator",
+            "description": "A high-resolution GPS device with real-time traffic updates.",
+            "category": "cat_010",
+            "subCategory": "GPS Devices",
+            "price": 89.99,
+            "discount": 15,
+            "stock": 30,
+            "sku": "GPS-001",
+            "seller_email": "seller_automotive@gmail.com",
+            "images": [
+              "https://example.com/images/gps_navigator.jpg"
+            ],
+            "tags": ["gps", "navigation", "automotive"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          },
+          {
+            "id": "prod_038",
+            "name": "Motorcycle Helmet",
+            "description": "A lightweight and durable helmet for motorcycle riders.",
+            "category": "cat_010",
+            "subCategory": "Helmets",
+            "price": 59.99,
+            "discount": 10,
+            "stock": 45,
+            "sku": "HELMET-001",
+            "seller_email": "seller_automotive@gmail.com",
+            "images": [
+              "https://example.com/images/motorcycle_helmet.jpg"
+            ],
+            "tags": ["helmet", "motorcycle", "safety"],
+            "createdAt": "2025-01-06",
+            "updatedAt": "2025-01-06",
+            "isActive": true
+          }
+  ]
+  
