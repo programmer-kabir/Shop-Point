@@ -4,7 +4,7 @@
       "name": "Wireless Noise Cancelling Headphones",
       "description": "High-quality over-ear wireless headphones with active noise cancellation.",
       "category": "cat_001",
-      "subCategory": "Audio",
+      "subCategory": "Chargers",
       "price": 199.99,
       "discount": 15,
       "stock": 150,
@@ -37,7 +37,7 @@
         "weight": "300g",
         "dimensions": "8 x 7 x 4 inches",
         "origin": "USA",
-        "availableCountries": ["USA", "Canada", "UK", "Australia"],
+        "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
         "shippingCost": {
           "USA": 5.99,
           "Canada": 9.99,
