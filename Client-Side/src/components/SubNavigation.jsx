@@ -29,7 +29,7 @@ const SubNavigation = () => {
   };
 
   return (
-    <div className="relative py-2 ">
+    <div className="relative hidden py-2 md:block">
       {/* Sub-navigation menu */}
       <div
         ref={menuRef}
