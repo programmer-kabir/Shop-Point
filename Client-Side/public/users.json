@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "seller",
+    "name": "seller",
+    "email": "seller@gmail.com",
+    "role": "seller"
+  },
+  {
+    "_id": "buyer",
+    "name": "buyer",
+    "email": "buyer@gmail.com",
+    "role": "buyer"
+  },
+  {
+    "_id": "admin",
+    "name": "admin",
+    "email": "admin@gmail.com",
+    "role": "admin"
+  }
+]

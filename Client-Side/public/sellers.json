@@ -1,0 +1,62 @@
+[
+  {
+    "_id": 101,
+    "store_name": "Tech World",
+    "store_logo": "https://example.com/logo.png",
+    "contact_number": "+1-234-567-890",
+    "email": "seller@gmail.com",
+    "address": "123 Tech Street, New York, USA",
+    "bank_account_details": {
+      "bank_name": "ABC Bank",
+      "account_number": "1234567890",
+      "ifsc_code": "ABC123XYZ"
+    },
+    "tax_id": "TX-12345-67890",
+    "rating": 4.5,
+    "total_products": 50,
+    "verification_status": "verified",
+    "created_at": "2024-12-26",
+    "updated_at": "2024-12-26",
+    "isActive": true 
+  },
+  {
+    "_id": 102,
+    "store_name": "GadgetHub",
+    "store_logo": "https://example.com/logo2.png",
+    "contact_number": "+1-987-654-321",
+    "email": "user2@gmail.com",
+    "address": "456 Gadget Lane, San Francisco, USA",
+    "bank_account_details": {
+      "bank_name": "XYZ Bank",
+      "account_number": "9876543210",
+      "ifsc_code": "XYZ987ABC"
+    },
+    "tax_id": "TX-54321-09876",
+    "rating": 4.2,
+    "total_products": 120,
+    "verification_status": "pending",
+    "created_at": "2024-12-20",
+    "updated_at": "2024-12-26",
+    "isActive": false
+  },
+  {
+    "_id": 103,
+    "store_name": "Fashion Point",
+    "store_logo": "https://example.com/logo3.png",
+    "contact_number": "+1-555-123-456",
+    "email": "user3@gmail.com",
+    "address": "789 Fashion Ave, Los Angeles, USA",
+    "bank_account_details": {
+      "bank_name": "PQR Bank",
+      "account_number": "5678901234",
+      "ifsc_code": "PQR567LMN"
+    },
+    "tax_id": "TX-67890-12345",
+    "rating": 4.8,
+    "total_products": 85,
+    "verification_status": "rejected",
+    "created_at": "2024-12-15",
+    "updated_at": "2024-12-25",
+    "isActive": false
+  }
+]

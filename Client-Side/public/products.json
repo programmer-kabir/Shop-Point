@@ -1,0 +1,53 @@
+[
+    {
+      "id": "prod_001",
+      "name": "Wireless Noise Cancelling Headphones",
+      "description": "High-quality over-ear wireless headphones with active noise cancellation.",
+      "category": "cat_001",
+      "subCategory": "Audio",
+      "price": 199.99,
+      "discount": 15,
+      "stock": 150,
+      "sku": "WHNC-1234",
+      "seller_email": "seller@gmail.com",
+      "images": [
+        "https://example.com/images/headphones1.jpg",
+        "https://example.com/images/headphones2.jpg",
+        "https://example.com/images/headphones3.jpg",
+        "https://example.com/images/headphones4.jpg"
+      ],
+      "specifications": {
+        "brand": "SoundPro",
+        "model": "SP-400",
+        "color": "Black",
+        "connectivity": "Bluetooth 5.0",
+        "batteryLife": "30 hours",
+        "weight": "250g",
+        "dimensions": "7.6 x 6.5 x 3.2 inches"
+      },
+      "tags": [
+        "headphones",
+        "wireless",
+        "noise cancelling",
+        "Bluetooth",
+        "audio",
+        "electronics"
+      ],
+      "shippingDetails": {
+        "weight": "300g",
+        "dimensions": "8 x 7 x 4 inches",
+        "origin": "USA",
+        "availableCountries": ["USA", "Canada", "UK", "Australia"],
+        "shippingCost": {
+          "USA": 5.99,
+          "Canada": 9.99,
+          "UK": 12.99,
+          "Bangladesh": 14.99
+        }
+      },
+      "createdAt": "2024-12-26",
+      "updatedAt": "2024-12-26",
+      "isActive": true
+    }
+  ]
+  

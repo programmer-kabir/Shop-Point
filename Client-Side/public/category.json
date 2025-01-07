@@ -1,0 +1,199 @@
+[
+    {
+      "_id": "cat_001",
+      "category": "Electronics Accessories",
+      "subCategory": [
+        "Computer Components",
+        "Storage Devices",
+        "Camera Accessories",
+        "Chargers",
+        "Cables",
+        "Power Banks",
+        "Adapters",
+        "Headphones"
+      ]
+    },
+    {
+      "_id": "cat_002",
+      "category": "Electronics Devices",
+      "subCategory": [
+        "Smartphones",
+        "Tablets",
+        "Laptops",
+        "Desktops",
+        "Smart TVs",
+        "Wearable Devices",
+        "Gaming Consoles"
+      ]
+    },
+    {
+      "_id": "cat_003",
+      "category": "Home Appliances",
+      "subCategory": [
+        "Refrigerators",
+        "Washing Machines",
+        "Microwave Ovens",
+        "Air Conditioners",
+        "Vacuum Cleaners",
+        "Water Purifiers",
+        "Fans"
+      ]
+    },
+    {
+      "_id": "cat_004",
+      "category": "Fashion for Women",
+      "subCategory": [
+        "Dresses",
+        "Handbags",
+        "Jewelry",
+        "Footwear",
+        "Scarves",
+        "Watches",
+        "Accessories"
+      ]
+    },
+    {
+      "_id": "cat_005",
+      "category": "Fashion for Men",
+      "subCategory": [
+        "T-Shirts",
+        "Shirts",
+        "Jeans",
+        "Jackets",
+        "Shoes",
+        "Belts",
+        "Watches"
+      ]
+    },
+    {
+      "_id": "cat_006",
+      "category": "Fashion for Kids",
+      "subCategory": [
+        "Clothing",
+        "Footwear",
+        "Toys",
+        "Backpacks",
+        "Accessories",
+        "School Supplies",
+        "Hats"
+      ]
+    },
+    {
+      "_id": "cat_007",
+      "category": "Health & Beauty",
+      "subCategory": [
+        "Skin Care",
+        "Hair Care",
+        "Makeup",
+        "Personal Hygiene",
+        "Oral Care",
+        "Fragrances",
+        "Grooming Tools"
+      ]
+    },
+    {
+      "_id": "cat_008",
+      "category": "Sports & Outdoors",
+      "subCategory": [
+        "Fitness Equipment",
+        "Camping Gear",
+        "Bicycles",
+        "Sportswear",
+        "Footwear",
+        "Outdoor Backpacks",
+        "Sports Accessories"
+      ]
+    },
+    {
+      "_id": "cat_009",
+      "category": "Books & Stationery",
+      "subCategory": [
+        "Fiction",
+        "Non-Fiction",
+        "Academic Books",
+        "Notebooks",
+        "Pens",
+        "Art Supplies",
+        "Planners"
+      ]
+    },
+    {
+      "_id": "cat_010",
+      "category": "Automotive",
+      "subCategory": [
+        "Car Accessories",
+        "Bike Accessories",
+        "Spare Parts",
+        "Car Care Products",
+        "Tools",
+        "GPS Devices",
+        "Helmets"
+      ]
+    },
+    {
+      "_id": "cat_011",
+      "category": "Home & Kitchen",
+      "subCategory": [
+        "Cookware",
+        "Dinnerware",
+        "Home Decor",
+        "Furniture",
+        "Storage Solutions",
+        "Lighting",
+        "Cleaning Supplies"
+      ]
+    },
+    {
+      "_id": "cat_012",
+      "category": "Baby Products",
+      "subCategory": [
+        "Baby Clothing",
+        "Diapers",
+        "Baby Food",
+        "Strollers",
+        "Toys",
+        "Nursing Products",
+        "Bath Essentials"
+      ]
+    },
+    {
+      "_id": "cat_013",
+      "category": "Pet Supplies",
+      "subCategory": [
+        "Pet Food",
+        "Pet Toys",
+        "Grooming Products",
+        "Pet Beds",
+        "Leashes & Collars",
+        "Pet Clothing",
+        "Aquariums"
+      ]
+    },
+    {
+      "_id": "cat_014",
+      "category": "Toys & Games",
+      "subCategory": [
+        "Action Figures",
+        "Board Games",
+        "Educational Toys",
+        "Dolls",
+        "Puzzles",
+        "Outdoor Play Equipment",
+        "Building Blocks"
+      ]
+    },
+    {
+      "_id": "cat_015",
+      "category": "Groceries",
+      "subCategory": [
+        "Beverages",
+        "Snacks",
+        "Fresh Produce",
+        "Bakery Products",
+        "Meat & Seafood",
+        "Dairy Products",
+        "Household Essentials"
+      ]
+    }
+  ]
+  
