@@ -1,44 +1,44 @@
 [
  {
-      "id": "prod_001",
-      "name": "Kids Casual Shirt",
-      "description": "Comfortable and stylish casual shirt for kids.",
-      "category": "cat_006",
-      "subCategory": "Clothing",
-      "price": 15.99,
-      "discount": 10,
-      "stock": 50,
-      "sku": "KC-001",
-      "seller_email": "seller_fashion@gmail.com",
-      "images": [
-        "https://ibb.co.com/q07wPgP",
-        "https://ibb.co.com/6gsRFGH",
-        "https://ibb.co.com/5hL538d",
-        "https://ibb.co.com/59DCrZm"
-      ],
-      "tags": ["kids", "shirt", "fashion"],
-      "createdAt": "2025-01-06",
-      "updatedAt": "2025-01-06",
-      "isActive": true,
-      "specifications": {
-        "brand": "FashionKids",
-        "material": "Cotton",
-        "color": "Blue",
-        "size": "M",
-        "washCare": "Machine Wash"
-      },
-      "shippingDetails": {
-        "weight": "250g",
-        "dimensions": "10 x 8 x 2 inches",
-        "origin": "Bangladesh",
-        "availableCountries": ["Bangladesh", "India", "UK", "USA"],
-        "shippingCost": {
-          "Bangladesh": 2.99,
-          "India": 4.99,
-          "UK": 6.99,
-          "USA": 8.99
-        }
+    "id": "prod_001",
+    "name": "Kids Casual Shirt",
+    "description": "Comfortable and stylish casual shirt for kids.",
+    "category": "cat_006",
+    "subCategory": "Clothing",
+    "price": 15.99,
+    "discount": 10,
+    "stock": 50,
+    "sku": "KC-001",
+    "seller_email": "seller_fashion@gmail.com",
+    "images": [
+      "https://ibb.co.com/q07wPgP",
+      "https://ibb.co.com/6gsRFGH",
+      "https://ibb.co.com/5hL538d",
+      "https://ibb.co.com/59DCrZm"
+    ],
+    "tags": ["kids", "shirt", "fashion"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "FashionKids",
+      "material": "Cotton",
+      "color": "Blue",
+      "size": "M",
+      "washCare": "Machine Wash"
+    },
+    "shippingDetails": {
+      "weight": "250g",
+      "dimensions": "10 x 8 x 2 inches",
+      "origin": "Bangladesh",
+      "availableCountries": ["Bangladesh", "India", "UK", "USA"],
+      "shippingCost": {
+        "Bangladesh": 2.99,
+        "India": 4.99,
+        "UK": 6.99,
+        "USA": 8.99
       }
+    }
  },
  {
     "id": "prod_002",
