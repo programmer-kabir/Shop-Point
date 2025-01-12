@@ -5,11 +5,11 @@ const SplitScreen = ({
   leftWidthClass = "w-1/2",
   rightWidthClass = "w-1/2",
 }) => {
-  const [categoryList, right] = children;
-  console.log(children);
+  const [left, right] = children;
+
   return (
-    <div className="flex">
-      <div className={`hidden sm:block ${leftWidthClass}`}>{categoryList}</div>
+    <div className="flex gap-2">
+      <div className={`hidden sm:block ${leftWidthClass}`}>{left}</div>
       <div className={`w-full sm:${rightWidthClass}`}>{right}</div>
     </div>
   );
