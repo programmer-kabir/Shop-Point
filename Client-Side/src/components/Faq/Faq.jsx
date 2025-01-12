@@ -30,7 +30,7 @@ const faq = [
 const Faq = () => {
   const [activeItem, setActiveItem] = useState(null);
   return (
-    <section className="my-8">
+    <section className="my-10">
       <h2 className="text-[#FD7E14] font-semibold text-4xl text-center mb-8">
         Frequently Asked Questions About Electronics
       </h2>

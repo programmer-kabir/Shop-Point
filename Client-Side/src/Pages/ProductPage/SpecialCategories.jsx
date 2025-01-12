@@ -18,7 +18,7 @@ const specialCategories = [
 
 const SpecialCategories = () => {
   return (
-    <section className="grid justify-center grid-cols-2 gap-2 my-4 md:grid-cols-3 md:gap-4">
+    <section className="grid justify-center grid-cols-2 gap-2 my-7 md:grid-cols-3 md:gap-4">
       {specialCategories.map((item, index) => (
         <SpecialCategoryCard key={index} item={item} />
       ))}

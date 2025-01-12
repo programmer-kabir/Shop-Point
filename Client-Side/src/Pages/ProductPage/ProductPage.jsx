@@ -31,7 +31,49 @@ const categoriesData = [
     img: "/images/category/home-elec.png",
   },
 ];
+const brandData = [
+  {
+    name: "Microsoft",
+    img: "/images/brand/image 84.png",
+  },
+  {
+    name: "Canon",
+    img: "/images/brand/image 85.png",
+  },
+  {
+    name: "Nikon",
+    img: "/images/brand/image 86.png",
+  },
+  {
+    name: "Lg",
+    img: "/images/brand/image 87.png",
+  },
+  {
+    name: "Gopro",
+    img: "/images/brand/image 88.png",
+  },
+  {
+    name: "Lenovo",
+    img: "/images/brand/image 89.png",
+  },
+  {
+    name: "Apple",
+    img: "/images/brand/image 79.png",
+  },
+  {
+    name: "Dell",
+    img: "/images/brand/image 80.png",
+  },
+  {
+    name: "Hp",
+    img: "/images/brand/image 81.png",
+  },
 
+  {
+    name: "Samsung",
+    img: "/images/brand/image 83.png",
+  },
+];
 const ProductPage = () => {
   return (
     <Container>
@@ -52,7 +94,7 @@ const ProductPage = () => {
           </section>
 
           <SpecialCategories />
-
+          {/* shop by cateory section  */}
           <section className="my-4">
             <h2 className="mb-4 text-3xl font-semibold">Shop by Category</h2>
             <div className="flex flex-wrap justify-center gap-3 ">
@@ -62,6 +104,24 @@ const ProductPage = () => {
             </div>
           </section>
 
+          <hr className="border border-dashed" />
+
+          {/* shop by brand section  */}
+          <section className="my-4">
+            <h2 className="mb-4 text-3xl font-semibold">Shop by Brand</h2>
+            <div className="flex flex-wrap justify-center gap-4 ">
+              {brandData.map((brand, index) => (
+                <div>
+                  <img src={brand.img} alt="" />
+                  <p className="text-[#4B4B4B] text-base text-center">
+                    {brand.name}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Faq section  */}
           <Faq />
         </div>
       </SplitScreen>
