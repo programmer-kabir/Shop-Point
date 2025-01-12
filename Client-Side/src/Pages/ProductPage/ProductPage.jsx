@@ -4,10 +4,12 @@ import SplitScreen from "./../../components/layout/SplitScreen";
 import CategoryList from "../../components/specific/CategoryList";
 import BrandListFilter from "../../components/specific/BrandListFilter";
 import InterestList from "../../components/specific/InterestList";
+import Banner from "../../components/specific/Banner";
 
 const ProductPage = () => {
   return (
     <Container>
+      <Banner />
       <SplitScreen leftWidthClass="w-1/4" rightWidthClass="w-3/4">
         <div>
           <CategoryList />
