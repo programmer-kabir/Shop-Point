@@ -1,53 +1,172 @@
 [
-    {
-      "id": "prod_001",
-      "name": "Wireless Noise Cancelling Headphones",
-      "description": "High-quality over-ear wireless headphones with active noise cancellation.",
-      "category": "cat_001",
-      "subCategory": "Chargers",
-      "price": 199.99,
-      "discount": 15,
-      "stock": 150,
-      "sku": "WHNC-1234",
-      "seller_email": "seller@gmail.com",
-      "images": [
-        "https://example.com/images/headphones1.jpg",
-        "https://example.com/images/headphones2.jpg",
-        "https://example.com/images/headphones3.jpg",
-        "https://example.com/images/headphones4.jpg"
-      ],
-      "specifications": {
-        "brand": "SoundPro",
-        "model": "SP-400",
-        "color": "Black",
-        "connectivity": "Bluetooth 5.0",
-        "batteryLife": "30 hours",
-        "weight": "250g",
-        "dimensions": "7.6 x 6.5 x 3.2 inches"
-      },
-      "tags": [
-        "headphones",
-        "wireless",
-        "noise cancelling",
-        "Bluetooth",
-        "audio",
-        "electronics"
-      ],
-      "shippingDetails": {
-        "weight": "300g",
-        "dimensions": "8 x 7 x 4 inches",
-        "origin": "USA",
-        "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
-        "shippingCost": {
-          "USA": 5.99,
-          "Canada": 9.99,
-          "UK": 12.99,
-          "Bangladesh": 14.99
-        }
-      },
-      "createdAt": "2024-12-26",
-      "updatedAt": "2024-12-26",
-      "isActive": true
-    }
-  ]
-  
+  {
+    "id": "prod_001",
+    "name": "Wireless Noise Cancelling Headphones",
+    "description": "High-quality over-ear wireless headphones with active noise cancellation.",
+    "category": "cat_001",
+    "subCategory": "Chargers",
+    "price": 199.99,
+    "discount": 15,
+    "stock": 150,
+    "sku": "WHNC-1234",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://example.com/images/headphones1.jpg",
+      "https://example.com/images/headphones2.jpg",
+      "https://example.com/images/headphones3.jpg",
+      "https://example.com/images/headphones4.jpg"
+    ],
+    "specifications": {
+      "brand": "SoundPro",
+      "model": "SP-400",
+      "color": "Black",
+      "connectivity": "Bluetooth 5.0",
+      "batteryLife": "30 hours",
+      "weight": "250g",
+      "dimensions": "7.6 x 6.5 x 3.2 inches"
+    },
+    "tags": [
+      "headphones",
+      "wireless",
+      "noise cancelling",
+      "Bluetooth",
+      "audio",
+      "electronics"
+    ],
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_001",
+    "name": "Intel Core i3 10th Gen Processor",
+    "description": "The Intel Core i3 10105 10th Gen Processor comes with 3.70 GHz up to 4.40 GHz clock speed, 4 cores and 8 threads. This new 10th gen Comet Lake microarchitecture is manufactured with the 14nm process that comes with four cores but lacks in HyperThreading. As this chip is updated to the latest BIOS revision, it nicely fits into any Intel 400 and 500 series motherboard.",
+    "category": "cat_001",
+    "subCategory": "Computer Components",
+    "price": 259.99,
+    "discount": 10,
+    "stock": 50,
+    "sku": "WHNC-9089",
+    "seller_email": "seller1@gmail.com",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/processor/intel/core-i3-10105/core-i3-10105-001-500x500.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-500x500.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/processor/intel/i3-12100/i3-12100-500x500.jpg"
+    ],
+    "specifications": {
+      "brand": "Intel",
+      "model": "i3 10gen",
+      "baseFrequency": "3.30 GHz",
+      "Cores": "4"
+    },
+    "tags": ["Computer Components", "electronics"],
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_001",
+    "name": "Transcend USB Flash Drive",
+    "description": "Transcend USB Flash Drive DataTraveler Disk Memory Stick Pack Storage Device lot.",
+    "category": "cat_001",
+    "subCategory": "Storage Devices",
+    "price": 149.99,
+    "discount": 5,
+    "stock": 150,
+    "sku": "WHNC-1234",
+    "seller_email": "seller1@gmail.com",
+    "images": ["https://i.ebayimg.com/images/g/XOcAAOSwYgFmeUMh/s-l960.webp", "https://i.ebayimg.com/images/g/E20AAOSwdABmeUMl/s-l140.webp", "https://i.ebayimg.com/images/g/3UEAAOSw~yBmeUMm/s-l140.webp", "https://i.ebayimg.com/images/g/QrcAAOSwkvRmeUMm/s-l140.webp"],
+    "specifications": {
+      "brand": "Transcend",
+      "color": "Black",
+      "capacity":["64gb","128gb"]
+    },
+    "tags": [
+      "pendrive",
+      "electronics"
+    ],
+    "shippingDetails": {
+      "weight": "300g",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_001",
+    "name": "Wireless Noise Cancelling Headphones",
+    "description": "High-quality over-ear wireless headphones with active noise cancellation.",
+    "category": "cat_001",
+    "subCategory": "Chargers",
+    "price": 199.99,
+    "discount": 5,
+    "stock": 150,
+    "sku": "WHNC-1234",
+    "seller_email": "seller1@gmail.com",
+    "images": ["", "", "", ""],
+    "specifications": {
+      "brand": "",
+      "model": "",
+      "color": "",
+      "connectivity": "",
+      "batteryLife": "",
+      "weight": "",
+      "dimensions": ""
+    },
+    "tags": [
+      "headphones",
+      "wireless",
+      "noise cancelling",
+      "Bluetooth",
+      "audio",
+      "electronics"
+    ],
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  }
+]
