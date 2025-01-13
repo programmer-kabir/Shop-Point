@@ -1,668 +1,1202 @@
 [
-    {
-      "id": "prod_001",
-      "name": "Kids Casual Shirt",
-      "description": "Comfortable and stylish casual shirt for kids.",
-      "category": "cat_006",
-      "subCategory": "Clothing",
-      "price": 15.99,
-      "discount": 10,
-      "stock": 50,
-      "sku": "KC-001",
-      "seller_email": "seller_fashion@gmail.com",
-      "images": [
-        "https://ibb.co.com/q07wPgP"
-      ],
-      "tags": ["kids", "shirt", "fashion"],
-      "createdAt": "2025-01-06",
-      "updatedAt": "2025-01-06",
-      "isActive": true
+ {
+    "id": "prod_001",
+    "name": "Kids Casual Shirt",
+    "description": "Comfortable and stylish casual shirt for kids.",
+    "category": "cat_006",
+    "subCategory": "Clothing",
+    "price": 15.99,
+    "discount": 10,
+    "stock": 50,
+    "sku": "KC-001",
+    "seller_email": "seller_fashion@gmail.com",
+    "images": [
+      "https://ibb.co.com/q07wPgP",
+      "https://ibb.co.com/6gsRFGH",
+      "https://ibb.co.com/5hL538d",
+      "https://ibb.co.com/59DCrZm"
+    ],
+    "tags": ["kids", "shirt", "fashion"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "FashionKids",
+      "material": "Cotton",
+      "color": "Blue",
+      "size": "M",
+      "washCare": "Machine Wash"
     },
-    {
-      "id": "prod_002",
-      "name": "Kids Sneakers",
-      "description": "Durable and stylish sneakers for active kids.",
-      "category": "cat_006",
-      "subCategory": "Footwear",
-      "price": 25.99,
-      "discount": 15,
-      "stock": 40,
-      "sku": "KS-002",
-      "seller_email": "seller_fashion@gmail.com",
-      "images": [
-        "https://ibb.co.com/QDGZCqB"
-      ],
-      "tags": ["kids", "footwear", "sneakers"],
-      "createdAt": "2025-01-06",
-      "updatedAt": "2025-01-06",
-      "isActive": true
+    "shippingDetails": {
+      "weight": "250g",
+      "dimensions": "10 x 8 x 2 inches",
+      "origin": "Bangladesh",
+      "availableCountries": ["Bangladesh", "India", "UK", "USA"],
+      "shippingCost": {
+        "Bangladesh": 2.99,
+        "India": 4.99,
+        "UK": 6.99,
+        "USA": 8.99
+      }
+    }
+ },
+ {
+    "id": "prod_002",
+    "name": "Kids Sneakers",
+    "description": "Durable and stylish sneakers for active kids.",
+    "category": "cat_006",
+    "subCategory": "Footwear",
+    "price": 25.99,
+    "discount": 15,
+    "stock": 40,
+    "sku": "KS-002",
+    "seller_email": "seller_fashion@gmail.com",
+    "images": [
+      "https://ibb.co.com/QDGZCqB",
+      "https://ibb.co.com/L0hcH1b",
+      "https://ibb.co.com/sV8xnL3",
+      "https://ibb.co.com/zGb9Fkr"
+    ],
+    "tags": ["kids", "footwear", "sneakers"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "KidSteps",
+      "material": "Synthetic",
+      "color": "White",
+      "size": "30",
+      "soleType": "Rubber"
     },
-    {
-      "id": "prod_003",
-      "name": "Kids Soft Teddy Bear",
-      "description": "Cuddly and safe teddy bear for kids.",
-      "category": "cat_006",
-      "subCategory": "Toys",
-      "price": 12.99,
-      "discount": 5,
-      "stock": 60,
-      "sku": "KT-003",
-      "seller_email": "seller_fashion@gmail.com",
-      "images": [
-        "https://ibb.co.com/gmsvnnn"
-      ],
-      "tags": ["kids", "toys", "teddy bear"],
-      "createdAt": "2025-01-06",
-      "updatedAt": "2025-01-06",
-      "isActive": true
+    "shippingDetails": {
+      "weight": "500g",
+      "dimensions": "12 x 8 x 5 inches",
+      "origin": "China",
+      "availableCountries": ["Bangladesh", "India", "UK", "USA"],
+      "shippingCost": {
+        "Bangladesh": 3.99,
+        "India": 5.99,
+        "UK": 7.99,
+        "USA": 9.99
+      }
+    }
+ },
+ {
+   "id": "prod_003",
+   "name": "Kids Soft Teddy Bear",
+   "description": "Cuddly and safe teddy bear for kids.",
+   "category": "cat_006",
+   "subCategory": "Toys",
+   "price": 12.99,
+   "discount": 5,
+   "stock": 60,
+   "sku": "KT-003",
+   "seller_email": "seller_fashion@gmail.com",
+   "images": [
+     "https://ibb.co.com/gmsvnnn",
+     "https://ibb.co.com/TcLD4PJ",
+     "https://ibb.co.com/9ZgqfBN",
+     "https://ibb.co.com/rbpHbq7"
+   ],
+   "tags": ["kids", "toys", "teddy bear"],
+   "createdAt": "2025-01-06",
+   "updatedAt": "2025-01-06",
+   "isActive": true,
+   "specifications": {
+     "brand": "CuddleBears",
+     "material": "Plush",
+     "color": "Brown",
+     "size": "Medium",
+     "washCare": "Hand Wash Only"
+   },
+   "shippingDetails": {
+     "weight": "350g",
+     "dimensions": "8 x 6 x 4 inches",
+     "origin": "China",
+     "availableCountries": ["Bangladesh", "India", "UK", "USA"],
+     "shippingCost": {
+       "Bangladesh": 2.99,
+       "India": 4.99,
+       "UK": 6.99,
+       "USA": 8.99
+     }
+   }
+ },
+ {
+    "id": "prod_011",
+    "name": "Luxury Bath Soap",
+    "description": "Moisturizing bath soap for personal hygiene.",
+    "category": "cat_007",
+    "subCategory": "Personal Hygiene",
+    "price": 5.99,
+    "discount": 5,
+    "stock": 80,
+    "sku": "PH-001",
+    "seller_email": "seller_health@gmail.com",
+    "images": [
+      "https://ibb.co.com/bLM893K",
+      "https://ibb.co.com/YQqHzdS",
+      "https://ibb.co.com/2FQr2HF",
+      "https://ibb.co.com/mGLGSFp"
+    ],
+    "tags": ["personal hygiene", "soap", "beauty"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "CleanPlus",
+      "weight": "120g",
+      "ingredients": "Shea Butter, Coconut Oil, Glycerin",
+      "scent": "Lavender",
+      "packaging": "Paper Wrap"
     },
-    {
-      "id": "prod_004",
-      "name": "Kids School Backpack",
-      "description": "Spacious and ergonomic backpack for school kids.",
-      "category": "cat_006",
-      "subCategory": "Backpacks",
-      "price": 20.99,
-      "discount": 20,
-      "stock": 30,
-      "sku": "KB-004",
-      "seller_email": "seller_fashion@gmail.com",
-      "images": [
-        "https://ibb.co.com/nwSYTS3"
-      ],
-      "tags": ["kids", "backpack", "school"],
-      "createdAt": "2025-01-06",
-      "updatedAt": "2025-01-06",
-      "isActive": true
+    "shippingDetails": {
+      "weight": "150g",
+      "dimensions": "10 x 7 x 3 cm",
+      "origin": "India",
+      "availableCountries": ["USA", "Canada", "UK", "Australia", "Bangladesh"],
+      "shippingCost": {
+        "USA": 2.99,
+        "Canada": 3.99,
+        "UK": 4.99,
+        "Bangladesh": 1.99
+      }
+    }
+ },
+ {
+   "id": "prod_012",
+   "name": "Whitening Toothpaste",
+   "description": "Fluoride-rich toothpaste for sparkling white teeth.",
+   "category": "cat_007",
+   "subCategory": "Oral Care",
+   "price": 3.99,
+   "discount": 0,
+   "stock": 90,
+   "sku": "OC-001",
+   "seller_email": "seller_health@gmail.com",
+   "images": [
+     "https://ibb.co.com/0KF3Nv3",
+     "https://ibb.co.com/88QLSF7",
+     "https://ibb.co.com/PDSXBFx",
+     "https://ibb.co.com/ZYyPqVc"
+   ],
+   "tags": ["oral care", "toothpaste", "hygiene"],
+   "createdAt": "2025-01-06",
+   "updatedAt": "2025-01-06",
+   "isActive": true,
+   "specifications": {
+     "brand": "SmileBright",
+     "weight": "100g",
+     "flavor": "Mint",
+     "fluorideContent": "1450 ppm",
+     "packaging": "Tube"
+   },
+   "shippingDetails": {
+     "weight": "120g",
+     "dimensions": "18 x 4 x 4 cm",
+     "origin": "USA",
+     "availableCountries": ["USA", "Canada", "UK", "Australia", "Bangladesh"],
+     "shippingCost": {
+       "USA": 2.49,
+       "Canada": 3.49,
+       "UK": 4.49,
+       "Bangladesh": 1.49
+     }
+   }
+ },
+ {
+    "id": "prod_013",
+    "name": "Unisex Eau De Parfum",
+    "description": "Long-lasting fragrance for men and women.",
+    "category": "cat_007",
+    "subCategory": "Fragrances",
+    "price": 29.99,
+    "discount": 15,
+    "stock": 40,
+    "sku": "FR-001",
+    "seller_email": "seller_health@gmail.com",
+    "images": [
+      "https://ibb.co.com/kcsw74g",
+      "https://ibb.co.com/bm902Pw",
+      "https://ibb.co.com/3y0YCC2",
+      "https://ibb.co.com/LgxKzsm"
+    ],
+    "tags": ["fragrance", "perfume", "beauty"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "AromaLux",
+      "volume": "50ml",
+      "scentNotes": "Citrus, Jasmine, Amber",
+      "alcoholFree": false,
+      "bottleMaterial": "Glass"
     },
-    {
-      "id": "prod_005",
-      "name": "Kids Sunglasses",
-      "description": "UV protection sunglasses for kids.",
-      "category": "cat_006",
-      "subCategory": "Accessories",
-      "price": 10.99,
-      "discount": 8,
-      "stock": 80,
-      "sku": "KA-005",
-      "seller_email": "seller_fashion@gmail.com",
-      "images": [
-        "https://ibb.co.com/RPYK6Cj"
-      ],
-      "tags": ["kids", "sunglasses", "accessories"],
-      "createdAt": "2025-01-06",
-      "updatedAt": "2025-01-06",
-      "isActive": true
-    },
-    {
-      "id": "prod_006",
-      "name": "Kids Stationery Kit",
-      "description": "Complete school supplies kit for kids.",
-      "category": "cat_006",
-      "subCategory": "School Supplies",
-      "price": 9.99,
-      "discount": 10,
-      "stock": 90,
-      "sku": "KSUP-007",
-      "seller_email": "seller_fashion@gmail.com",
-      "images": [
-        "https://ibb.co.com/3BVxyz7"
-      ],
-      "tags": ["kids", "stationery", "school"],
-      "createdAt": "2025-01-06",
-      "updatedAt": "2025-01-06",
-      "isActive": true
-    },
-    {
-      "id": "prod_007",
-      "name": "Kids Sun Hat",
-      "description": "Lightweight sun hat for kids.",
-      "category": "cat_006",
-      "subCategory": "Hats",
-      "price": 5.99,
-      "discount": 5,
-      "stock": 100,
-      "sku": "KH-001",
-      "seller_email": "seller_fashion@gmail.com",
-      "images": [
-        "https://ibb.co.com/p36KXQ2"
-      ],
-      "tags": ["kids", "hat", "fashion"],
-      "createdAt": "2025-01-06",
-      "updatedAt": "2025-01-06",
-      "isActive": true
-    },
-    {
-      "id": "prod_008",
-      "name": "Moisturizing Skin Lotion",
-      "description": "Gentle skin lotion for everyday use.",
-      "category": "cat_007",
-      "subCategory": "Skin Care",
-      "price": 8.99,
-      "discount": 15,
-      "stock": 70,
-      "sku": "SKL-001",
-      "seller_email": "seller_health@gmail.com",
-      "images": [
-        "https://ibb.co.com/TcNVKcy"
-      ],
-      "tags": ["skin care", "lotion", "beauty"],
-      "createdAt": "2025-01-06",
-      "updatedAt": "2025-01-06",
-      "isActive": true
-    },
-    {
-          "id": "prod_009",
-          "name": "Herbal Shampoo",
-          "description": "Natural herbal shampoo for healthy hair.",
-          "category": "cat_007",
-          "subCategory": "Hair Care",
-          "price": 12.49,
-          "discount": 10,
-          "stock": 60,
-          "sku": "HC-001",
-          "seller_email": "seller_health@gmail.com",
-          "images": [
-            "https://ibb.co.com/G0DYKQz"
-          ],
-          "tags": ["hair care", "shampoo", "beauty"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
+    "shippingDetails": {
+      "weight": "200g",
+      "dimensions": "10 x 5 x 5 cm",
+      "origin": "France",
+      "availableCountries": ["USA", "Canada", "UK", "Australia", "Bangladesh"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 6.99,
+        "UK": 7.99,
+        "Bangladesh": 4.99
+      }
+    }
+ },
+ {
+        "id": "prod_014",
+        "name": "Electric Hair Trimmer",
+        "description": "Precision hair trimmer with multiple settings.",
+        "category": "cat_007",
+        "subCategory": "Grooming Tools",
+        "price": 19.99,
+        "discount": 10,
+        "stock": 30,
+        "sku": "GT-001",
+        "seller_email": "seller_health@gmail.com",
+        "images": [
+          "https://ibb.co.com/m6ydf27",
+          "https://ibb.co.com/C0kQ1bG",
+          "https://ibb.co.com/5F4kPmM",
+          "https://ibb.co.com/BZ3c4LT"
+        ],
+        "tags": ["grooming tools", "trimmer", "beauty"],
+        "createdAt": "2025-01-06",
+        "updatedAt": "2025-01-06",
+        "isActive": true,
+        "specifications": {
+          "brand": "TrimPro",
+          "power": "Rechargeable Battery",
+          "settings": "5 Speed Levels",
+          "bladeMaterial": "Stainless Steel",
+          "weight": "200g"
         },
-        {
-          "id": "prod_010",
-          "name": "Matte Lipstick Set",
-          "description": "A set of five long-lasting matte lipsticks.",
-          "category": "cat_007",
-          "subCategory": "Makeup",
-          "price": 25.99,
-          "discount": 20,
-          "stock": 50,
-          "sku": "MU-001",
-          "seller_email": "seller_health@gmail.com",
-          "images": [
-            "https://ibb.co.com/gRDnYf4"
-          ],
-          "tags": ["makeup", "lipstick", "beauty"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
-        },
-        {
-          "id": "prod_011",
-          "name": "Luxury Bath Soap",
-          "description": "Moisturizing bath soap for personal hygiene.",
-          "category": "cat_007",
-          "subCategory": "Personal Hygiene",
-          "price": 5.99,
-          "discount": 5,
-          "stock": 80,
-          "sku": "PH-001",
-          "seller_email": "seller_health@gmail.com",
-          "images": [
-            "https://ibb.co.com/bLM893K"
-          ],
-          "tags": ["personal hygiene", "soap", "beauty"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
-        },
-        {
-          "id": "prod_012",
-          "name": "Whitening Toothpaste",
-          "description": "Fluoride-rich toothpaste for sparkling white teeth.",
-          "category": "cat_007",
-          "subCategory": "Oral Care",
-          "price": 3.99,
-          "discount": 0,
-          "stock": 90,
-          "sku": "OC-001",
-          "seller_email": "seller_health@gmail.com",
-          "images": [
-            "https://ibb.co.com/0KF3Nv3"
-          ],
-          "tags": ["oral care", "toothpaste", "hygiene"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
-        },
-        {
-          "id": "prod_013",
-          "name": "Unisex Eau De Parfum",
-          "description": "Long-lasting fragrance for men and women.",
-          "category": "cat_007",
-          "subCategory": "Fragrances",
-          "price": 29.99,
-          "discount": 15,
-          "stock": 40,
-          "sku": "FR-001",
-          "seller_email": "seller_health@gmail.com",
-          "images": [
-            "https://ibb.co.com/kcsw74g"
-          ],
-          "tags": ["fragrance", "perfume", "beauty"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
-        },
-        {
-          "id": "prod_014",
-          "name": "Electric Hair Trimmer",
-          "description": "Precision hair trimmer with multiple settings.",
-          "category": "cat_007",
-          "subCategory": "Grooming Tools",
-          "price": 19.99,
-          "discount": 10,
-          "stock": 30,
-          "sku": "GT-001",
-          "seller_email": "seller_health@gmail.com",
-          "images": [
-            "https://ibb.co.com/m6ydf27"
-          ],
-          "tags": ["grooming tools", "trimmer", "beauty"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
-        },
-        {
-          "id": "prod_015",
-          "name": "Adjustable Dumbbells",
-          "description": "Set of adjustable dumbbells for fitness training.",
-          "category": "cat_008",
-          "subCategory": "Fitness Equipment",
-          "price": 50.99,
-          "discount": 10,
-          "stock": 20,
-          "sku": "FE-001",
-          "seller_email": "seller_sports@gmail.com",
-          "images": [
-            "https://ibb.co.com/zxJmCn0"
-          ],
-          "tags": ["fitness", "equipment", "sports"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
-        },
-        {
-          "id": "prod_016",
-          "name": "Waterproof Camping Tent",
-          "description": "Spacious tent for outdoor camping.",
-          "category": "cat_008",
-          "subCategory": "Camping Gear",
-          "price": 79.99,
-          "discount": 20,
-          "stock": 15,
-          "sku": "CG-001",
-          "seller_email": "seller_sports@gmail.com",
-          "images": [
-            "https://ibb.co.com/XyNvcw6"
-          ],
-          "tags": ["camping", "gear", "outdoors"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
-        },
-        {
-          "id": "prod_017",
-          "name": "Mountain Bike",
-          "description": "High-performance bike for rough terrain.",
-          "category": "cat_008",
-          "subCategory": "Bicycles",
-          "price": 299.99,
-          "discount": 10,
-          "stock": 10,
-          "sku": "BC-001",
-          "seller_email": "seller_sports@gmail.com",
-          "images": [
-            "https://ibb.co.com/5n2nDb0"
-          ],
-          "tags": ["bicycle", "bike", "sports"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
-        },
-        {
-          "id": "prod_018",
-          "name": "Men's Sports T-Shirt",
-          "description": "Breathable sportswear for athletes.",
-          "category": "cat_008",
-          "subCategory": "Sportswear",
-          "price": 18.99,
-          "discount": 5,
-          "stock": 30,
-          "sku": "SW-001",
-          "seller_email": "seller_sports@gmail.com",
-          "images": [
-            "https://ibb.co.com/3kc33KM"
-          ],
-          "tags": ["sportswear", "t-shirt", "clothing"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
-        },
-        {
-          "id": "prod_019",
-          "name": "Outdoor Hiking Shoes",
-          "description": "Durable hiking footwear for outdoor enthusiasts.",
-          "category": "cat_008",
-          "subCategory": "Footwear",
-          "price": 49.99,
-          "discount": 15,
-          "stock": 25,
-          "sku": "FW-001",
-          "seller_email": "seller_sports@gmail.com",
-          "images": [
-            "https://ibb.co.com/y6jYsrj"
-          ],
-          "tags": ["footwear", "hiking", "sports"],
-          "createdAt": "2025-01-06",
-          "updatedAt": "2025-01-06",
-          "isActive": true
-        },
-        {
-            "id": "prod_023",
-            "name": "Sports Backpack",
-            "description": "Durable backpack for outdoor activities.",
-            "category": "cat_008",
-            "subCategory": "Outdoor Backpacks",
-            "price": 39.99,
-            "discount": 10,
-            "stock": 20,
-            "sku": "BP-001",
-            "seller_email": "seller_sports@gmail.com",
-            "images": [
-              "https://ibb.co.com/Ln4TyTF"
-            ],
-            "tags": ["backpack", "outdoor", "sports"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-        {
-            "id": "prod_024",
-            "name": "Sports Wristband",
-            "description": "Sweat-absorbent wristband for workouts.",
-            "category": "cat_008",
-            "subCategory": "Sports Accessories",
-            "price": 5.99,
-            "discount": 5,
-            "stock": 200,
-            "sku": "SA-001",
-            "seller_email": "seller_sports@gmail.com",
-            "images": [
-              "https://ibb.co.com/kQs2Ry9"
-            ],
-            "tags": ["sports", "accessories", "fitness"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_025",
-            "name": "Paperback Novel",
-            "description": "Engaging fiction novel for book lovers.",
-            "category": "cat_009",
-            "subCategory": "Fiction",
-            "price": 12.99,
-            "discount": 10,
-            "stock": 100,
-            "sku": "FIC-001",
-            "seller_email": "seller_books@gmail.com",
-            "images": [
-              "https://ibb.co.com/whQr079"
-            ],
-            "tags": ["books", "fiction", "reading"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_026",
-            "name": "Science Encyclopedia",
-            "description": "Informative non-fiction book about science.",
-            "category": "cat_009",
-            "subCategory": "Non-Fiction",
-            "price": 19.99,
-            "discount": 5,
-            "stock": 50,
-            "sku": "NF-001",
-            "seller_email": "seller_books@gmail.com",
-            "images": [
-              "https://ibb.co.com/6BRnK2y"
-            ],
-            "tags": ["books", "non-fiction", "science"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_027",
-            "name": "Mathematics Textbook",
-            "description": "Comprehensive academic textbook for students.",
-            "category": "cat_009",
-            "subCategory": "Academic Books",
-            "price": 29.99,
-            "discount": 10,
-            "stock": 40,
-            "sku": "ACB-001",
-            "seller_email": "seller_books@gmail.com",
-            "images": [
-              "https://ibb.co.com/dD3N2VQ"
-            ],
-            "tags": ["books", "academic", "math"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_028",
-            "name": "Leather Notebook",
-            "description": "Premium leather-bound notebook for notes.",
-            "category": "cat_009",
-            "subCategory": "Notebooks",
-            "price": 14.99,
-            "discount": 5,
-            "stock": 80,
-            "sku": "NB-001",
-            "seller_email": "seller_books@gmail.com",
-            "images": [
-              "https://ibb.co.com/C92QJy0"
-            ],
-            "tags": ["stationery", "notebooks", "writing"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_029",
-            "name": "Gel Pens Set",
-            "description": "Set of smooth writing gel pens in various colors.",
-            "category": "cat_009",
-            "subCategory": "Pens",
-            "price": 8.99,
-            "discount": 0,
-            "stock": 150,
-            "sku": "PEN-001",
-            "seller_email": "seller_books@gmail.com",
-            "images": [
-              "https://ibb.co.com/W3xZ9Td"
-            ],
-            "tags": ["stationery", "pens", "writing"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_030",
-            "name": "Watercolor Painting Set",
-            "description": "A professional-grade watercolor set with 36 vibrant colors.",
-            "category": "cat_009",
-            "subCategory": "Art Supplies",
-            "price": 24.99,
-            "discount": 10,
-            "stock": 60,
-            "sku": "ART-001",
-            "seller_email": "seller_books@gmail.com",
-            "images": [
-              "https://ibb.co.com/kcsw74g"
-            ],
-            "tags": ["art supplies", "watercolors", "painting"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_031",
-            "name": "2025 Productivity Planner",
-            "description": "A stylish planner with monthly and weekly layouts for optimal productivity.",
-            "category": "cat_009",
-            "subCategory": "Planners",
-            "price": 19.99,
-            "discount": 5,
-            "stock": 100,
-            "sku": "PLAN-001",
-            "seller_email": "seller_books@gmail.com",
-            "images": [
-              "https://ibb.co.com/9s1xw0S"
-            ],
-            "tags": ["planner", "stationery", "organization"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_032",
-            "name": "Car Phone Mount",
-            "description": "A secure phone mount for cars with adjustable angles.",
-            "category": "cat_010",
-            "subCategory": "Car Accessories",
-            "price": 15.99,
-            "discount": 10,
-            "stock": 200,
-            "sku": "CAR-001",
-            "seller_email": "seller_automotive@gmail.com",
-            "images": [
-              "https://ibb.co.com/D9MmDGz"
-            ],
-            "tags": ["car accessories", "phone mount", "automotive"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_033",
-            "name": "LED Bike Lights",
-            "description": "A set of front and rear LED lights for bikes, ideal for night rides.",
-            "category": "cat_010",
-            "subCategory": "Bike Accessories",
-            "price": 12.99,
-            "discount": 5,
-            "stock": 150,
-            "sku": "BIKE-001",
-            "seller_email": "seller_automotive@gmail.com",
-            "images": [
-              "https://ibb.co.com/myvVkf1"
-            ],
-            "tags": ["bike accessories", "lights", "automotive"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_034",
-            "name": "Car Brake Pads",
-            "description": "High-quality brake pads compatible with most car models.",
-            "category": "cat_010",
-            "subCategory": "Spare Parts",
-            "price": 35.99,
-            "discount": 15,
-            "stock": 50,
-            "sku": "SPARE-001",
-            "seller_email": "seller_automotive@gmail.com",
-            "images": [
-              "https://ibb.co.com/JQdp0f3"
-            ],
-            "tags": ["spare parts", "car", "brake pads"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_035",
-            "name": "Car Wax Polish",
-            "description": "Premium wax polish for a glossy and protected car finish.",
-            "category": "cat_010",
-            "subCategory": "Car Care Products",
-            "price": 22.99,
-            "discount": 10,
-            "stock": 80,
-            "sku": "CARE-001",
-            "seller_email": "seller_automotive@gmail.com",
-            "images": [
-              "https://ibb.co.com/FJKXbs5"
-            ],
-            "tags": ["car care", "polish", "wax"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_036",
-            "name": "Car Repair Tool Kit",
-            "description": "Comprehensive tool kit for basic car repairs and maintenance.",
-            "category": "cat_010",
-            "subCategory": "Tools",
-            "price": 49.99,
-            "discount": 10,
-            "stock": 40,
-            "sku": "TOOLS-001",
-            "seller_email": "seller_automotive@gmail.com",
-            "images": [
-              "https://ibb.co.com/J5bLcjS"
-            ],
-            "tags": ["tools", "car repair", "automotive"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_037",
-            "name": "Portable GPS Navigator",
-            "description": "A high-resolution GPS device with real-time traffic updates.",
-            "category": "cat_010",
-            "subCategory": "GPS Devices",
-            "price": 89.99,
-            "discount": 15,
-            "stock": 30,
-            "sku": "GPS-001",
-            "seller_email": "seller_automotive@gmail.com",
-            "images": [
-              "https://ibb.co.com/wr5pqG9"
-            ],
-            "tags": ["gps", "navigation", "automotive"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
-          },
-          {
-            "id": "prod_038",
-            "name": "Motorcycle Helmet",
-            "description": "A lightweight and durable helmet for motorcycle riders.",
-            "category": "cat_010",
-            "subCategory": "Helmets",
-            "price": 59.99,
-            "discount": 10,
-            "stock": 45,
-            "sku": "HELMET-001",
-            "seller_email": "seller_automotive@gmail.com",
-            "images": [
-              "https://ibb.co.com/9pfxJVK"
-            ],
-            "tags": ["helmet", "motorcycle", "safety"],
-            "createdAt": "2025-01-06",
-            "updatedAt": "2025-01-06",
-            "isActive": true
+        "shippingDetails": {
+          "weight": "300g",
+          "dimensions": "18 x 6 x 5 cm",
+          "origin": "China",
+          "availableCountries": ["USA", "Canada", "UK", "Australia", "Bangladesh"],
+          "shippingCost": {
+            "USA": 4.99,
+            "Canada": 5.99,
+            "UK": 6.99,
+            "Bangladesh": 3.99
           }
-  ]
-
+        }
+ },
+ {
+    "id": "prod_015",
+    "name": "Adjustable Dumbbells",
+    "description": "Set of adjustable dumbbells for fitness training.",
+    "category": "cat_008",
+    "subCategory": "Fitness Equipment",
+    "price": 50.99,
+    "discount": 10,
+    "stock": 20,
+    "sku": "FE-001",
+    "seller_email": "seller_sports@gmail.com",
+    "images": [
+      "https://ibb.co.com/zxJmCn0",
+      "https://ibb.co.com/QJBhB58",
+      "https://ibb.co.com/BC5wPT7",
+      "https://ibb.co.com/jbb3ytc"
+    ],
+    "tags": ["fitness", "equipment", "sports"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "FitMax",
+      "material": "Steel and Rubber",
+      "weightRange": "5-50 lbs",
+      "adjustmentType": "Dial",
+      "packageIncludes": "2 Dumbbells"
+    },
+    "shippingDetails": {
+      "weight": "10kg",
+      "dimensions": "50 x 20 x 20 cm",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia", "Bangladesh"],
+      "shippingCost": {
+        "USA": 12.99,
+        "Canada": 15.99,
+        "UK": 18.99,
+        "Bangladesh": 10.99
+      }
+    }
+ },
+ {
+    "id": "prod_016",
+    "name": "Waterproof Camping Tent",
+    "description": "Spacious tent for outdoor camping.",
+    "category": "cat_008",
+    "subCategory": "Camping Gear",
+    "price": 79.99,
+    "discount": 20,
+    "stock": 15,
+    "sku": "CG-001",
+    "seller_email": "seller_sports@gmail.com",
+    "images": [
+      "https://ibb.co.com/XyNvcw6",
+      "https://ibb.co.com/YZd1Wgr",
+      "https://ibb.co.com/fDskCP6",
+      "https://ibb.co.com/512nmcb"
+    ],
+    "tags": ["camping", "gear", "outdoors"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "CampEase",
+      "material": "Polyester",
+      "capacity": "4 Persons",
+      "dimensions": "120 x 80 x 60 inches",
+      "weight": "4.5kg",
+      "waterproofRating": "3000mm"
+    },
+    "shippingDetails": {
+      "weight": "5kg",
+      "dimensions": "24 x 10 x 8 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia", "Bangladesh"],
+      "shippingCost": {
+        "USA": 9.99,
+        "Canada": 12.99,
+        "UK": 14.99,
+        "Bangladesh": 8.99
+      }
+    }
+ },
+ {
+    "id": "prod_017",
+    "name": "Mountain Bike",
+    "description": "High-performance bike for rough terrain.",
+    "category": "cat_008",
+    "subCategory": "Bicycles",
+    "price": 299.99,
+    "discount": 10,
+    "stock": 10,
+    "sku": "BC-001",
+    "seller_email": "seller_sports@gmail.com",
+    "images": [
+      "https://ibb.co.com/5n2nDb0",
+      "https://ibb.co.com/jkRJXp4",
+      "https://ibb.co.com/x1sZzVS",
+      "https://ibb.co.com/JFRfd8w"
+    ],
+    "tags": ["bicycle", "bike", "sports"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "TrailBlazer",
+      "frameMaterial": "Aluminum",
+      "brakes": "Disc Brakes",
+      "wheelSize": "29 inches",
+      "suspension": "Full",
+      "weight": "15kg"
+    },
+    "shippingDetails": {
+      "weight": "18kg",
+      "dimensions": "60 x 30 x 12 inches",
+      "origin": "Canada",
+      "availableCountries": ["USA", "Canada", "UK", "Australia", "Bangladesh"],
+      "shippingCost": {
+        "USA": 29.99,
+        "Canada": 34.99,
+        "UK": 39.99,
+        "Bangladesh": 24.99
+      }
+    }
+ },
+ {
+    "id": "prod_018",
+    "name": "Men's Sports T-Shirt",
+    "description": "Breathable sportswear for athletes.",
+    "category": "cat_008",
+    "subCategory": "Sportswear",
+    "price": 18.99,
+    "discount": 5,
+    "stock": 30,
+    "sku": "SW-001",
+    "seller_email": "seller_sports@gmail.com",
+    "images": [
+      "https://ibb.co.com/3kc33KM",
+      "https://ibb.co.com/7vtGmSv",
+      "https://ibb.co.com/kMjZnRy",
+      "https://ibb.co.com/bWbvQnz"
+    ],
+    "tags": ["sportswear", "t-shirt", "clothing"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "AthleTech",
+      "material": "Polyester",
+      "sizeOptions": ["S", "M", "L", "XL"],
+      "colorOptions": ["Black", "Blue", "Grey"],
+      "features": "Quick-Dry, Breathable"
+    },
+    "shippingDetails": {
+      "weight": "500g",
+      "dimensions": "10 x 8 x 2 inches",
+      "origin": "Bangladesh",
+      "availableCountries": ["USA", "Canada", "UK", "Australia", "Bangladesh"],
+      "shippingCost": {
+        "USA": 4.99,
+        "Canada": 5.99,
+        "UK": 6.99,
+        "Bangladesh": 2.99
+      }
+    }
+ },
+ {
+    "id": "prod_019",
+    "name": "Outdoor Hiking Shoes",
+    "description": "Durable hiking footwear for outdoor enthusiasts.",
+    "category": "cat_008",
+    "subCategory": "Footwear",
+    "price": 49.99,
+    "discount": 15,
+    "stock": 25,
+    "sku": "FW-001",
+    "seller_email": "seller_sports@gmail.com",
+    "images": [
+      "https://ibb.co.com/y6jYsrj",
+      "https://ibb.co.com/m6dmFXQ",
+      "https://ibb.co.com/synm2Jb",
+      "https://ibb.co.com/gvGvKL8"
+    ],
+    "tags": ["footwear", "hiking", "sports"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "TrailStep",
+      "material": "Leather and Mesh",
+      "waterproof": true,
+      "soleMaterial": "Rubber",
+      "weight": "1.2kg"
+    },
+    "shippingDetails": {
+      "weight": "1.5kg",
+      "dimensions": "12 x 8 x 6 inches",
+      "origin": "China",
+      "availableCountries": ["USA", "Canada", "UK", "Australia", "Bangladesh"],
+      "shippingCost": {
+        "USA": 8.99,
+        "Canada": 10.99,
+        "UK": 12.99,
+        "Bangladesh": 6.99
+      }
+    }
+ },
+ {
+   "id": "prod_020",
+   "name": "Yoga Mat",
+   "description": "Non-slip yoga mat for fitness enthusiasts.",
+   "category": "cat_008",
+   "subCategory": "Fitness Accessories",
+   "price": 24.99,
+   "discount": 10,
+   "stock": 50,
+   "sku": "FA-001",
+   "seller_email": "seller_sports@gmail.com",
+   "images": [
+     "https://ibb.co.com/ZLrdwDH",
+     "https://ibb.co.com/jZB1VZD",
+     "https://ibb.co.com/b5m41xm",
+     "https://ibb.co.com/MG7f07r"
+   ],
+   "tags": ["yoga", "fitness", "accessories"],
+   "createdAt": "2025-01-06",
+   "updatedAt": "2025-01-06",
+   "isActive": true,
+   "specifications": {
+     "brand": "FlexFit",
+     "material": "TPE",
+     "dimensions": "72 x 24 inches",
+     "thickness": "6mm",
+     "weight": "1kg"
+   },
+   "shippingDetails": {
+     "weight": "1.5kg",
+     "dimensions": "25 x 6 x 6 inches",
+     "origin": "India",
+     "availableCountries": ["USA", "Canada", "UK", "Australia", "Bangladesh"],
+     "shippingCost": {
+       "USA": 7.99,
+       "Canada": 9.99,
+       "UK": 10.99,
+       "Bangladesh": 5.99
+     }
+   }
+ },
+ {
+    "id": "prod_023",
+    "name": "Sports Backpack",
+    "description": "Durable backpack for outdoor activities.",
+    "category": "cat_008",
+    "subCategory": "Outdoor Backpacks",
+    "price": 39.99,
+    "discount": 10,
+    "stock": 20,
+    "sku": "BP-001",
+    "seller_email": "seller_sports@gmail.com",
+    "images": [
+      "https://ibb.co.com/Ln4TyTF",
+      "https://ibb.co.com/wJVL3Mm",
+      "https://ibb.co.com/Tkp09Pm",
+      "https://ibb.co.com/NmgKsxp"
+    ],
+    "tags": ["backpack", "outdoor", "sports"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "SportGear",
+      "capacity": "30L",
+      "material": "Nylon",
+      "dimensions": "18 x 12 x 8 inches",
+      "weight": "1.2 lbs",
+      "color": "Black"
+    },
+    "shippingDetails": {
+      "weight": "1.5 lbs",
+      "dimensions": "19 x 13 x 9 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    }
+ },
+ {
+    "id": "prod_024",
+    "name": "Sports Wristband",
+    "description": "Sweat-absorbent wristband for workouts.",
+    "category": "cat_008",
+    "subCategory": "Sports Accessories",
+    "price": 5.99,
+    "discount": 5,
+    "stock": 200,
+    "sku": "SA-001",
+    "seller_email": "seller_sports@gmail.com",
+    "images": [
+      "https://ibb.co.com/kQs2Ry9",
+      "https://ibb.co.com/0rbCtJJ",
+      "https://ibb.co.com/Q8ZMCfG",
+      "https://ibb.co.com/Fx6bcsZ"
+    ],
+    "tags": ["sports", "accessories", "fitness"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "FitGear",
+      "material": "Cotton",
+      "size": "One Size",
+      "color": "Blue",
+      "washable": true
+    },
+    "shippingDetails": {
+      "weight": "0.2 lbs",
+      "dimensions": "4 x 3 x 1 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 3.99,
+        "Canada": 6.99,
+        "UK": 8.99,
+        "Bangladesh": 10.99
+      }
+    }
+ },
+ {
+    "id": "prod_025",
+    "name": "Paperback Novel",
+    "description": "Engaging fiction novel for book lovers.",
+    "category": "cat_009",
+    "subCategory": "Fiction",
+    "price": 12.99,
+    "discount": 10,
+    "stock": 100,
+    "sku": "FIC-001",
+    "seller_email": "seller_books@gmail.com",
+    "images": [
+      "https://ibb.co.com/whQr079",
+      "https://ibb.co.com/9ZmPF7b",
+      "https://ibb.co.com/Zcxyczn",
+      "https://ibb.co.com/MP4g4bW"
+    ],
+    "tags": ["books", "fiction", "reading"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "author": "John Doe",
+      "genre": "Fiction",
+      "pages": 320,
+      "publisher": "BookHouse",
+      "language": "English"
+    },
+    "shippingDetails": {
+      "weight": "0.8 lbs",
+      "dimensions": "8 x 5 x 1 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 4.99,
+        "Canada": 7.99,
+        "UK": 9.99,
+        "Bangladesh": 12.99
+      }
+    }
+ },
+ {
+    "id": "prod_026",
+    "name": "Science Encyclopedia",
+    "description": "Informative non-fiction book about science.",
+    "category": "cat_009",
+    "subCategory": "Non-Fiction",
+    "price": 19.99,
+    "discount": 5,
+    "stock": 50,
+    "sku": "NF-001",
+    "seller_email": "seller_books@gmail.com",
+    "images": [
+      "https://ibb.co.com/6BRnK2y",
+      "https://ibb.co.com/fGXfy0x",
+      "https://ibb.co.com/0h8tKCK",
+      "https://ibb.co.com/fphd16c"
+    ],
+    "tags": ["books", "non-fiction", "science"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "author": "Jane Smith",
+      "subject": "Science",
+      "pages": 450,
+      "publisher": "ScienceWorld",
+      "language": "English"
+    },
+    "shippingDetails": {
+      "weight": "1.5 lbs",
+      "dimensions": "10 x 7 x 2 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 8.99,
+        "UK": 11.99,
+        "Bangladesh": 14.99
+      }
+    }
+ },
+ {
+    "id": "prod_027",
+    "name": "Mathematics Textbook",
+    "description": "Comprehensive academic textbook for students.",
+    "category": "cat_009",
+    "subCategory": "Academic Books",
+    "price": 29.99,
+    "discount": 10,
+    "stock": 40,
+    "sku": "ACB-001",
+    "seller_email": "seller_books@gmail.com",
+    "images": [
+      "https://ibb.co.com/dD3N2VQ",
+      "https://ibb.co.com/4N79vFK",
+      "https://ibb.co.com/zVv919k",
+      "https://ibb.co.com/vs2J8ZR"
+    ],
+    "tags": ["books", "academic", "math"],
+    "specifications": {
+      "author": "John Doe",
+      "pages": 400,
+      "language": "English",
+      "publisher": "EduBooks Ltd.",
+      "dimensions": "8 x 11 inches",
+      "weight": "1.5kg"
+    },
+    "shippingDetails": {
+      "weight": "1.5kg",
+      "dimensions": "8.5 x 11.5 x 1.2 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    },
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true
+ },
+ {
+   "id": "prod_028",
+   "name": "Leather Notebook",
+   "description": "Premium leather-bound notebook for notes.",
+   "category": "cat_009",
+   "subCategory": "Notebooks",
+   "price": 14.99,
+   "discount": 5,
+   "stock": 80,
+   "sku": "NB-001",
+   "seller_email": "seller_books@gmail.com",
+   "images": [
+     "https://ibb.co.com/C92QJy0",
+     "https://ibb.co.com/F68vvR7",
+     "https://ibb.co.com/frCC8pR",
+     "https://ibb.co.com/6t1hMh8"
+   ],
+   "tags": ["stationery", "notebooks", "writing"],
+   "specifications": {
+     "coverMaterial": "Leather",
+     "paperType": "Lined",
+     "pages": 200,
+     "dimensions": "5 x 8 inches",
+     "weight": "0.5kg"
+   },
+   "shippingDetails": {
+     "weight": "0.5kg",
+     "dimensions": "5.5 x 8.5 x 1 inches",
+     "origin": "USA",
+     "availableCountries": ["USA", "Canada", "UK", "Australia"],
+     "shippingCost": {
+       "USA": 3.99,
+       "Canada": 6.99,
+       "UK": 8.99,
+       "Bangladesh": 10.99
+     }
+   },
+   "createdAt": "2025-01-06",
+   "updatedAt": "2025-01-06",
+   "isActive": true
+ },
+ {
+    "id": "prod_029",
+    "name": "Gel Pens Set",
+    "description": "Set of smooth writing gel pens in various colors.",
+    "category": "cat_009",
+    "subCategory": "Pens",
+    "price": 8.99,
+    "discount": 0,
+    "stock": 150,
+    "sku": "PEN-001",
+    "seller_email": "seller_books@gmail.com",
+    "images": [
+      "https://ibb.co.com/W3xZ9Td",
+      "https://ibb.co.com/QXxbTKq",
+      "https://ibb.co.com/WzTWPH4",
+      "https://ibb.co.com/Wk01p1w"
+    ],
+    "tags": ["stationery", "pens", "writing"],
+    "specifications": {
+      "inkType": "Gel",
+      "colorOptions": "Multicolor",
+      "quantity": 12,
+      "dimensions": "6 x 4 x 1 inches",
+      "weight": "0.2kg"
+    },
+    "shippingDetails": {
+      "weight": "0.2kg",
+      "dimensions": "6.5 x 4.5 x 1.5 inches",
+      "origin": "China",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 2.99,
+        "Canada": 5.99,
+        "UK": 7.99,
+        "Bangladesh": 9.99
+      }
+    },
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true
+ },
+ {
+    "id": "prod_030",
+    "name": "Watercolor Painting Set",
+    "description": "A professional-grade watercolor set with 36 vibrant colors.",
+    "category": "cat_009",
+    "subCategory": "Art Supplies",
+    "price": 24.99,
+    "discount": 10,
+    "stock": 60,
+    "sku": "ART-001",
+    "seller_email": "seller_books@gmail.com",
+    "images": [
+      "https://ibb.co.com/kcsw74g",
+      "https://ibb.co.com/khp1GVL",
+      "https://ibb.co.com/nw1TnBh",
+      "https://ibb.co.com/NNPG2Rg"
+    ],
+    "tags": ["art supplies", "watercolors", "painting"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+              "color_range": 36,
+              "grade": "Professional",
+              "packaging": "Compact Box"
+    },
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    }
+ },
+ {
+   "id": "prod_031",
+   "name": "2025 Productivity Planner",
+   "description": "A stylish planner with monthly and weekly layouts for optimal productivity.",
+   "category": "cat_009",
+   "subCategory": "Planners",
+   "price": 19.99,
+   "discount": 5,
+   "stock": 100,
+   "sku": "PLAN-001",
+   "seller_email": "seller_books@gmail.com",
+   "images": [
+     "https://ibb.co.com/9s1xw0S",
+     "https://ibb.co.com/C8CBQc9",
+     "https://ibb.co.com/sKdfd16",
+     "https://ibb.co.com/n7LdJ8H"
+   ],
+   "tags": ["planner", "stationery", "organization"],
+   "createdAt": "2025-01-06",
+   "updatedAt": "2025-01-06",
+   "isActive": true,
+   "specifications": {
+     "pages": 240,
+     "layout": "Monthly and Weekly",
+     "cover": "Hardcover"
+   },
+   "shippingDetails": {
+     "weight": "300g",
+     "dimensions": "8 x 7 x 4 inches",
+     "origin": "USA",
+     "availableCountries": ["USA", "Canada", "UK", "Australia"],
+     "shippingCost": {
+       "USA": 5.99,
+       "Canada": 9.99,
+       "UK": 12.99,
+       "Bangladesh": 14.99
+     }
+   }
+ },
+ {
+  "id": "prod_032",
+  "name": "Car Phone Mount",
+  "description": "A secure phone mount for cars with adjustable angles.",
+  "category": "cat_010",
+  "subCategory": "Car Accessories",
+  "price": 15.99,
+  "discount": 10,
+  "stock": 200,
+  "sku": "CAR-001",
+  "seller_email": "seller_automotive@gmail.com",
+  "images": [
+    "https://ibb.co.com/D9MmDGz",
+    "https://ibb.co.com/m6BdXRC",
+    "https://ibb.co.com/D5f2kKn",
+    "https://ibb.co.com/dgy4YJC"
+  ],
+  "tags": [
+    "car accessories",
+    "phone mount",
+    "automotive",
+    "headphones",
+    "wireless",
+    "noise cancelling",
+    "Bluetooth",
+    "audio",
+    "electronics"
+  ],
+  "createdAt": "2025-01-06",
+  "updatedAt": "2025-01-06",
+  "isActive": true,
+  "specifications": {
+    "adjustable_angle": true,
+    "material": "ABS Plastic",
+    "compatibility": "Universal",
+    "brand": "SoundPro",
+    "model": "SP-400",
+    "color": "Black",
+    "connectivity": "Bluetooth 5.0",
+    "batteryLife": "30 hours",
+    "weight": "250g",
+    "dimensions": "7.6 x 6.5 x 3.2 inches"
+  },
+  "shippingDetails": {
+    "weight": "300g",
+    "dimensions": "8 x 7 x 4 inches",
+    "origin": "USA",
+    "availableCountries": ["USA", "Canada", "UK", "Australia"],
+    "shippingCost": {
+      "USA": 5.99,
+      "Canada": 9.99,
+      "UK": 12.99,
+      "Bangladesh": 14.99
+    }
+  }
+ },
+ {
+    "id": "prod_033",
+    "name": "LED Bike Lights",
+    "description": "A set of front and rear LED lights for bikes, ideal for night rides.",
+    "category": "cat_010",
+    "subCategory": "Bike Accessories",
+    "price": 12.99,
+    "discount": 5,
+    "stock": 150,
+    "sku": "BIKE-001",
+    "seller_email": "seller_automotive@gmail.com",
+    "images": [
+      "https://ibb.co.com/myvVkf1",
+      "https://ibb.co.com/6nMgqzy",
+      "https://ibb.co.com/rZqygbH",
+      "https://ibb.co.com/tbRJNGk"
+    ],
+    "tags": ["bike accessories", "lights", "automotive"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brightness": "300 lumens",
+      "water_resistance": true,
+      "battery_life": "10 hours"
+    },
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    }
+ },
+ {
+    "id": "prod_034",
+    "name": "Car Brake Pads",
+    "description": "High-quality brake pads compatible with most car models.",
+    "category": "cat_010",
+    "subCategory": "Spare Parts",
+    "price": 35.99,
+    "discount": 15,
+    "stock": 50,
+    "sku": "SPARE-001",
+    "seller_email": "seller_automotive@gmail.com",
+    "images": [
+      "https://ibb.co.com/JQdp0f3",
+      "https://ibb.co.com/7GZWpgL",
+      "https://ibb.co.com/bd5fn3B",
+      "https://ibb.co.com/mzyJ9Hb"
+    ],
+    "tags": ["spare parts", "car", "brake pads"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+              "compatibility": "Universal",
+              "material": "Ceramic",
+              "durability": "50,000 miles"
+    },
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    }
+ },
+ {
+   "id": "prod_035",
+   "name": "Car Wax Polish",
+   "description": "Premium wax polish for a glossy and protected car finish.",
+   "category": "cat_010",
+   "subCategory": "Car Care Products",
+   "price": 22.99,
+   "discount": 10,
+   "stock": 80,
+   "sku": "CARE-001",
+   "seller_email": "seller_automotive@gmail.com",
+   "images": [
+     "https://ibb.co.com/FJKXbs5",
+     "https://ibb.co.com/HVR2mKC",
+     "https://ibb.co.com/QbHVZCk",
+     "https://ibb.co.com/dBq0kGf"
+   ],
+   "tags": ["car care", "polish", "wax"],
+   "createdAt": "2025-01-06",
+   "updatedAt": "2025-01-06",
+   "isActive": true,
+   "specifications": {
+     "finish": "Glossy",
+     "protection": "UV Resistant",
+     "application": "Easy Wipe-On"
+   },
+   "shippingDetails": {
+     "weight": "300g",
+     "dimensions": "8 x 7 x 4 inches",
+     "origin": "USA",
+     "availableCountries": ["USA", "Canada", "UK", "Australia"],
+     "shippingCost": {
+       "USA": 5.99,
+       "Canada": 9.99,
+       "UK": 12.99,
+       "Bangladesh": 14.99
+     }
+   }
+ },
+ {
+    "id": "prod_036",
+    "name": "Car Repair Tool Kit",
+    "description": "Comprehensive tool kit for basic car repairs and maintenance.",
+    "category": "cat_010",
+    "subCategory": "Tools",
+    "price": 49.99,
+    "discount": 10,
+    "stock": 40,
+    "sku": "TOOLS-001",
+    "seller_email": "seller_automotive@gmail.com",
+    "images": [
+      "https://ibb.co.com/J5bLcjS",
+      "https://ibb.co.com/R6zpH14",
+      "https://ibb.co.com/TP21bw7",
+      "https://ibb.co.com/BtPSDsh"
+    ],
+    "tags": ["tools", "car repair", "automotive"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "pieces": 50,
+      "material": "Steel",
+      "case": "Portable"
+    },
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    }
+ },
+ {
+    "id": "prod_037",
+    "name": "Portable GPS Navigator",
+    "description": "A high-resolution GPS device with real-time traffic updates.",
+    "category": "cat_010",
+    "subCategory": "GPS Devices",
+    "price": 89.99,
+    "discount": 15,
+    "stock": 30,
+    "sku": "GPS-001",
+    "seller_email": "seller_automotive@gmail.com",
+    "images": [
+      "https://ibb.co.com/wr5pqG9",
+      "https://ibb.co.com/F8wPxVj",
+      "https://ibb.co.com/JKGXHb0",
+      "https://ibb.co.com/7WZv6sd"
+    ],
+    "tags": ["gps", "navigation", "automotive"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "SoundPro",
+      "model": "SP-400",
+      "color": "Black",
+      "connectivity": "Bluetooth 5.0",
+      "batteryLife": "30 hours",
+      "weight": "250g",
+      "dimensions": "7.6 x 6.5 x 3.2 inches"
+    },
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    }
+ },
+ {
+    "id": "prod_038",
+    "name": "Motorcycle Helmet",
+    "description": "A lightweight and durable helmet for motorcycle riders.",
+    "category": "cat_010",
+    "subCategory": "Helmets",
+    "price": 59.99,
+    "discount": 10,
+    "stock": 45,
+    "sku": "HELMET-001",
+    "seller_email": "seller_automotive@gmail.com",
+    "images": [
+      "https://ibb.co.com/9pfxJVK",
+      "https://ibb.co.com/tBXLKsH",
+      "https://ibb.co.com/3f8nxGH",
+      "https://ibb.co.com/6RbxWbf"
+    ],
+    "tags": ["helmet", "motorcycle", "safety"],
+    "createdAt": "2025-01-06",
+    "updatedAt": "2025-01-06",
+    "isActive": true,
+    "specifications": {
+      "brand": "SoundPro",
+      "model": "SP-400",
+      "color": "Black",
+      "connectivity": "Bluetooth 5.0",
+      "batteryLife": "30 hours",
+      "weight": "250g",
+      "dimensions": "7.6 x 6.5 x 3.2 inches"
+    },
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "8 x 7 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 9.99,
+        "UK": 12.99,
+        "Bangladesh": 14.99
+      }
+    }
+ }
+]
