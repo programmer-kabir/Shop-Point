@@ -13,7 +13,7 @@
     "images": [
       "https://i.ibb.co.com/f8q7PNP/kids-cloth.jpg",
       "https://i.ibb.co.com/4PNZpC8/Kids-Casual-Shirt2.jpg",
-      "",
+      "https://i.ibb.co.com/6Hy17jv/Kids-Casual-Shirt3.jpg",
       "https://i.ibb.co.com/hM5rB0b/Kids-Casual-Shirt4.jpg"
     ],
     "tags": ["kids", "shirt", "fashion"],
@@ -53,7 +53,7 @@
     "seller_email": "seller_fashion@gmail.com",
     "images": [
       "https://i.ibb.co.com/Z2C3Yws/Kids-Sneakers.jpg",
-      "",
+      "https://i.ibb.co.com/qgc35qR/kids-sneakers2.jpg",
       "https://i.ibb.co.com/jrn0m74/Kids-Sneakers3.jpg",
       "https://i.ibb.co.com/Pw4XMSN/Kids-Sneakers4.jpg"
     ],
@@ -95,7 +95,7 @@
    "images": [
      "https://i.ibb.co.com/8NFzhhh/Kids-Soft-Teddy-Bear.jpg",
      "https://i.ibb.co.com/kK1V4qz/Kids-Soft-Teddy-Bear2.jpg",
-     "https://ibb.co.com/9ZgqfBN",
+     "https://i.ibb.co.com/RzgVTdY/kids-soft-teddy-bear3.jpg",
      "https://i.ibb.co.com/q0gp0hy/Kids-Soft-Teddy-Bear4.jpg"
    ],
    "tags": ["kids", "toys", "teddy bear"],
@@ -178,7 +178,7 @@
      "https://i.ibb.co.com/9hVjXSj/Whitening-Toothpaste.jpg",
      "https://i.ibb.co.com/h8TJtpm/Whitening-Toothpaste2.jpg",
      "https://i.ibb.co.com/XYw0mjX/Whitening-Toothpaste3.jpg",
-     "https://ibb.co.com/ZYyPqVc"
+     "https://i.ibb.co.com/pJ9KHL9/whitening-toothpaste4.jpg"
    ],
    "tags": ["oral care", "toothpaste", "hygiene"],
    "createdAt": "2025-01-06",
@@ -260,7 +260,7 @@
           "https://i.ibb.co.com/D5Mm0vn/Electric-Hair-Trimmer.jpg",
           "https://i.ibb.co.com/s30qmKY/Electric-Hair-Trimmer2.jpg",
           "https://i.ibb.co.com/ZmXS05L/Electric-Hair-Trimmer3.jpg",
-          "https://ibb.co.com/BZ3c4LT"
+          "https://i.ibb.co.com/WkYzD6n/electric-hair-trimmer4.jpg"
         ],
         "tags": ["grooming tools", "trimmer", "beauty"],
         "createdAt": "2025-01-06",
@@ -1008,10 +1008,10 @@
     "sku": "SPARE-001",
     "seller_email": "seller_automotive@gmail.com",
     "images": [
-      "https://ibb.co.com/JQdp0f3",
-      "https://ibb.co.com/7GZWpgL",
-      "https://ibb.co.com/bd5fn3B",
-      "https://ibb.co.com/mzyJ9Hb"
+      "https://i.ibb.co.com/FVWYNSH/Car-Brake-Pads.jpg",
+      "https://i.ibb.co.com/p3MzKW5/Car-Brake-Pads2.jpg",
+      "https://i.ibb.co.com/Yjd2ctP/Car-Brake-Pads3.jpg",
+      "https://i.ibb.co.com/x5q4Qsj/Car-Brake-Pads4.jpg"
     ],
     "tags": ["spare parts", "car", "brake pads"],
     "createdAt": "2025-01-06",
@@ -1047,10 +1047,10 @@
    "sku": "CARE-001",
    "seller_email": "seller_automotive@gmail.com",
    "images": [
-     "https://ibb.co.com/FJKXbs5",
-     "https://ibb.co.com/HVR2mKC",
-     "https://ibb.co.com/QbHVZCk",
-     "https://ibb.co.com/dBq0kGf"
+     "https://i.ibb.co.com/jGTzvVy/Car-Wax-Polish.jpg",
+     "https://i.ibb.co.com/Dtmb31Y/Car-Wax-Polish2.jpg",
+     "https://i.ibb.co.com/LkgyMJr/Car-Wax-Polish3.jpg",
+     "https://i.ibb.co.com/TcSBPmw/Car-Wax-Polish4.jpg"
    ],
    "tags": ["car care", "polish", "wax"],
    "createdAt": "2025-01-06",
@@ -1086,10 +1086,10 @@
     "sku": "TOOLS-001",
     "seller_email": "seller_automotive@gmail.com",
     "images": [
-      "https://ibb.co.com/J5bLcjS",
-      "https://ibb.co.com/R6zpH14",
-      "https://ibb.co.com/TP21bw7",
-      "https://ibb.co.com/BtPSDsh"
+      "https://i.ibb.co.com/86R3mgQ/Car-Repair-Tool-Kit.jpg",
+      "https://i.ibb.co.com/wQMN6Tr/Car-Repair-Tool-Kit2.jpg",
+      "https://i.ibb.co.com/bNmF26C/Car-Repair-Tool-Kit3.jpg",
+      "https://i.ibb.co.com/47f5yNb/Car-Repair-Tool-Kit4.jpg"
     ],
     "tags": ["tools", "car repair", "automotive"],
     "createdAt": "2025-01-06",
@@ -1125,10 +1125,10 @@
     "sku": "GPS-001",
     "seller_email": "seller_automotive@gmail.com",
     "images": [
-      "https://ibb.co.com/wr5pqG9",
-      "https://ibb.co.com/F8wPxVj",
-      "https://ibb.co.com/JKGXHb0",
-      "https://ibb.co.com/7WZv6sd"
+      "https://i.ibb.co.com/zHqPg9y/Portable-GPS-Navigator.jpg",
+      "https://i.ibb.co.com/SnMN9F4/Portable-GPS-Navigator2.jpg",
+      "https://i.ibb.co.com/GC2hxTb/Portable-GPS-Navigator3.jpg",
+      "https://i.ibb.co.com/47XBpD9/Portable-GPS-Navigator4.jpg"
     ],
     "tags": ["gps", "navigation", "automotive"],
     "createdAt": "2025-01-06",
@@ -1168,10 +1168,10 @@
     "sku": "HELMET-001",
     "seller_email": "seller_automotive@gmail.com",
     "images": [
-      "https://ibb.co.com/9pfxJVK",
-      "https://ibb.co.com/tBXLKsH",
-      "https://ibb.co.com/3f8nxGH",
-      "https://ibb.co.com/6RbxWbf"
+      "https://i.ibb.co.com/tHN0Sxj/Motorcycle-Helmet.jpg",
+      "https://i.ibb.co.com/TcLW28w/Motorcycle-Helmet2.jpg",
+      "https://i.ibb.co.com/k3rtLkF/Motorcycle-Helmet3.jpg",
+      "https://i.ibb.co.com/svQGVQM/Motorcycle-Helmet4.jpg"
     ],
     "tags": ["helmet", "motorcycle", "safety"],
     "createdAt": "2025-01-06",
