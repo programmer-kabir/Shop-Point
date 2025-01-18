@@ -1,6 +1,6 @@
 import React from "react";
 
-const Banner = () => {
+const ProductsBanner = () => {
   return (
     <section className="grid grid-cols-1 gap-10 md:gap-2 lg:grid-cols-2 bg-[#DFF9E4] rounded-lg items-start p-5 md:p-10 my-6">
       <div className="order-1 sm:order-[0]">
@@ -18,4 +18,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default ProductsBanner;

@@ -7,7 +7,6 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 import logoImg from "../../assets/logo.png";
 import SubNavigation from "../../components/SubNavigation";
 import Container from "../../components/Container";
-
 const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
 

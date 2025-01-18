@@ -41,7 +41,7 @@
     },
     {
       "_id": "cat_004",
-      "category": "Fashion for Women",
+      "category": "Womens Fashion",
       "subCategory": [
         "Dresses",
         "Handbags",
@@ -54,7 +54,7 @@
     },
     {
       "_id": "cat_005",
-      "category": "Fashion for Men",
+      "category": "Mens Fashion",
       "subCategory": [
         "T-Shirts",
         "Shirts",
@@ -67,7 +67,7 @@
     },
     {
       "_id": "cat_006",
-      "category": "Fashion for Kids",
+      "category": "Kids Fashion",
       "subCategory": [
         "Clothing",
         "Footwear",

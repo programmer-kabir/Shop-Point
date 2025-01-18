@@ -1,6 +1,8 @@
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchCategory } from "../Redux/Categories/CategorySlice";
 
 const SubNavigation = () => {
   const menuRef = useRef(null);
@@ -28,7 +30,11 @@ const SubNavigation = () => {
     }
   };
 
-
+  const dispatch = useDispatch();
+  const { isLoading, categories, error } = useSelector((state) => state.categories);
+  useEffect(() => {
+    dispatch(fetchCategory());
+  }, [dispatch]);
   return (
     <div className="relative hidden py-2 md:block w-[95%] mx-auto">
       {/* Sub-navigation menu */}
@@ -40,26 +46,29 @@ const SubNavigation = () => {
         Explore (New!)
         </Link>
         <Link className="">Saved</Link>
-        <Link className="primaryColor">Motors</Link>
-        <Link className="primaryColor">Fashion</Link>
-        <Link className="primaryColor">Collectibles Art</Link>
-        <Link className="primaryColor">Sports </Link>
-        <Link className="primaryColor">Health & Beauty</Link>
-        <Link className="primaryColor">Industrial Equipment</Link>
-        <Link className="primaryColor">Home & Garden</Link>
-        <Link className="primaryColor">Deals</Link>
-        <Link className="primaryColor">Sells</Link>
+        {isLoading && <p>Loading...</p>}  {/*todo when loading set*/}
+        {!isLoading &&
+          categories.map((category) => (
+            <Link
+              key={category._id}
+              to={`/products?category=${encodeURIComponent(category.category)}`}
+              className="primaryColor"
+            >
+              {category.category}
+            </Link>
+          ))}
+     
       </div>
 
       {/* Scroll Buttons */}
       <button
-        className="absolute left-0 z-10 p-2 xl:hidden -translate-y-1/2 bg-white rounded-full top-1/2 "
+        className="absolute left-0 z-10 p-2 -translate-y-1/2 bg-white rounded-full top-1/2 "
         onClick={() => scrollMenu("left")}
       >
         <AiOutlineLeft />
       </button>
       <button
-        className="absolute right-0 z-10 p-2 xl:hidden -translate-y-1/2 bg-white rounded-full top-1/2 "
+        className="absolute right-0 z-10 p-2 -translate-y-1/2 bg-white rounded-full top-1/2 "
         onClick={() => scrollMenu("right")}
       >
         <AiOutlineRight />
