@@ -11,10 +11,10 @@
     "sku": "WHNC-1234",
     "seller_email": "seller@gmail.com",
     "images": [
-      "https://example.com/images/headphones1.jpg",
-      "https://example.com/images/headphones2.jpg",
-      "https://example.com/images/headphones3.jpg",
-      "https://example.com/images/headphones4.jpg"
+      "https://i.ibb.co.com/wpKbqWr/61-Ph2-Bt-8-L-AC-SL1500.jpg",
+      "https://i.ibb.co.com/s3kKqkQ/81-PJ6yf-Grl-L-AC-SL1500.jpg",
+      "https://i.ibb.co.com/9VpNRMH/71vklht55-NL-AC-SL1500.jpg",
+      "https://i.ibb.co.com/WPYGZFy/711-Axytj-HEL-AC-SL1500.jpg"
     ],
     "specifications": {
       "brand": "SoundPro",
@@ -60,7 +60,11 @@
     "stock": 50,
     "sku": "GFX-5678",
     "seller_email": "seller@gmail.com",
-    "images": ["https://example.com/images/graphicscard1.jpg"],
+    "images": [
+      "https://i.ibb.co.com/R677WwJ/geforce-gt710-2gd3-3-500x500.jpg",
+      "https://i.ibb.co.com/NCpcGf8/geforce-gt710-2gd3-2-500x500.jpg",/*  */
+      "https://i.ibb.co.com/jVz5rjJ/geforce-gt710-2gd3-1-500x500.jpg"
+    ],
     "specifications": {
       "brand": "GameX",
       "model": "GX-9000",
@@ -73,7 +77,7 @@
       "weight": "1.2kg",
       "dimensions": "12 x 8 x 4 inches",
       "origin": "Bangladesh",
-      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 7.99,
         "Canada": 14.99,
@@ -108,11 +112,11 @@
       "weight": "0.3kg",
       "dimensions": "5 x 3 x 0.5 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "UK","Bangladesh"],
+      "availableCountries": ["USA", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 4.99,
         "UK": 9.99,
-        "Bangladesh":12.99
+        "Bangladesh": 12.99
       }
     },
     "createdAt": "2024-12-26",
@@ -143,7 +147,7 @@
       "weight": "1.5kg",
       "dimensions": "20 x 5 x 5 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 6.99,
         "Canada": 12.99,
@@ -215,7 +219,7 @@
       "weight": "0.1kg",
       "dimensions": "7 x 5 x 1 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "Canada","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "Bangladesh"],
       "shippingCost": {
         "USA": 3.99,
         "Canada": 5.99,
@@ -250,12 +254,12 @@
       "weight": "0.5kg",
       "dimensions": "6 x 3 x 1 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 5.99,
         "Canada": 8.99,
         "UK": 11.99,
-        "Bangladesh":10
+        "Bangladesh": 10
       }
     },
     "createdAt": "2024-12-26",
@@ -291,7 +295,7 @@
       "weight": "0.2kg",
       "dimensions": "4 x 2 x 1 inches",
       "origin": "Bangladesh",
-      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 4.99,
         "Canada": 7.99,
@@ -363,7 +367,7 @@
       "weight": "0.3kg",
       "dimensions": "6.5 x 3 x 0.3 inches",
       "origin": "Bangladesh",
-      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 8.99,
         "Canada": 12.99,
@@ -399,7 +403,7 @@
       "weight": "0.6kg",
       "dimensions": "10 x 6.5 x 0.4 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 6.99,
         "Canada": 10.99,
@@ -436,7 +440,7 @@
       "weight": "2.5kg",
       "dimensions": "15 x 10 x 1 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "Canada","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "Bangladesh"],
       "shippingCost": {
         "USA": 10.99,
         "Canada": 14.99,
@@ -472,7 +476,7 @@
       "weight": "5kg",
       "dimensions": "24 x 18 x 5 inches",
       "origin": "Bangladesh",
-      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 15.99,
         "Canada": 19.99,
@@ -508,7 +512,7 @@
       "weight": "7kg",
       "dimensions": "50 x 30 x 5 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 20.99,
         "Canada": 25.99,
@@ -543,7 +547,7 @@
       "weight": "0.1kg",
       "dimensions": "2 x 2 x 1 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "Canada","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "Bangladesh"],
       "shippingCost": {
         "USA": 4.99,
         "Bangladesh": 4.99,
@@ -578,7 +582,7 @@
       "weight": "3kg",
       "dimensions": "12 x 10 x 4 inches",
       "origin": "USA",
-      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 9.99,
         "Canada": 14.99,
@@ -601,9 +605,7 @@
     "stock": 120,
     "sku": "REFRIG-001",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/refrigerator1.jpg"
-    ],
+    "images": ["https://example.com/images/refrigerator1.jpg"],
     "specifications": {
       "brand": "CoolTech",
       "model": "CT-500",
@@ -611,12 +613,7 @@
       "energyRating": "5-Star",
       "color": "Silver"
     },
-    "tags": [
-      "refrigerator",
-      "appliance",
-      "energy efficient",
-      "home appliance"
-    ],
+    "tags": ["refrigerator", "appliance", "energy efficient", "home appliance"],
     "shippingDetails": {
       "weight": "60kg",
       "dimensions": "70 x 60 x 180 cm",
@@ -645,9 +642,7 @@
     "stock": 100,
     "sku": "WASH-002",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/washingmachine1.jpg"
-    ],
+    "images": ["https://example.com/images/washingmachine1.jpg"],
     "specifications": {
       "brand": "WashPro",
       "model": "WP-700",
@@ -655,12 +650,7 @@
       "type": "Front Load",
       "color": "White"
     },
-    "tags": [
-      "washing machine",
-      "laundry",
-      "home appliance",
-      "automatic"
-    ],
+    "tags": ["washing machine", "laundry", "home appliance", "automatic"],
     "shippingDetails": {
       "weight": "50kg",
       "dimensions": "60 x 60 x 85 cm",
@@ -688,9 +678,7 @@
     "stock": 200,
     "sku": "MICRO-003",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/microwave1.jpg"
-    ],
+    "images": ["https://example.com/images/microwave1.jpg"],
     "specifications": {
       "brand": "HeatTech",
       "model": "HT-25",
@@ -698,12 +686,7 @@
       "power": "1200W",
       "color": "Black"
     },
-    "tags": [
-      "microwave",
-      "kitchen appliance",
-      "convection",
-      "cooking"
-    ],
+    "tags": ["microwave", "kitchen appliance", "convection", "cooking"],
     "shippingDetails": {
       "weight": "15kg",
       "dimensions": "50 x 40 x 30 cm",
@@ -731,9 +714,7 @@
     "stock": 80,
     "sku": "AC-004",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/airconditioner1.jpg"
-    ],
+    "images": ["https://example.com/images/airconditioner1.jpg"],
     "specifications": {
       "brand": "CoolAir",
       "model": "CA-1.5T",
@@ -741,12 +722,7 @@
       "type": "Split AC",
       "energyRating": "5-Star"
     },
-    "tags": [
-      "air conditioner",
-      "AC",
-      "cooling",
-      "home appliance"
-    ],
+    "tags": ["air conditioner", "AC", "cooling", "home appliance"],
     "shippingDetails": {
       "weight": "30kg",
       "dimensions": "100 x 25 x 30 cm",
@@ -774,9 +750,7 @@
     "stock": 300,
     "sku": "VAC-005",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/vacuum1.jpg"
-    ],
+    "images": ["https://example.com/images/vacuum1.jpg"],
     "specifications": {
       "brand": "CleanPro",
       "model": "CP-V100",
@@ -784,12 +758,7 @@
       "batteryLife": "60 minutes",
       "color": "Blue"
     },
-    "tags": [
-      "vacuum cleaner",
-      "cordless",
-      "cleaning",
-      "home appliance"
-    ],
+    "tags": ["vacuum cleaner", "cordless", "cleaning", "home appliance"],
     "shippingDetails": {
       "weight": "5kg",
       "dimensions": "70 x 15 x 20 cm",
@@ -817,21 +786,14 @@
     "stock": 150,
     "sku": "WATER-006",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/waterpurifier1.jpg"
-    ],
+    "images": ["https://example.com/images/waterpurifier1.jpg"],
     "specifications": {
       "brand": "PureLife",
       "model": "PL-WP100",
       "capacity": "10L",
       "type": "RO+UV"
     },
-    "tags": [
-      "water purifier",
-      "RO+UV",
-      "clean water",
-      "appliance"
-    ],
+    "tags": ["water purifier", "RO+UV", "clean water", "appliance"],
     "shippingDetails": {
       "weight": "7kg",
       "dimensions": "50 x 30 x 40 cm",
@@ -859,9 +821,7 @@
     "stock": 200,
     "sku": "FAN-007",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/fan1.jpg"
-    ],
+    "images": ["https://example.com/images/fan1.jpg"],
     "specifications": {
       "brand": "BreezeTech",
       "model": "BT-Smart",
@@ -869,12 +829,7 @@
       "power": "70W",
       "color": "White"
     },
-    "tags": [
-      "fan",
-      "smart fan",
-      "home appliance",
-      "cooling"
-    ],
+    "tags": ["fan", "smart fan", "home appliance", "cooling"],
     "shippingDetails": {
       "weight": "4kg",
       "dimensions": "60 x 20 x 20 cm",
@@ -902,21 +857,14 @@
     "stock": 200,
     "sku": "DRESS-001",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/dress1.jpg"
-    ],
+    "images": ["https://example.com/images/dress1.jpg"],
     "specifications": {
       "brand": "Fashionista",
       "size": "S, M, L, XL",
       "material": "Chiffon",
       "color": "Red"
     },
-    "tags": [
-      "dress",
-      "evening wear",
-      "fashion",
-      "women's clothing"
-    ],
+    "tags": ["dress", "evening wear", "fashion", "women's clothing"],
     "shippingDetails": {
       "weight": "500g",
       "dimensions": "30 x 25 x 5 cm",
@@ -944,21 +892,14 @@
     "stock": 150,
     "sku": "BAG-002",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/handbag1.jpg"
-    ],
+    "images": ["https://example.com/images/handbag1.jpg"],
     "specifications": {
       "brand": "BagCharm",
       "material": "Genuine Leather",
       "dimensions": "35 x 25 x 10 cm",
       "color": "Black"
     },
-    "tags": [
-      "handbag",
-      "leather bag",
-      "fashion",
-      "women's accessories"
-    ],
+    "tags": ["handbag", "leather bag", "fashion", "women's accessories"],
     "shippingDetails": {
       "weight": "1kg",
       "dimensions": "40 x 30 x 15 cm",
@@ -986,21 +927,14 @@
     "stock": 50,
     "sku": "JEWEL-003",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/necklace1.jpg"
-    ],
+    "images": ["https://example.com/images/necklace1.jpg"],
     "specifications": {
       "brand": "GlamJewel",
       "material": "18K Gold",
       "gemstone": "Diamond",
       "weight": "5g"
     },
-    "tags": [
-      "jewelry",
-      "necklace",
-      "diamond",
-      "fashion"
-    ],
+    "tags": ["jewelry", "necklace", "diamond", "fashion"],
     "shippingDetails": {
       "weight": "200g",
       "dimensions": "10 x 10 x 5 cm",
@@ -1028,21 +962,14 @@
     "stock": 250,
     "sku": "SHOES-004",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/shoes1.jpg"
-    ],
+    "images": ["https://example.com/images/shoes1.jpg"],
     "specifications": {
       "brand": "StepUp",
       "material": "Genuine Leather",
       "size": "6-12",
       "color": "Brown"
     },
-    "tags": [
-      "footwear",
-      "leather shoes",
-      "fashion",
-      "men's accessories"
-    ],
+    "tags": ["footwear", "leather shoes", "fashion", "men's accessories"],
     "shippingDetails": {
       "weight": "1.5kg",
       "dimensions": "35 x 25 x 15 cm",
@@ -1070,21 +997,14 @@
     "stock": 300,
     "sku": "SCARF-005",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/scarf1.jpg"
-    ],
+    "images": ["https://example.com/images/scarf1.jpg"],
     "specifications": {
       "brand": "SilkyWear",
       "material": "100% Silk",
       "dimensions": "150 x 50 cm",
       "color": "Blue"
     },
-    "tags": [
-      "scarf",
-      "silk",
-      "fashion",
-      "accessories"
-    ],
+    "tags": ["scarf", "silk", "fashion", "accessories"],
     "shippingDetails": {
       "weight": "200g",
       "dimensions": "20 x 15 x 2 cm",
@@ -1112,21 +1032,14 @@
     "stock": 100,
     "sku": "WATCH-006",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/watch1.jpg"
-    ],
+    "images": ["https://example.com/images/watch1.jpg"],
     "specifications": {
       "brand": "TimeLux",
       "material": "Stainless Steel",
       "features": "Chronograph, Water Resistant",
       "color": "Silver"
     },
-    "tags": [
-      "watch",
-      "wristwatch",
-      "fashion",
-      "accessory"
-    ],
+    "tags": ["watch", "wristwatch", "fashion", "accessory"],
     "shippingDetails": {
       "weight": "300g",
       "dimensions": "15 x 10 x 5 cm",
@@ -1154,21 +1067,14 @@
     "stock": 400,
     "sku": "SUN-007",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/sunglasses1.jpg"
-    ],
+    "images": ["https://example.com/images/sunglasses1.jpg"],
     "specifications": {
       "brand": "SunStyle",
       "frameMaterial": "Plastic",
       "lensType": "Polarized",
       "color": "Black"
     },
-    "tags": [
-      "sunglasses",
-      "accessory",
-      "fashion",
-      "UV protection"
-    ],
+    "tags": ["sunglasses", "accessory", "fashion", "UV protection"],
     "shippingDetails": {
       "weight": "200g",
       "dimensions": "15 x 10 x 5 cm",
@@ -1196,21 +1102,14 @@
     "stock": 500,
     "sku": "TSHIRT-001",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/tshirt1.jpg"
-    ],
+    "images": ["https://example.com/images/tshirt1.jpg"],
     "specifications": {
       "brand": "StyleWear",
       "material": "100% Cotton",
       "sizes": "S, M, L, XL",
       "color": "White"
     },
-    "tags": [
-      "t-shirt",
-      "cotton",
-      "casual wear",
-      "men's fashion"
-    ],
+    "tags": ["t-shirt", "cotton", "casual wear", "men's fashion"],
     "shippingDetails": {
       "weight": "300g",
       "dimensions": "20 x 15 x 2 cm",
@@ -1238,21 +1137,14 @@
     "stock": 300,
     "sku": "SHIRT-002",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/shirt1.jpg"
-    ],
+    "images": ["https://example.com/images/shirt1.jpg"],
     "specifications": {
       "brand": "OfficeWear",
       "material": "Poly-Cotton Blend",
       "sizes": "M, L, XL",
       "color": "Blue"
     },
-    "tags": [
-      "shirt",
-      "formal wear",
-      "men's clothing",
-      "slim fit"
-    ],
+    "tags": ["shirt", "formal wear", "men's clothing", "slim fit"],
     "shippingDetails": {
       "weight": "400g",
       "dimensions": "30 x 20 x 3 cm",
@@ -1280,21 +1172,14 @@
     "stock": 400,
     "sku": "JEANS-003",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/jeans1.jpg"
-    ],
+    "images": ["https://example.com/images/jeans1.jpg"],
     "specifications": {
       "brand": "UrbanDenim",
       "material": "Denim",
       "sizes": "32, 34, 36, 38",
       "color": "Dark Blue"
     },
-    "tags": [
-      "jeans",
-      "denim",
-      "slim fit",
-      "men's fashion"
-    ],
+    "tags": ["jeans", "denim", "slim fit", "men's fashion"],
     "shippingDetails": {
       "weight": "1kg",
       "dimensions": "40 x 30 x 5 cm",
@@ -1322,21 +1207,14 @@
     "stock": 150,
     "sku": "JACKET-004",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/jacket1.jpg"
-    ],
+    "images": ["https://example.com/images/jacket1.jpg"],
     "specifications": {
       "brand": "RiderWear",
       "material": "Genuine Leather",
       "sizes": "M, L, XL",
       "color": "Black"
     },
-    "tags": [
-      "jacket",
-      "leather",
-      "outerwear",
-      "men's fashion"
-    ],
+    "tags": ["jacket", "leather", "outerwear", "men's fashion"],
     "shippingDetails": {
       "weight": "2kg",
       "dimensions": "50 x 40 x 10 cm",
@@ -1364,21 +1242,14 @@
     "stock": 300,
     "sku": "SHOE-005",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/shoes2.jpg"
-    ],
+    "images": ["https://example.com/images/shoes2.jpg"],
     "specifications": {
       "brand": "FlexStep",
       "material": "Synthetic",
       "sizes": "7-12",
       "color": "Grey"
     },
-    "tags": [
-      "shoes",
-      "sneakers",
-      "footwear",
-      "men's fashion"
-    ],
+    "tags": ["shoes", "sneakers", "footwear", "men's fashion"],
     "shippingDetails": {
       "weight": "1.2kg",
       "dimensions": "35 x 25 x 12 cm",
@@ -1406,21 +1277,14 @@
     "stock": 350,
     "sku": "BELT-006",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/belt1.jpg"
-    ],
+    "images": ["https://example.com/images/belt1.jpg"],
     "specifications": {
       "brand": "BeltCraft",
       "material": "Genuine Leather",
       "sizes": "M, L, XL",
       "color": "Brown"
     },
-    "tags": [
-      "belt",
-      "leather",
-      "men's accessories",
-      "fashion"
-    ],
+    "tags": ["belt", "leather", "men's accessories", "fashion"],
     "shippingDetails": {
       "weight": "400g",
       "dimensions": "15 x 10 x 5 cm",
@@ -1448,21 +1312,14 @@
     "stock": 100,
     "sku": "WATCH-007",
     "seller_email": "seller@gmail.com",
-    "images": [
-      "https://example.com/images/watch2.jpg"
-    ],
+    "images": ["https://example.com/images/watch2.jpg"],
     "specifications": {
       "brand": "ChronoMaster",
       "material": "Stainless Steel",
       "features": "Chronograph, Water Resistant",
       "color": "Silver"
     },
-    "tags": [
-      "watch",
-      "luxury",
-      "men's accessories",
-      "fashion"
-    ],
+    "tags": ["watch", "luxury", "men's accessories", "fashion"],
     "shippingDetails": {
       "weight": "500g",
       "dimensions": "15 x 10 x 5 cm",
