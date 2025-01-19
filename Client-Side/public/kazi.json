@@ -62,7 +62,7 @@
     "seller_email": "seller@gmail.com",
     "images": [
       "https://i.ibb.co.com/R677WwJ/geforce-gt710-2gd3-3-500x500.jpg",
-      "https://i.ibb.co.com/NCpcGf8/geforce-gt710-2gd3-2-500x500.jpg",/*  */
+      "https://i.ibb.co.com/NCpcGf8/geforce-gt710-2gd3-2-500x500.jpg" /*  */,
       "https://i.ibb.co.com/jVz5rjJ/geforce-gt710-2gd3-1-500x500.jpg"
     ],
     "specifications": {
@@ -99,7 +99,10 @@
     "stock": 200,
     "sku": "SSD-1234",
     "seller_email": "seller@gmail.com",
-    "images": ["https://example.com/images/ssd1.jpg"],
+    "images": [
+      "https://i.ibb.co.com/JsDYpPf/esd270c-02-500x500.jpg",
+      "https://i.ibb.co.com/JCQmrZS/esd270c-01-500x500.jpg"
+    ],
     "specifications": {
       "brand": "StorageMax",
       "model": "STX-1TB",
@@ -134,7 +137,11 @@
     "stock": 100,
     "sku": "TRP-5678",
     "seller_email": "seller@gmail.com",
-    "images": ["https://example.com/images/tripod1.jpg"],
+    "images": [
+      "https://i.ibb.co.com/M6QPBdg/vct-688-03-500x500.jpg",
+      "https://i.ibb.co.com/2SfnLRH/vct-688-02-500x500.jpg",
+      "https://i.ibb.co.com/2hm4L5q/vct-688-01-500x500.jpg"
+    ],
     "specifications": {
       "brand": "CamGear",
       "model": "CG-300",
