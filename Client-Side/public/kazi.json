@@ -667,7 +667,7 @@
   },
   {
     "id": "prod_017",
-    "name": "Next-Gen Gaming Console",
+    "name": "Double Door Refrigerator",
     "description": "Frost-free refrigerator with energy-saving technology and large storage capacity.",
     "category": "cat_003",
     "subCategory": "Refrigerators",
@@ -677,7 +677,10 @@
     "sku": "REFRIG-001",
     "seller_email": "seller@gmail.com",
     "images": [
-    
+      "https://i.ibb.co.com/XSyrt8m/Refrigerators1.jpg",
+      "https://i.ibb.co.com/tMfx6Zs/Refrigerators2.jpg",
+      "https://i.ibb.co.com/cwzZcGc/Refrigerators3.jpg",
+      "https://i.ibb.co.com/4pVfS6h/Refrigerators4.jpg"
     ],
     "specifications": {
       "brand": "CoolTech",
