@@ -11,10 +11,10 @@
     "sku": "WHNC-1234",
     "seller_email": "seller@gmail.com",
     "images": [
-      "https://example.com/images/headphones1.jpg",
-      "https://example.com/images/headphones2.jpg",
-      "https://example.com/images/headphones3.jpg",
-      "https://example.com/images/headphones4.jpg"
+      "https://i.ibb.co.com/12TGBNd/Wireless-Noise-Cancelling-Headphones1.jpg",
+      "https://i.ibb.co.com/hBbdv4N/Wireless-Noise-Cancelling-Headphones2.jpg",
+      "https://i.ibb.co.com/qp0tX45/Wireless-Noise-Cancelling-Headphones3.jpg",
+      "https://i.ibb.co.com/c2Nd1c0/Wireless-Noise-Cancelling-Headphones4.jpg"
     ],
     "specifications": {
       "brand": "SoundPro",
@@ -50,38 +50,39 @@
     "isActive": true
   },
   {
-    "id": "prod_001",
-    "name": "Intel Core i3 10th Gen Processor",
-    "description": "The Intel Core i3 10105 10th Gen Processor comes with 3.70 GHz up to 4.40 GHz clock speed, 4 cores and 8 threads. This new 10th gen Comet Lake microarchitecture is manufactured with the 14nm process that comes with four cores but lacks in HyperThreading. As this chip is updated to the latest BIOS revision, it nicely fits into any Intel 400 and 500 series motherboard.",
+    "id": "prod_002",
+    "name": "Gaming Graphics Card",
+    "description": "High-performance graphics card for gaming and creative work.",
     "category": "cat_001",
     "subCategory": "Computer Components",
-    "price": 259.99,
+    "price": 599.99,
     "discount": 10,
     "stock": 50,
-    "sku": "WHNC-9089",
-    "seller_email": "seller1@gmail.com",
+    "sku": "GFX-5678",
+    "seller_email": "seller@gmail.com",
     "images": [
-      "https://www.startech.com.bd/image/cache/catalog/processor/intel/core-i3-10105/core-i3-10105-001-500x500.jpg",
-      "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-500x500.jpg",
-      "https://www.startech.com.bd/image/cache/catalog/processor/intel/i3-12100/i3-12100-500x500.jpg"
-    ],
+      "https://i.ibb.co.com/StQ6rMF/Gaming-Graphics-Card1.jpg",
+      "https://i.ibb.co.com/g481020/Gaming-Graphics-Card2.jpg",
+      "https://i.ibb.co.com/ZMNT0Wp/Gaming-Graphics-Card3.png",
+      "https://i.ibb.co.com/y5m7z9j/Gaming-Graphics-Card4.png"
+  ],
     "specifications": {
-      "brand": "Intel",
-      "model": "i3 10gen",
-      "baseFrequency": "3.30 GHz",
-      "Cores": "4"
+      "brand": "GameX",
+      "model": "GX-9000",
+      "memory": "12GB",
+      "connectivity": "PCIe 4.0",
+      "powerRequirement": "750W"
     },
-    "tags": ["Computer Components", "electronics"],
+    "tags": ["graphics card", "gaming", "GPU", "computer components"],
     "shippingDetails": {
-      "weight": "300g",
-      "dimensions": "8 x 7 x 4 inches",
-      "origin": "USA",
-      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "weight": "1.2kg",
+      "dimensions": "12 x 8 x 4 inches",
+      "origin": "Bangladesh",
+      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
       "shippingCost": {
-        "USA": 5.99,
-        "Canada": 9.99,
-        "UK": 12.99,
-        "Bangladesh": 14.99
+        "USA": 7.99,
+        "Canada": 14.99,
+        "UK": 19.99
       }
     },
     "createdAt": "2024-12-26",
@@ -89,29 +90,283 @@
     "isActive": true
   },
   {
-    "id": "prod_001",
-    "name": "Transcend USB Flash Drive",
-    "description": "Transcend USB Flash Drive DataTraveler Disk Memory Stick Pack Storage Device lot.",
+    "id": "prod_003",
+    "name": "Portable SSD 1TB",
+    "description": "High-speed portable solid-state drive with 1TB capacity.",
     "category": "cat_001",
     "subCategory": "Storage Devices",
-    "price": 149.99,
+    "price": 129.99,
     "discount": 5,
-    "stock": 150,
-    "sku": "WHNC-1234",
-    "seller_email": "seller1@gmail.com",
-    "images": ["https://i.ebayimg.com/images/g/XOcAAOSwYgFmeUMh/s-l960.webp", "https://i.ebayimg.com/images/g/E20AAOSwdABmeUMl/s-l140.webp", "https://i.ebayimg.com/images/g/3UEAAOSw~yBmeUMm/s-l140.webp", "https://i.ebayimg.com/images/g/QrcAAOSwkvRmeUMm/s-l140.webp"],
+    "stock": 200,
+    "sku": "SSD-1234",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/g3hxq2D/Portable-SSD-1-TB1.jpg",
+      "https://i.ibb.co.com/wNjXmgZ/Portable-SSD-1-TB2.jpg",
+      "https://i.ibb.co.com/44PpzsW/Portable-SSD-1-TB3.jpg",
+      "https://i.ibb.co.com/ctPzLYD/Portable-SSD-1-TB4.jpg"
+    ],
     "specifications": {
-      "brand": "Transcend",
-      "color": "Black",
-      "capacity":["64gb","128gb"]
+      "brand": "StorageMax",
+      "model": "STX-1TB",
+      "capacity": "1TB",
+      "connectivity": "USB-C",
+      "readSpeed": "1050MB/s"
+    },
+    "tags": ["portable SSD", "storage", "USB-C", "electronics"],
+    "shippingDetails": {
+      "weight": "0.3kg",
+      "dimensions": "5 x 3 x 0.5 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "UK","Bangladesh"],
+      "shippingCost": {
+        "USA": 4.99,
+        "UK": 9.99,
+        "Bangladesh":12.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_004",
+    "name": "Tripod Stand for Cameras",
+    "description": "Lightweight aluminum tripod with adjustable height for cameras.",
+    "category": "cat_001",
+    "subCategory": "Camera Accessories",
+    "price": 49.99,
+    "discount": 10,
+    "stock": 100,
+    "sku": "TRP-5678",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/B227cgg/Tripod-Stand-for-Cameras1.jpg",
+      "https://i.ibb.co.com/BGV0xR4/Tripod-Stand-for-Cameras2.jpg",
+      "https://i.ibb.co.com/c3D2H6G/Tripod-Stand-for-Cameras3.jpg",
+      "https://i.ibb.co.com/RbyNfnG/Tripod-Stand-for-Cameras4.jpg"
+],
+    "specifications": {
+      "brand": "CamGear",
+      "model": "CG-300",
+      "material": "Aluminum",
+      "heightRange": "16 to 60 inches",
+      "weightCapacity": "5kg"
+    },
+    "tags": ["tripod", "camera accessories", "photography", "aluminum tripod"],
+    "shippingDetails": {
+      "weight": "1.5kg",
+      "dimensions": "20 x 5 x 5 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "shippingCost": {
+        "USA": 6.99,
+        "Canada": 12.99,
+        "UK": 15.99,
+        "Bangladesh": 15.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_005",
+    "name": "Fast Charging USB Wall Charger",
+    "description": "Compact USB wall charger with fast charging support for multiple devices.",
+    "category": "cat_001",
+    "subCategory": "Chargers",
+    "price": 24.99,
+    "discount": 15,
+    "stock": 300,
+    "sku": "CHRG-7890",
+    "seller_email": "seller@gmail.com",
+    "images": [
+          "https://i.ibb.co.com/RhJXn38/Fast-Charging-USB-Wall-Charger1.jpg",
+          "https://i.ibb.co.com/5czn27n/Fast-Charging-USB-Wall-Charger2.jpg",
+          "https://i.ibb.co.com/17791vV/Fast-Charging-USB-Wall-Charger3.jpg",
+          "https://i.ibb.co.com/wzBdXcH/Fast-Charging-USB-Wall-Charger4.jpg"
+  ],
+    "specifications": {
+      "brand": "PowerFast",
+      "model": "PF-30W",
+      "ports": "2 USB-A, 1 USB-C",
+      "powerOutput": "30W",
+      "compatibility": "Universal"
+    },
+    "tags": ["charger", "fast charging", "USB charger", "power adapter"],
+    "shippingDetails": {
+      "weight": "0.2kg",
+      "dimensions": "3 x 2 x 1 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "shippingCost": {
+        "USA": 4.99,
+        "Canada": 8.99,
+        "UK": 10.99,
+        "Bangladesh": 12.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_006",
+    "name": "High-Speed HDMI Cable",
+    "description": "Durable HDMI cable for high-definition audio and video transmission.",
+    "category": "cat_001",
+    "subCategory": "Cables",
+    "price": 14.99,
+    "discount": 5,
+    "stock": 500,
+    "sku": "HDMI-1234",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/87FptqR/High-Speed-HDMI-Cable1.jpg",
+      "https://i.ibb.co.com/tp1mmXD/High-Speed-HDMI-Cable2.jpg",
+      "https://i.ibb.co.com/pzby5Mb/High-Speed-HDMI-Cable3.jpg",
+      "https://i.ibb.co.com/B6xwnPD/High-Speed-HDMI-Cable4.jpg"
+    ],
+    "specifications": {
+      "brand": "CablePro",
+      "model": "CP-HDMI2",
+      "length": "6 feet",
+      "version": "HDMI 2.0",
+      "supports": "4K, HDR, 60Hz"
+    },
+    "tags": ["HDMI cable", "cables", "high-definition", "electronics"],
+    "shippingDetails": {
+      "weight": "0.1kg",
+      "dimensions": "7 x 5 x 1 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada","Bangladesh"],
+      "shippingCost": {
+        "USA": 3.99,
+        "Canada": 5.99,
+        "Bangladesh": 5.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_007",
+    "name": "Portable Power Bank 20000mAh",
+    "description": "High-capacity power bank with dual USB ports and fast charging support.",
+    "category": "cat_001",
+    "subCategory": "Power Banks",
+    "price": 39.99,
+    "discount": 10,
+    "stock": 200,
+    "sku": "PWRBNK-4567",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/0BpCTtX/Portable-Power-Bank-20000m-Ah1.jpg",
+      "https://i.ibb.co.com/2ML11vD/Portable-Power-Bank-20000m-Ah2.jpg",
+      "https://i.ibb.co.com/g66KzvV/Portable-Power-Bank-20000m-Ah3.jpg",
+      "https://i.ibb.co.com/bHgTRRf/Portable-Power-Bank-20000m-Ah4.jpg"
+    ],
+    "specifications": {
+      "brand": "ChargeGo",
+      "model": "CG-20K",
+      "capacity": "20000mAh",
+      "ports": "2 USB-A, 1 USB-C",
+      "chargingSpeed": "18W"
+    },
+    "tags": ["power bank", "portable charger", "fast charging", "20000mAh"],
+    "shippingDetails": {
+      "weight": "0.5kg",
+      "dimensions": "6 x 3 x 1 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "shippingCost": {
+        "USA": 5.99,
+        "Canada": 8.99,
+        "UK": 11.99,
+        "Bangladesh":10
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_008",
+    "name": "Universal USB-C Adapter",
+    "description": "Compact USB-C adapter with multiport functionality for laptops and devices.",
+    "category": "cat_001",
+    "subCategory": "Adapters",
+    "price": 29.99,
+    "discount": 5,
+    "stock": 250,
+    "sku": "ADA-9876",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/3rv0ytY/Universal-USB-C-Adapter1.png",
+      "https://i.ibb.co.com/7jQ4MR5/Universal-USB-C-Adapter2.jpg",
+      "https://i.ibb.co.com/hWbKzy5/Universal-USB-C-Adapter3.jpg",
+      "https://i.ibb.co.com/MnS9qwj/Universal-USB-C-Adapter4.jpg"
+    ],
+    "specifications": {
+      "brand": "AdaptAll",
+      "model": "UA-1",
+      "ports": "USB-C, HDMI, USB-A, SD Card Reader",
+      "material": "Aluminum",
+      "compatibility": "Universal"
     },
     "tags": [
-      "pendrive",
-      "electronics"
+      "USB-C adapter",
+      "universal adapter",
+      "electronics",
+      "multiport adapter"
     ],
     "shippingDetails": {
-      "weight": "300g",
-      "origin": "USA",
+      "weight": "0.2kg",
+      "dimensions": "4 x 2 x 1 inches",
+      "origin": "Bangladesh",
+      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "shippingCost": {
+        "USA": 4.99,
+        "Canada": 7.99,
+        "Bangladesh": 7.99,
+        "UK": 9.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_009",
+    "name": "Over-Ear Bluetooth Headphones",
+    "description": "Comfortable over-ear headphones with crystal-clear audio and wireless connectivity.",
+    "category": "cat_001",
+    "subCategory": "Headphones",
+    "price": 79.99,
+    "discount": 20,
+    "stock": 120,
+    "sku": "BTHP-3456",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/1TB1Bpg/Over-Ear-Bluetooth-Headphones1.jpg",
+      "https://i.ibb.co.com/YybBgVn/Over-Ear-Bluetooth-Headphones2.jpg",
+      "https://i.ibb.co.com/J2FX28v/Over-Ear-Bluetooth-Headphones3.jpg",
+      "https://i.ibb.co.com/c3XzWhN/Over-Ear-Bluetooth-Headphones4.jpg"
+    ],
+    "specifications": {
+      "brand": "AudioWave",
+      "model": "AW-700",
+      "color": "Silver",
+      "connectivity": "Bluetooth 5.2",
+      "batteryLife": "40 hours"
+    },
+    "tags": ["headphones", "Bluetooth", "audio", "wireless"],
+    "shippingDetails": {
+      "weight": "0.4kg",
+      "dimensions": "8 x 7 x 3 inches",
+      "origin": "Bangladesh",
       "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
       "shippingCost": {
         "USA": 5.99,
@@ -125,44 +380,1235 @@
     "isActive": true
   },
   {
-    "id": "prod_001",
-    "name": "Wireless Noise Cancelling Headphones",
-    "description": "High-quality over-ear wireless headphones with active noise cancellation.",
-    "category": "cat_001",
-    "subCategory": "Chargers",
-    "price": 199.99,
-    "discount": 5,
-    "stock": 150,
-    "sku": "WHNC-1234",
-    "seller_email": "seller1@gmail.com",
-    "images": ["", "", "", ""],
+    "id": "prod_010",
+    "name": "Flagship Smartphone",
+    "description": "Latest 5G-enabled flagship smartphone with stunning display and camera.",
+    "category": "cat_002",
+    "subCategory": "Smartphones",
+    "price": 999.99,
+    "discount": 10,
+    "stock": 300,
+    "sku": "SMART-5678",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/GR0PPsL/Flagship-Smartphone1.jpg",
+      "https://i.ibb.co.com/tXxVPRL/Flagship-Smartphone2.jpg",
+      "https://i.ibb.co.com/hK4M3K3/Flagship-Smartphone3.jpg",
+      "https://i.ibb.co.com/2Wr2ZYc/Flagship-Smartphone4.jpg"
+    ],
     "specifications": {
-      "brand": "",
-      "model": "",
-      "color": "",
-      "connectivity": "",
-      "batteryLife": "",
-      "weight": "",
-      "dimensions": ""
+      "brand": "PhoneMax",
+      "model": "PM-X",
+      "screenSize": "6.7 inches",
+      "battery": "4500mAh",
+      "connectivity": "5G, Wi-Fi 6"
+    },
+    "tags": ["smartphone", "5G", "mobile phone", "electronics"],
+    "shippingDetails": {
+      "weight": "0.3kg",
+      "dimensions": "6.5 x 3 x 0.3 inches",
+      "origin": "Bangladesh",
+      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "shippingCost": {
+        "USA": 8.99,
+        "Canada": 12.99,
+        "Bangladesh": 12.99,
+        "UK": 15.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_011",
+    "name": "10-Inch Android Tablet",
+    "description": "High-performance tablet with 10-inch display and powerful processor.",
+    "category": "cat_002",
+    "subCategory": "Tablets",
+    "price": 399.99,
+    "discount": 15,
+    "stock": 250,
+    "sku": "TAB-1234",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/4ZD19GM/10-Inch-Android-Tablet1.jpg",
+      "https://i.ibb.co.com/199xPsZ/10-Inch-Android-Tablet2.jpg",
+      "https://i.ibb.co.com/XSYbM8X/10-Inch-Android-Tablet3.jpg",
+      "https://i.ibb.co.com/LnFCnCV/10-Inch-Android-Tablet4.jpg"
+    ],
+    "specifications": {
+      "brand": "TabTech",
+      "model": "TT-10",
+      "screenSize": "10 inches",
+      "battery": "7000mAh",
+      "connectivity": "Wi-Fi, LTE"
+    },
+    "tags": ["tablet", "Android", "electronics", "portable device"],
+    "shippingDetails": {
+      "weight": "0.6kg",
+      "dimensions": "10 x 6.5 x 0.4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "shippingCost": {
+        "USA": 6.99,
+        "Canada": 10.99,
+        "Bangladesh": 10.99,
+        "UK": 14.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_012",
+    "name": "Gaming Laptop",
+    "description": "Powerful gaming laptop with high-refresh-rate display and dedicated GPU.",
+    "category": "cat_002",
+    "subCategory": "Laptops",
+    "price": 1499.99,
+    "discount": 10,
+    "stock": 100,
+    "sku": "LAPTOP-7890",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/KWjsHjq/Gaming-Laptop1.jpg",
+      "https://i.ibb.co.com/YPthFNw/Gaming-Laptop2.jpg",
+      "https://i.ibb.co.com/1QCd07L/Gaming-Laptop3.jpg",
+      "https://i.ibb.co.com/PGg5YXv/Gaming-Laptop4.jpg"
+    ],
+    "specifications": {
+      "brand": "GamePro",
+      "model": "GP-X15",
+      "screenSize": "15.6 inches",
+      "GPU": "NVIDIA RTX 3070",
+      "RAM": "16GB",
+      "storage": "1TB SSD"
+    },
+    "tags": ["laptop", "gaming", "high-performance", "electronics"],
+    "shippingDetails": {
+      "weight": "2.5kg",
+      "dimensions": "15 x 10 x 1 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada","Bangladesh"],
+      "shippingCost": {
+        "USA": 10.99,
+        "Canada": 14.99,
+        "Bangladesh": 19.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_013",
+    "name": "All-in-One Desktop Computer",
+    "description": "Stylish all-in-one desktop with powerful performance and large display.",
+    "category": "cat_002",
+    "subCategory": "Desktops",
+    "price": 1199.99,
+    "discount": 8,
+    "stock": 50,
+    "sku": "DESKTOP-4567",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/MSpHBQB/All-in-One-Desktop-Computer1.jpg",
+      "https://i.ibb.co.com/fMtRyht/All-in-One-Desktop-Computer2.jpg",
+      "https://i.ibb.co.com/1JqHjD0/All-in-One-Desktop-Computer3.jpg",
+      "https://i.ibb.co.com/SB5CpvJ/All-in-One-Desktop-Computer4.jpg"
+    ],
+    "specifications": {
+      "brand": "CompTech",
+      "model": "CT-AIO24",
+      "screenSize": "24 inches",
+      "processor": "Intel Core i7",
+      "RAM": "16GB",
+      "storage": "512GB SSD"
+    },
+    "tags": ["desktop computer", "all-in-one", "electronics", "office"],
+    "shippingDetails": {
+      "weight": "5kg",
+      "dimensions": "24 x 18 x 5 inches",
+      "origin": "Bangladesh",
+      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "shippingCost": {
+        "USA": 15.99,
+        "Canada": 19.99,
+        "Bangladesh": 29.99,
+        "UK": 24.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_014",
+    "name": "4K Smart TV 55 Inches",
+    "description": "Ultra HD 4K Smart TV with built-in streaming apps and voice control.",
+    "category": "cat_002",
+    "subCategory": "Smart TVs",
+    "price": 699.99,
+    "discount": 12,
+    "stock": 150,
+    "sku": "TV-5555",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/pWBsm2f/4-K-Smart-TV-55-Inches1.jpg",
+      "https://i.ibb.co.com/ZJWVmn3/4-K-Smart-TV-55-Inches2.jpg",
+      "https://i.ibb.co.com/Stkg26z/4-K-Smart-TV-55-Inches3.jpg",
+      "https://i.ibb.co.com/xYjxSSg/4-K-Smart-TV-55-Inches4.jpg"
+    ],
+    "specifications": {
+      "brand": "VisionView",
+      "model": "VV-4K55",
+      "screenSize": "55 inches",
+      "resolution": "4K UHD",
+      "connectivity": "Wi-Fi, HDMI, USB"
+    },
+    "tags": ["smart TV", "4K", "electronics", "home entertainment"],
+    "shippingDetails": {
+      "weight": "7kg",
+      "dimensions": "50 x 30 x 5 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "shippingCost": {
+        "USA": 20.99,
+        "Canada": 25.99,
+        "Bangladesh": 25.99,
+        "UK": 30.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_015",
+    "name": "Smart Fitness Tracker",
+    "description": "Advanced fitness tracker with heart rate monitoring and GPS.",
+    "category": "cat_002",
+    "subCategory": "Wearable Devices",
+    "price": 99.99,
+    "discount": 10,
+    "stock": 400,
+    "sku": "FIT-TRACK-5678",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/NVQhvcF/Smart-Fitness-Tracker1.jpg",
+      "https://i.ibb.co.com/r2zRN9w/Smart-Fitness-Tracker2.jpg",
+      "https://i.ibb.co.com/Wy5jBLV/Smart-Fitness-Tracker3.jpg",
+      "https://i.ibb.co.com/nLjBKfh/Smart-Fitness-Tracker4.jpg"
+    ],
+    "specifications": {
+      "brand": "FitLife",
+      "model": "FL-Tracker",
+      "batteryLife": "7 days",
+      "features": "Heart Rate Monitor, GPS, Waterproof"
+    },
+    "tags": ["fitness tracker", "wearable", "health", "electronics"],
+    "shippingDetails": {
+      "weight": "0.1kg",
+      "dimensions": "2 x 2 x 1 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada","Bangladesh"],
+      "shippingCost": {
+        "USA": 4.99,
+        "Bangladesh": 4.99,
+        "Canada": 7.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_016",
+    "name": "Next-Gen Gaming Console",
+    "description": "Advanced gaming console with immersive 4K gaming experience.",
+    "category": "cat_002",
+    "subCategory": "Gaming Consoles",
+    "price": 499.99,
+    "discount": 10,
+    "stock": 200,
+    "sku": "CONSOLE-1234",
+    "seller_email": "seller@gmail.com",
+    "images": [  
+      "https://i.ibb.co.com/4YtBvYZ/Next-Gen-Gaming-Console1.jpg",
+      "https://i.ibb.co.com/ckN2tPC/Next-Gen-Gaming-Console2.jpg",
+      "https://i.ibb.co.com/pvW4xJs/Next-Gen-Gaming-Console3.jpg",
+      "https://i.ibb.co.com/BBPm3hD/Next-Gen-Gaming-Console4.jpg"
+  ],
+    "specifications": {
+      "brand": "GameStation",
+      "model": "GS-X",
+      "resolution": "4K HDR",
+      "storage": "1TB",
+      "connectivity": "Wi-Fi, Bluetooth"
+    },
+    "tags": ["gaming console", "4K gaming", "electronics", "entertainment"],
+    "shippingDetails": {
+      "weight": "3kg",
+      "dimensions": "12 x 10 x 4 inches",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK","Bangladesh"],
+      "shippingCost": {
+        "USA": 9.99,
+        "Canada": 14.99,
+        "Bangladesh": 14.99,
+        "UK": 19.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_017",
+    "name": "Next-Gen Gaming Console",
+    "description": "Frost-free refrigerator with energy-saving technology and large storage capacity.",
+    "category": "cat_003",
+    "subCategory": "Refrigerators",
+    "price": 799.99,
+    "discount": 10,
+    "stock": 120,
+    "sku": "REFRIG-001",
+    "seller_email": "seller@gmail.com",
+    "images": [
+    
+    ],
+    "specifications": {
+      "brand": "CoolTech",
+      "model": "CT-500",
+      "capacity": "500L",
+      "energyRating": "5-Star",
+      "color": "Silver"
     },
     "tags": [
-      "headphones",
-      "wireless",
-      "noise cancelling",
-      "Bluetooth",
-      "audio",
-      "electronics"
+      "refrigerator",
+      "appliance",
+      "energy efficient",
+      "home appliance"
+    ],
+    "shippingDetails": {
+      "weight": "60kg",
+      "dimensions": "70 x 60 x 180 cm",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "UK", "Bangladesh", "India"],
+      "shippingCost": {
+        "USA": 49.99,
+        "Canada": 59.99,
+        "UK": 69.99,
+        "Bangladesh": 79.99,
+        "India": 74.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_018",
+    "name": "Automatic Washing Machine",
+    "description": "High-efficiency washing machine with advanced cleaning modes and large capacity.",
+    "category": "cat_003",
+    "subCategory": "Washing Machines",
+    "price": 599.99,
+    "discount": 15,
+    "stock": 100,
+    "sku": "WASH-002",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/LJBhc90/Automatic-Washing-Machine1.jpg",
+      "https://i.ibb.co.com/wL4DMKf/Automatic-Washing-Machine2.jpg",
+      "https://i.ibb.co.com/rvH4yhS/Automatic-Washing-Machine3.jpg",
+      "https://i.ibb.co.com/n8H8xRq/Automatic-Washing-Machine4.jpg"
+    ],
+    "specifications": {
+      "brand": "WashPro",
+      "model": "WP-700",
+      "capacity": "7kg",
+      "type": "Front Load",
+      "color": "White"
+    },
+    "tags": [
+      "washing machine",
+      "laundry",
+      "home appliance",
+      "automatic"
+    ],
+    "shippingDetails": {
+      "weight": "50kg",
+      "dimensions": "60 x 60 x 85 cm",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "Bangladesh", "Australia"],
+      "shippingCost": {
+        "USA": 39.99,
+        "Canada": 49.99,
+        "Bangladesh": 69.99,
+        "Australia": 59.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_019",
+    "name": "Convection Microwave Oven",
+    "description": "Convection microwave with pre-programmed cooking modes and sleek design.",
+    "category": "cat_003",
+    "subCategory": "Microwave Ovens",
+    "price": 249.99,
+    "discount": 12,
+    "stock": 200,
+    "sku": "MICRO-003",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/0V9prPm/Convection-Microwave-Oven1.jpg",
+      "https://i.ibb.co.com/2g2PjWK/Convection-Microwave-Oven2.jpg",
+      "https://i.ibb.co.com/9nPQkNg/Convection-Microwave-Oven3.png",
+      "https://i.ibb.co.com/1Mgjp2Y/Convection-Microwave-Oven4.jpg"
+    ],
+    "specifications": {
+      "brand": "HeatTech",
+      "model": "HT-25",
+      "capacity": "25L",
+      "power": "1200W",
+      "color": "Black"
+    },
+    "tags": [
+      "microwave",
+      "kitchen appliance",
+      "convection",
+      "cooking"
+    ],
+    "shippingDetails": {
+      "weight": "15kg",
+      "dimensions": "50 x 40 x 30 cm",
+      "origin": "UK",
+      "availableCountries": ["UK", "USA", "Bangladesh", "Canada"],
+      "shippingCost": {
+        "UK": 29.99,
+        "USA": 39.99,
+        "Bangladesh": 59.99,
+        "Canada": 49.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_020",
+    "name": "Split Air Conditioner 1.5 Ton",
+    "description": "Powerful air conditioner with energy-saving inverter technology and fast cooling.",
+    "category": "cat_003",
+    "subCategory": "Air Conditioners",
+    "price": 1199.99,
+    "discount": 8,
+    "stock": 80,
+    "sku": "AC-004",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/xJymppj/Split-Air-Conditioner-1-5-Ton1.jpg",
+      "https://i.ibb.co.com/Ntzm5SN/Split-Air-Conditioner-1-5-Ton2.jpg",
+      "https://i.ibb.co.com/C8c1kd0/Split-Air-Conditioner-1-5-Ton3.jpg",
+      "https://i.ibb.co.com/3SZwDDc/Split-Air-Conditioner-1-5-Ton4.jpg"
+    ],
+    "specifications": {
+      "brand": "CoolAir",
+      "model": "CA-1.5T",
+      "capacity": "1.5 Ton",
+      "type": "Split AC",
+      "energyRating": "5-Star"
+    },
+    "tags": [
+      "air conditioner",
+      "AC",
+      "cooling",
+      "home appliance"
+    ],
+    "shippingDetails": {
+      "weight": "30kg",
+      "dimensions": "100 x 25 x 30 cm",
+      "origin": "India",
+      "availableCountries": ["India", "Bangladesh", "USA", "UAE"],
+      "shippingCost": {
+        "India": 39.99,
+        "Bangladesh": 49.99,
+        "USA": 69.99,
+        "UAE": 59.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_021",
+    "name": "Cordless Vacuum Cleaner",
+    "description": "Lightweight cordless vacuum cleaner with high suction power and long battery life.",
+    "category": "cat_003",
+    "subCategory": "Vacuum Cleaners",
+    "price": 199.99,
+    "discount": 15,
+    "stock": 300,
+    "sku": "VAC-005",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/6ydVpLT/Cordless-Vacuum-Cleaner1.jpg",
+      "https://i.ibb.co.com/TwR0mkc/Cordless-Vacuum-Cleaner2.jpg",
+      "https://i.ibb.co.com/34YztDW/Cordless-Vacuum-Cleaner3.jpg",
+      "https://i.ibb.co.com/wBWSVpX/Cordless-Vacuum-Cleaner4.jpg"
+    ],
+    "specifications": {
+      "brand": "CleanPro",
+      "model": "CP-V100",
+      "power": "1000W",
+      "batteryLife": "60 minutes",
+      "color": "Blue"
+    },
+    "tags": [
+      "vacuum cleaner",
+      "cordless",
+      "cleaning",
+      "home appliance"
+    ],
+    "shippingDetails": {
+      "weight": "5kg",
+      "dimensions": "70 x 15 x 20 cm",
+      "origin": "Germany",
+      "availableCountries": ["Germany", "Bangladesh", "UK", "Canada"],
+      "shippingCost": {
+        "Germany": 19.99,
+        "Bangladesh": 29.99,
+        "UK": 24.99,
+        "Canada": 34.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_022",
+    "name": "Advanced Water Purifier",
+    "description": "RO+UV water purifier with smart indicators and large storage capacity.",
+    "category": "cat_003",
+    "subCategory": "Water Purifiers",
+    "price": 299.99,
+    "discount": 10,
+    "stock": 150,
+    "sku": "WATER-006",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/NSLJmD0/Advanced-Water-Purifier1.jpg",
+      "https://i.ibb.co.com/c21WmsV/Advanced-Water-Purifier4.jpg",
+      "https://i.ibb.co.com/9Wx5K0G/Advanced-Water-Purifier2.jpg",
+      "https://i.ibb.co.com/Qd1NCg8/Advanced-Water-Purifier3.jpg"
+    ],
+    "specifications": {
+      "brand": "PureLife",
+      "model": "PL-WP100",
+      "capacity": "10L",
+      "type": "RO+UV"
+    },
+    "tags": [
+      "water purifier",
+      "RO+UV",
+      "clean water",
+      "appliance"
+    ],
+    "shippingDetails": {
+      "weight": "7kg",
+      "dimensions": "50 x 30 x 40 cm",
+      "origin": "China",
+      "availableCountries": ["Bangladesh", "China", "India", "UK"],
+      "shippingCost": {
+        "Bangladesh": 39.99,
+        "China": 19.99,
+        "India": 29.99,
+        "UK": 34.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_023",
+    "name": "Smart Ceiling Fan",
+    "description": "Remote-controlled smart fan with adjustable speed and quiet operation.",
+    "category": "cat_003",
+    "subCategory": "Fans",
+    "price": 99.99,
+    "discount": 10,
+    "stock": 200,
+    "sku": "FAN-007",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/3SdW2xD/Smart-Ceiling-Fan1.jpg",
+      "https://i.ibb.co.com/SrPwbYv/Smart-Ceiling-Fan2.jpg",
+      "https://i.ibb.co.com/n80280N/Smart-Ceiling-Fan3.jpg",
+      "https://i.ibb.co.com/vc2KB48/Smart-Ceiling-Fan4.jpg"
+    ],
+    "specifications": {
+      "brand": "BreezeTech",
+      "model": "BT-Smart",
+      "type": "Ceiling Fan",
+      "power": "70W",
+      "color": "White"
+    },
+    "tags": [
+      "fan",
+      "smart fan",
+      "home appliance",
+      "cooling"
+    ],
+    "shippingDetails": {
+      "weight": "4kg",
+      "dimensions": "60 x 20 x 20 cm",
+      "origin": "Bangladesh",
+      "availableCountries": ["Bangladesh", "USA", "Canada", "Australia"],
+      "shippingCost": {
+        "Bangladesh": 24.99,
+        "USA": 19.99,
+        "Canada": 29.99,
+        "Australia": 34.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_024",
+    "name": "Elegant Evening Dress",
+    "description": "Stylish evening dress with intricate lace details, perfect for formal occasions.",
+    "category": "cat_004",
+    "subCategory": "Dresses",
+    "price": 149.99,
+    "discount": 20,
+    "stock": 200,
+    "sku": "DRESS-001",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/nBNStS5/Elegant-Evening-Dress1.jpg",
+      "https://i.ibb.co.com/Jvbrv5c/Elegant-Evening-Dress2.jpg",
+      "https://i.ibb.co.com/fF6GjDK/Elegant-Evening-Dress3.jpg",
+      "https://i.ibb.co.com/zXt30ky/Elegant-Evening-Dress4.jpg
+"
+    ],
+    "specifications": {
+      "brand": "Fashionista",
+      "size": "S, M, L, XL",
+      "material": "Chiffon",
+      "color": "Red"
+    },
+    "tags": [
+      "dress",
+      "evening wear",
+      "fashion",
+      "women's clothing"
+    ],
+    "shippingDetails": {
+      "weight": "500g",
+      "dimensions": "30 x 25 x 5 cm",
+      "origin": "Italy",
+      "availableCountries": ["Italy", "USA", "Bangladesh", "Canada"],
+      "shippingCost": {
+        "Italy": 19.99,
+        "USA": 29.99,
+        "Bangladesh": 34.99,
+        "Canada": 39.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_025",
+    "name": "Leather Handbag",
+    "description": "Premium leather handbag with ample storage and an elegant design.",
+    "category": "cat_004",
+    "subCategory": "Handbags",
+    "price": 199.99,
+    "discount": 15,
+    "stock": 150,
+    "sku": "BAG-002",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/rGn5pqy/Leather-Handbag1.jpg",
+      "https://i.ibb.co.com/Lh0Pb5h/Leather-Handbag2.jpg",
+      "https://i.ibb.co.com/pKH9KRb/Leather-Handbag3.jpg",
+      "https://i.ibb.co.com/h8dc7YM/Leather-Handbag4.jpg"
+    ],
+    "specifications": {
+      "brand": "BagCharm",
+      "material": "Genuine Leather",
+      "dimensions": "35 x 25 x 10 cm",
+      "color": "Black"
+    },
+    "tags": [
+      "handbag",
+      "leather bag",
+      "fashion",
+      "women's accessories"
+    ],
+    "shippingDetails": {
+      "weight": "1kg",
+      "dimensions": "40 x 30 x 15 cm",
+      "origin": "France",
+      "availableCountries": ["France", "UK", "Bangladesh", "USA"],
+      "shippingCost": {
+        "France": 24.99,
+        "UK": 29.99,
+        "Bangladesh": 39.99,
+        "USA": 44.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_026",
+    "name": "Diamond Pendant Necklace",
+    "description": "Elegant diamond necklace featuring a stunning pendant design.",
+    "category": "cat_004",
+    "subCategory": "Jewelry",
+    "price": 499.99,
+    "discount": 10,
+    "stock": 50,
+    "sku": "JEWEL-003",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/B2f0gsR/Diamond-Pendant-Necklace1.jpg",
+      "https://i.ibb.co.com/CtL3fsC/Diamond-Pendant-Necklace2.jpg",
+      "https://i.ibb.co.com/pdKMvd8/Diamond-Pendant-Necklace3.jpg",
+      "https://i.ibb.co.com/t2mVTQm/Diamond-Pendant-Necklace4.jpg"
+    ],
+    "specifications": {
+      "brand": "GlamJewel",
+      "material": "18K Gold",
+      "gemstone": "Diamond",
+      "weight": "5g"
+    },
+    "tags": [
+      "jewelry",
+      "necklace",
+      "diamond",
+      "fashion"
+    ],
+    "shippingDetails": {
+      "weight": "200g",
+      "dimensions": "10 x 10 x 5 cm",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "Bangladesh", "India"],
+      "shippingCost": {
+        "USA": 49.99,
+        "Canada": 59.99,
+        "Bangladesh": 69.99,
+        "India": 39.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_027",
+    "name": "Classic Leather Shoes",
+    "description": "Comfortable leather shoes perfect for both formal and casual occasions.",
+    "category": "cat_004",
+    "subCategory": "Footwear",
+    "price": 129.99,
+    "discount": 18,
+    "stock": 250,
+    "sku": "SHOES-004",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/VV7yZjy/Classic-Leather-Shoes1.jpg",
+      "https://i.ibb.co.com/tmyrzgv/Classic-Leather-Shoes2.jpg",
+      "https://i.ibb.co.com/9tn56jm/Classic-Leather-Shoes3.jpg",
+      "https://i.ibb.co.com/p3sbzW6/Classic-Leather-Shoes4.jpg"
+    ],
+    "specifications": {
+      "brand": "StepUp",
+      "material": "Genuine Leather",
+      "size": "6-12",
+      "color": "Brown"
+    },
+    "tags": [
+      "footwear",
+      "leather shoes",
+      "fashion",
+      "men's accessories"
+    ],
+    "shippingDetails": {
+      "weight": "1.5kg",
+      "dimensions": "35 x 25 x 15 cm",
+      "origin": "Germany",
+      "availableCountries": ["Germany", "Bangladesh", "UK", "USA"],
+      "shippingCost": {
+        "Germany": 29.99,
+        "Bangladesh": 39.99,
+        "UK": 34.99,
+        "USA": 44.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_028",
+    "name": "Silk Scarf",
+    "description": "Luxurious silk scarf with elegant floral patterns.",
+    "category": "cat_004",
+    "subCategory": "Scarves",
+    "price": 49.99,
+    "discount": 12,
+    "stock": 300,
+    "sku": "SCARF-005",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/nB9Pxrx/Silk-Scarf1.jpg",
+      "https://i.ibb.co.com/nn6Ymjn/Silk-Scarf2.jpg",
+      "https://i.ibb.co.com/N3cn9bw/Silk-Scarf3.jpg",
+      "https://i.ibb.co.com/PtjbRFb/Silk-Scarf4.jpg"
+    ],
+    "specifications": {
+      "brand": "SilkyWear",
+      "material": "100% Silk",
+      "dimensions": "150 x 50 cm",
+      "color": "Blue"
+    },
+    "tags": [
+      "scarf",
+      "silk",
+      "fashion",
+      "accessories"
+    ],
+    "shippingDetails": {
+      "weight": "200g",
+      "dimensions": "20 x 15 x 2 cm",
+      "origin": "China",
+      "availableCountries": ["China", "Bangladesh", "USA", "Canada"],
+      "shippingCost": {
+        "China": 9.99,
+        "Bangladesh": 19.99,
+        "USA": 24.99,
+        "Canada": 29.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_029",
+    "name": "Luxury Wristwatch",
+    "description": "Sophisticated wristwatch with a stainless steel case and chronograph functionality.",
+    "category": "cat_004",
+    "subCategory": "Watches",
+    "price": 299.99,
+    "discount": 10,
+    "stock": 100,
+    "sku": "WATCH-006",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/LrGKzyF/Luxury-Wristwatch1.jpg",
+      "https://i.ibb.co.com/pfh7Knr/Luxury-Wristwatch2.jpg",
+      "https://i.ibb.co.com/VwrXcqG/Luxury-Wristwatch3.jpg",
+      "https://i.ibb.co.com/MGhLbnS/Luxury-Wristwatch4.jpg"
+    ],
+    "specifications": {
+      "brand": "TimeLux",
+      "material": "Stainless Steel",
+      "features": "Chronograph, Water Resistant",
+      "color": "Silver"
+    },
+    "tags": [
+      "watch",
+      "wristwatch",
+      "fashion",
+      "accessory"
     ],
     "shippingDetails": {
       "weight": "300g",
-      "dimensions": "8 x 7 x 4 inches",
-      "origin": "USA",
-      "availableCountries": ["USA", "Canada", "UK", "Bangladesh"],
+      "dimensions": "15 x 10 x 5 cm",
+      "origin": "Japan",
+      "availableCountries": ["Japan", "Bangladesh", "USA", "UK"],
       "shippingCost": {
-        "USA": 5.99,
-        "Canada": 9.99,
-        "UK": 12.99,
-        "Bangladesh": 14.99
+        "Japan": 24.99,
+        "Bangladesh": 34.99,
+        "USA": 39.99,
+        "UK": 44.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_030",
+    "name": "Fashionable Sunglasses",
+    "description": "Stylish sunglasses with UV protection and a lightweight frame.",
+    "category": "cat_004",
+    "subCategory": "Accessories",
+    "price": 69.99,
+    "discount": 15,
+    "stock": 400,
+    "sku": "SUN-007",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/6X5YqCt/Fashionable-Sunglasses1.jpg",
+      "https://i.ibb.co.com/n3yBDwh/Fashionable-Sunglasses2.jpg",
+      "https://i.ibb.co.com/8dHmQ4q/Fashionable-Sunglasses3.jpg",
+      "https://i.ibb.co.com/vkLxZqY/Fashionable-Sunglasses4.jpg"
+    ],
+    "specifications": {
+      "brand": "SunStyle",
+      "frameMaterial": "Plastic",
+      "lensType": "Polarized",
+      "color": "Black"
+    },
+    "tags": [
+      "sunglasses",
+      "accessory",
+      "fashion",
+      "UV protection"
+    ],
+    "shippingDetails": {
+      "weight": "200g",
+      "dimensions": "15 x 10 x 5 cm",
+      "origin": "USA",
+      "availableCountries": ["USA", "Canada", "Bangladesh", "Australia"],
+      "shippingCost": {
+        "USA": 19.99,
+        "Canada": 24.99,
+        "Bangladesh": 29.99,
+        "Australia": 34.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_031",
+    "name": "Cotton Crew Neck T-Shirt",
+    "description": "Comfortable cotton T-shirt with a classic crew neck design.",
+    "category": "cat_005",
+    "subCategory": "T-Shirts",
+    "price": 19.99,
+    "discount": 10,
+    "stock": 500,
+    "sku": "TSHIRT-001",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/8K5Kgw4/Cotton-Crew-Neck-T-Shirt1.jpg",
+      "https://i.ibb.co.com/GHvwWSb/Cotton-Crew-Neck-T-Shirt2.jpg",
+      "https://i.ibb.co.com/b7jmsGB/Cotton-Crew-Neck-T-Shirt3.jpg",
+      "https://i.ibb.co.com/D4jfRkY/Cotton-Crew-Neck-T-Shirt4.jpg"
+    ],
+    "specifications": {
+      "brand": "StyleWear",
+      "material": "100% Cotton",
+      "sizes": "S, M, L, XL",
+      "color": "White"
+    },
+    "tags": [
+      "t-shirt",
+      "cotton",
+      "casual wear",
+      "men's fashion"
+    ],
+    "shippingDetails": {
+      "weight": "300g",
+      "dimensions": "20 x 15 x 2 cm",
+      "origin": "India",
+      "availableCountries": ["India", "USA", "Bangladesh", "Canada"],
+      "shippingCost": {
+        "India": 5.99,
+        "USA": 9.99,
+        "Bangladesh": 14.99,
+        "Canada": 19.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_032",
+    "name": "Formal Button-Up Shirt",
+    "description": "Elegant formal shirt with a slim-fit design, ideal for office or formal events.",
+    "category": "cat_005",
+    "subCategory": "Shirts",
+    "price": 39.99,
+    "discount": 15,
+    "stock": 300,
+    "sku": "SHIRT-002",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/fXDbVms/Formal-Button-Up-Shirt1.jpg",
+      "https://i.ibb.co.com/PgBFtrs/Formal-Button-Up-Shirt2.jpg",
+      "https://i.ibb.co.com/XVJqCMM/Formal-Button-Up-Shirt3.jpg",
+      "https://i.ibb.co.com/QDJWsGw/Formal-Button-Up-Shirt4.jpg"
+    ],
+    "specifications": {
+      "brand": "OfficeWear",
+      "material": "Poly-Cotton Blend",
+      "sizes": "M, L, XL",
+      "color": "Blue"
+    },
+    "tags": [
+      "shirt",
+      "formal wear",
+      "men's clothing",
+      "slim fit"
+    ],
+    "shippingDetails": {
+      "weight": "400g",
+      "dimensions": "30 x 20 x 3 cm",
+      "origin": "USA",
+      "availableCountries": ["USA", "Bangladesh", "UK", "Australia"],
+      "shippingCost": {
+        "USA": 9.99,
+        "Bangladesh": 19.99,
+        "UK": 24.99,
+        "Australia": 29.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_033",
+    "name": "Slim-Fit Denim Jeans",
+    "description": "Durable and stylish slim-fit jeans for everyday wear.",
+    "category": "cat_005",
+    "subCategory": "Jeans",
+    "price": 49.99,
+    "discount": 20,
+    "stock": 400,
+    "sku": "JEANS-003",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/zhLkD8p/Slim-Fit-Denim-Jeans1.jpg",
+      "https://i.ibb.co.com/ZH5B79f/Slim-Fit-Denim-Jeans2.jpg",
+      "https://i.ibb.co.com/R4pfLXY/Slim-Fit-Denim-Jeans3.jpg",
+      "https://i.ibb.co.com/XF79gY3/Slim-Fit-Denim-Jeans4.jpg"
+    ],
+    "specifications": {
+      "brand": "UrbanDenim",
+      "material": "Denim",
+      "sizes": "32, 34, 36, 38",
+      "color": "Dark Blue"
+    },
+    "tags": [
+      "jeans",
+      "denim",
+      "slim fit",
+      "men's fashion"
+    ],
+    "shippingDetails": {
+      "weight": "1kg",
+      "dimensions": "40 x 30 x 5 cm",
+      "origin": "Bangladesh",
+      "availableCountries": ["Bangladesh", "USA", "Canada", "Germany"],
+      "shippingCost": {
+        "Bangladesh": 5.99,
+        "USA": 19.99,
+        "Canada": 24.99,
+        "Germany": 29.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_034",
+    "name": "Men's Leather Jacket",
+    "description": "Premium leather jacket with a modern fit and sleek design.",
+    "category": "cat_005",
+    "subCategory": "Jackets",
+    "price": 199.99,
+    "discount": 25,
+    "stock": 150,
+    "sku": "JACKET-004",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/mtPRNKy/Men-s-Leather-Jacket1.jpg",
+      "https://i.ibb.co.com/B25BvXL/Men-s-Leather-Jacket2.jpg",
+      "https://i.ibb.co.com/KwbSMcv/Men-s-Leather-Jacket3.jpg",
+      "https://i.ibb.co.com/n6Rd9N8/Men-s-Leather-Jacket4.jpg"
+    ],
+    "specifications": {
+      "brand": "RiderWear",
+      "material": "Genuine Leather",
+      "sizes": "M, L, XL",
+      "color": "Black"
+    },
+    "tags": [
+      "jacket",
+      "leather",
+      "outerwear",
+      "men's fashion"
+    ],
+    "shippingDetails": {
+      "weight": "2kg",
+      "dimensions": "50 x 40 x 10 cm",
+      "origin": "Italy",
+      "availableCountries": ["Italy", "USA", "Bangladesh", "UK"],
+      "shippingCost": {
+        "Italy": 29.99,
+        "USA": 39.99,
+        "Bangladesh": 44.99,
+        "UK": 49.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_035",
+    "name": "Casual Sneakers",
+    "description": "Lightweight and comfortable sneakers for everyday use.",
+    "category": "cat_005",
+    "subCategory": "Shoes",
+    "price": 59.99,
+    "discount": 15,
+    "stock": 300,
+    "sku": "SHOE-005",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/WFzFnPr/Casual-Sneakers1.jpg",
+      "https://i.ibb.co.com/c2Qh1V5/Casual-Sneakers2.jpg",
+      "https://i.ibb.co.com/fvPpNdG/Casual-Sneakers3.jpg",
+      "https://i.ibb.co.com/YdwBXn9/Casual-Sneakers4.jpg"
+    ],
+    "specifications": {
+      "brand": "FlexStep",
+      "material": "Synthetic",
+      "sizes": "7-12",
+      "color": "Grey"
+    },
+    "tags": [
+      "shoes",
+      "sneakers",
+      "footwear",
+      "men's fashion"
+    ],
+    "shippingDetails": {
+      "weight": "1.2kg",
+      "dimensions": "35 x 25 x 12 cm",
+      "origin": "China",
+      "availableCountries": ["China", "Bangladesh", "USA", "Canada"],
+      "shippingCost": {
+        "China": 9.99,
+        "Bangladesh": 19.99,
+        "USA": 24.99,
+        "Canada": 29.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_036",
+    "name": "Classic Leather Belt",
+    "description": "Durable leather belt with a stylish metallic buckle.",
+    "category": "cat_005",
+    "subCategory": "Belts",
+    "price": 29.99,
+    "discount": 10,
+    "stock": 350,
+    "sku": "BELT-006",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/DrL8bF2/Classic-Leather-Belt1.jpg",
+      "https://i.ibb.co.com/rkcCLD7/Classic-Leather-Belt2.jpg",
+      "https://i.ibb.co.com/4Wzt43M/Classic-Leather-Belt3.jpg",
+      "https://i.ibb.co.com/Q8Fb2kf/Classic-Leather-Belt4.jpg"
+    ],
+    "specifications": {
+      "brand": "BeltCraft",
+      "material": "Genuine Leather",
+      "sizes": "M, L, XL",
+      "color": "Brown"
+    },
+    "tags": [
+      "belt",
+      "leather",
+      "men's accessories",
+      "fashion"
+    ],
+    "shippingDetails": {
+      "weight": "400g",
+      "dimensions": "15 x 10 x 5 cm",
+      "origin": "Bangladesh",
+      "availableCountries": ["Bangladesh", "USA", "UK", "Canada"],
+      "shippingCost": {
+        "Bangladesh": 4.99,
+        "USA": 14.99,
+        "UK": 19.99,
+        "Canada": 24.99
+      }
+    },
+    "createdAt": "2024-12-26",
+    "updatedAt": "2024-12-26",
+    "isActive": true
+  },
+  {
+    "id": "prod_037",
+    "name": "Luxury Chronograph Watch",
+    "description": "High-quality chronograph watch with a stainless steel case.",
+    "category": "cat_005",
+    "subCategory": "Watches",
+    "price": 299.99,
+    "discount": 20,
+    "stock": 100,
+    "sku": "WATCH-007",
+    "seller_email": "seller@gmail.com",
+    "images": [
+      "https://i.ibb.co.com/bBRTk2d/Luxury-Chronograph-Watch1.jpg",
+      "https://i.ibb.co.com/dPSVX9f/Luxury-Chronograph-Watch2.jpg",
+      "https://i.ibb.co.com/10SCyLy/Luxury-Chronograph-Watch3.jpg",
+      "https://i.ibb.co.com/47fxXFw/Luxury-Chronograph-Watch4.jpg"
+    ],
+    "specifications": {
+      "brand": "ChronoMaster",
+      "material": "Stainless Steel",
+      "features": "Chronograph, Water Resistant",
+      "color": "Silver"
+    },
+    "tags": [
+      "watch",
+      "luxury",
+      "men's accessories",
+      "fashion"
+    ],
+    "shippingDetails": {
+      "weight": "500g",
+      "dimensions": "15 x 10 x 5 cm",
+      "origin": "Japan",
+      "availableCountries": ["Japan", "Bangladesh", "USA", "UK"],
+      "shippingCost": {
+        "Japan": 19.99,
+        "Bangladesh": 29.99,
+        "USA": 34.99,
+        "UK": 39.99
       }
     },
     "createdAt": "2024-12-26",

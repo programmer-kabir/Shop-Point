@@ -22,6 +22,19 @@ const dbConnect = async () => {
   try {
     client.connect();
     // Mongo Db Collection
+    const categoryCollection = client.db("Shop-Point").collection("category");
+
+
+    app.get("/category", async (req, res) => {
+      try {
+        const result = await categoryCollection.find().toArray(); // Add 'await' here
+        res.send(result);
+      } catch (error) {
+        console.error("Error fetching categories:", error.message);
+        res.status(500).send({ error: "Failed to fetch categories" });
+      }
+    });
+    
 
     // Mongo Db Api
     console.log("Database Connect Successfully");
@@ -29,6 +42,8 @@ const dbConnect = async () => {
     console.log(error.message);
   }
 };
+// dbConnect().catch(console.dir);
+
 dbConnect();
 // Express Api
 app.get("/", (req, res) => {

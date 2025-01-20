@@ -1,6 +1,8 @@
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchCategory } from "../Redux/Categories/CategorySlice";
 
 const SubNavigation = () => {
   const menuRef = useRef(null);
@@ -28,25 +30,34 @@ const SubNavigation = () => {
     }
   };
 
+  const dispatch = useDispatch();
+  const { isLoading, categories, error } = useSelector((state) => state.categories);
+  useEffect(() => {
+    dispatch(fetchCategory());
+  }, [dispatch]);
   return (
-    <div className="relative py-2 ">
+    <div className="relative hidden py-2 md:block w-[95%] mx-auto">
       {/* Sub-navigation menu */}
       <div
-        ref={menuRef}
-        className="flex items-center gap-2 px-4 overflow-x-auto text-sm md:gap-3 whitespace-nowrap scroll-smooth no-scrollbar"
+         ref={menuRef}
+        className="flex w-full gap-3 items-center overflow-x-auto text-sm md:gap-5 whitespace-nowrap scroll-smooth no-scrollbar"
       >
-        <Link className="p-2 bg-gray-200 rounded-md">
-          Books, Hobbies & Education
+        <Link>
+        Explore (New!)
         </Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Electronics</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Motors</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Fashion</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Collectibles Art</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Sports & Outdoors</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Health & Beauty</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Industrial Equipment</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Home & Garden</Link>
-        <Link className="p-2 bg-gray-200 rounded-md">Food & Beverages</Link>
+        <Link className="">Saved</Link>
+        {isLoading && <p>Loading...</p>}  {/*todo when loading set*/}
+        {!isLoading &&
+          categories.map((category) => (
+            <Link
+              key={category._id}
+              to={`/products?category=${encodeURIComponent(category.category)}`}
+              className="primaryColor"
+            >
+              {category.category}
+            </Link>
+          ))}
+     
       </div>
 
       {/* Scroll Buttons */}
