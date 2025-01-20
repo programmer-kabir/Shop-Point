@@ -22,11 +22,11 @@ const Navbar = () => {
             <div className="flex items-center gap-2 font-bold">
               <p className="mr-1">Hi! </p>
               <p className="text-primary ">
-                <Link>Sign In </Link>
+                <Link to='/signin'>Sign In </Link>
               </p>
               <p className="">or</p>
               <p className=" text-primary">
-                <Link>Register</Link>
+                <Link to='/signup'>Register</Link>
               </p>
             </div>
             <div className="flex flex-row items-center gap-5 ">
