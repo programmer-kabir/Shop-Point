@@ -34,7 +34,7 @@ const Signin = () => {
    email or username
   </span>
 </label>
-<div className='bg-blue-500 text-white w-96 py-3 px-5 mt-8 rounded-full text-center'>
+<div className='bg-blue-500 text-white w-96 py-3 px-5 mt-8 rounded-full text-center text-lg font-bold'>
   <button>continue</button>
 </div>
     </div>
