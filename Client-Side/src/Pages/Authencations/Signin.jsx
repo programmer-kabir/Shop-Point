@@ -3,6 +3,7 @@ import Container from '../../components/Container';
 import Button from '../../components/authenticationBtn/Button';
 import { FcGoogle } from 'react-icons/fc';
 import { FaApple, FaFacebook } from 'react-icons/fa';
+import { IoMdInformationCircleOutline } from 'react-icons/io';
 
 const Signin = () => {
   return (
@@ -19,7 +20,7 @@ const Signin = () => {
       </div>
       <label
   htmlFor="email"
-  className="relative py-2 block bg-slate-100 rounded-md border border-gray-200 shadow-sm focus-within:border-gray-300 focus-within:ring-1 focus-within:ring-gray-300 w-96"
+  className="relative py-2 block bg-slate-100 rounded-md border border-gray-500 shadow-sm focus-within:border-gray-300 focus-within:ring-1 focus-within:ring-gray-300 w-96"
 >
   <input
     type="text"
@@ -35,7 +36,7 @@ const Signin = () => {
   </span>
 </label>
 <div className='bg-blue-500 text-white w-96 py-3 px-5 mt-8 rounded-full text-center text-lg font-bold'>
-  <button>continue</button>
+  <button>Continue</button>
 </div>
     </div>
     <div className='flex justify-center items-center mt-8'>
@@ -43,10 +44,20 @@ const Signin = () => {
       <div className='pb-1 text-sm px-1'>or</div>
       <div className='h-[1px] bg-slate-300 w-48'></div>
     </div>
+    <div>
     <Button name={"Continue with Google"} logo={<FcGoogle />}/>
     <Button name={"Continue with Facebook"} logo={<FaFacebook />}/>
     <Button name={"Continue with Apple"} logo={<FaApple />}/>
+    </div>
+    <div className='flex items-center justify-center mt-8 gap-2'>
+    <input type="checkbox" name="staySignin" id="staySignin" />
+    <p>Stay signed in</p>
+    <IoMdInformationCircleOutline className='text-xl'/>
+    </div>
      </div>
+     <footer className='text-center mb-4 text-xs text-gray-700'>
+      <p>Copyright © {new Date().getFullYear()} - All right reserved by Shop Point</p>
+     </footer>
     </Container>
   )
 }
