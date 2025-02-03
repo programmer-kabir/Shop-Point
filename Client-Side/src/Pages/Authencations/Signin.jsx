@@ -1,5 +1,8 @@
-import { Link } from 'react-router-dom'
-import Container from '../../components/Container'
+import { Link } from 'react-router-dom';
+import Container from '../../components/Container';
+import Button from '../../components/authenticationBtn/Button';
+import { FcGoogle } from 'react-icons/fc';
+import { FaApple, FaFacebook } from 'react-icons/fa';
 
 const Signin = () => {
   return (
@@ -40,6 +43,9 @@ const Signin = () => {
       <div className='pb-1 text-sm px-1'>or</div>
       <div className='h-[1px] bg-slate-300 w-48'></div>
     </div>
+    <Button name={"Continue with Google"} logo={<FcGoogle />}/>
+    <Button name={"Continue with Facebook"} logo={<FaFacebook />}/>
+    <Button name={"Continue with Apple"} logo={<FaApple />}/>
      </div>
     </Container>
   )
