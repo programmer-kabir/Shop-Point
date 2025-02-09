@@ -2,8 +2,9 @@ import { Link } from 'react-router-dom';
 import Container from '../../components/Container';
 import Button from '../../components/authenticationBtn/Button';
 import { FcGoogle } from 'react-icons/fc';
-import { FaApple, FaFacebook } from 'react-icons/fa';
-import { IoMdInformationCircleOutline } from 'react-icons/io';
+import {FaFacebook } from 'react-icons/fa';
+import { IoMdAlert, IoMdInformationCircleOutline } from 'react-icons/io';
+import logo from '../../assets/logo.png'
 
 const Signin = () => {
   return (
@@ -11,12 +12,12 @@ const Signin = () => {
       <div className='text-right mt-2 mr-2'>
         <a type='_blank' href="">Tell us what you think</a>
       </div>
-      <div className='mt-4 text-5xl'>Shop Point</div>
+      <div className='mt-4 text-5xl'><img className='w-20' src={logo} alt="shop point logo" /></div>
      <div className='flex flex-col min-h-screen items-center w-[355px] h-[517px] mx-auto mb-8'>
     <div className='text-center'>
     <div className='mb-6'>
         <h1 className='text-2xl font-semibold mb-2'>Sign in to your account</h1>
-       <p className='mb-4'>New to Shop point?<Link to='/signup'className="text-red-500"> Create account</Link></p>
+       <p className='mb-4'>New to Shop point?<Link to='/signup'className="text-blue-500"> Create account</Link></p>
       </div>
       <label
   htmlFor="email"
@@ -35,7 +36,11 @@ const Signin = () => {
    email or username
   </span>
 </label>
-<div className='bg-blue-500 text-white w-96 py-3 px-5 mt-8 rounded-full text-center text-lg font-bold'>
+<div className='flex justify-center gap-2 items-center float-start py-4 text-red-600'>
+  <span><IoMdAlert className='text-xl' /></span>
+  <span>Oops, that's not a match.</span>
+</div>
+<div className='bg-blue-500 text-white w-96 py-3 px-5 mt-14 rounded-full text-center text-lg font-bold'>
   <button>Continue</button>
 </div>
     </div>
@@ -47,7 +52,6 @@ const Signin = () => {
     <div>
     <Button name={"Continue with Google"} logo={<FcGoogle />}/>
     <Button name={"Continue with Facebook"} logo={<FaFacebook />}/>
-    <Button name={"Continue with Apple"} logo={<FaApple />}/>
     </div>
     <div className='flex items-center justify-center mt-8 gap-2'>
     <input type="checkbox" name="staySignin" id="staySignin" />
