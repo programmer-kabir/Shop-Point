@@ -6,13 +6,15 @@ import routes from "./Routes/Routes.jsx";
 import { ToastContainer } from "react-toastify";
 import { Provider } from "react-redux";
 import store from "./Redux/store.js";
-
+import AuthProvider from "./Provider/AuthProvider.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ToastContainer />
-<Provider store={store}>
-<RouterProvider router={routes} />
-</Provider>
+    <AuthProvider>
+      <ToastContainer />
+      <Provider store={store}>
+        <RouterProvider router={routes} />
+      </Provider>
+    </AuthProvider>
   </StrictMode>
 );
