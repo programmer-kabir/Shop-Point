@@ -4,6 +4,8 @@ import MainLayout from "../MainLayout/MainLayout";
 import ProductPage from "../Pages/ProductPage/ProductPage";
 import Signin from "../Pages/Authencations/Signin";
 import Signup from "../Pages/Authencations/Signup";
+import UserAgreement from "../Pages/ShopPointLegal&PrivacyPolicies/UserAgreement";
+import PrivacyPolicy from "../Pages/ShopPointLegal&PrivacyPolicies/Privacypolicy";
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +26,14 @@ const routes = createBrowserRouter([
       {
         path: "/signin",
         element: <Signin />,
+      },
+      {
+        path: "/user-agreement",
+        element: <UserAgreement />,
+      },
+      {
+        path: "/privacy-policy",
+        element: <PrivacyPolicy />,
       },
     ],
   },
