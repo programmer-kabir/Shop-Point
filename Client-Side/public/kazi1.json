@@ -1,0 +1,1471 @@
+[
+    {
+      "id": "prod_038",
+      "name": "Non-Stick Cookware Set",
+      "description": "Durable non-stick cookware set perfect for everyday cooking.",
+      "category": "cat_011",
+      "subCategory": "Cookware",
+      "price": 79.99,
+      "discount": 20,
+      "stock": 200,
+      "sku": "COOKWARE-001",
+      "seller_email": "seller@gmail.com",
+      "images": [
+        "https://example.com/images/cookware1.jpg"
+      ],
+      "specifications": {
+        "brand": "KitchenPro",
+        "material": "Aluminum",
+        "pieces": "5",
+        "color": "Black"
+      },
+      "tags": [
+        "cookware",
+        "non-stick",
+        "kitchen essentials",
+        "cooking"
+      ],
+      "shippingDetails": {
+        "weight": "5kg",
+        "dimensions": "40 x 30 x 20 cm",
+        "origin": "India",
+        "availableCountries": ["India", "USA", "Bangladesh", "UK"],
+        "shippingCost": {
+          "India": 12.99,
+          "USA": 19.99,
+          "Bangladesh": 24.99,
+          "UK": 29.99
+        }
+      },
+      "createdAt": "2024-12-27",
+      "updatedAt": "2024-12-27",
+      "isActive": true
+    },
+    {
+      "id": "prod_039",
+      "name": "Porcelain Dinnerware Set",
+      "description": "Elegant porcelain dinnerware set for special occasions and daily use.",
+      "category": "cat_011",
+      "subCategory": "Dinnerware",
+      "price": 59.99,
+      "discount": 15,
+      "stock": 150,
+      "sku": "DINNERWARE-002",
+      "seller_email": "seller@gmail.com",
+      "images": [
+        "https://example.com/images/dinnerware1.jpg"
+      ],
+      "specifications": {
+        "brand": "TableStyle",
+        "material": "Porcelain",
+        "pieces": "12",
+        "color": "White"
+      },
+      "tags": [
+        "dinnerware",
+        "porcelain",
+        "tableware",
+        "kitchen"
+      ],
+      "shippingDetails": {
+        "weight": "4kg",
+        "dimensions": "35 x 25 x 20 cm",
+        "origin": "China",
+        "availableCountries": ["China", "Bangladesh", "USA", "Canada"],
+        "shippingCost": {
+          "China": 9.99,
+          "Bangladesh": 19.99,
+          "USA": 24.99,
+          "Canada": 29.99
+        }
+      },
+      "createdAt": "2024-12-27",
+      "updatedAt": "2024-12-27",
+      "isActive": true
+    },
+    {
+      "id": "prod_040",
+      "name": "Modern Wall Art Decor",
+      "description": "Stylish wall art decor to enhance your living space.",
+      "category": "cat_011",
+      "subCategory": "Home Decor",
+      "price": 39.99,
+      "discount": 10,
+      "stock": 300,
+      "sku": "DECOR-003",
+      "seller_email": "seller@gmail.com",
+      "images": [
+        "https://example.com/images/decor1.jpg"
+      ],
+      "specifications": {
+        "brand": "DecoLife",
+        "material": "Canvas",
+        "dimensions": "24 x 36 inches",
+        "color": "Multicolor"
+      },
+      "tags": [
+        "home decor",
+        "wall art",
+        "interior design",
+        "living room"
+      ],
+      "shippingDetails": {
+        "weight": "2kg",
+        "dimensions": "50 x 40 x 5 cm",
+        "origin": "USA",
+        "availableCountries": ["USA", "Bangladesh", "UK", "Australia"],
+        "shippingCost": {
+          "USA": 14.99,
+          "Bangladesh": 19.99,
+          "UK": 24.99,
+          "Australia": 29.99
+        }
+      },
+      "createdAt": "2024-12-27",
+      "updatedAt": "2024-12-27",
+      "isActive": true
+    },
+    {
+      "id": "prod_041",
+      "name": "Wooden Dining Table",
+      "description": "Classic wooden dining table for a modern dining experience.",
+      "category": "cat_011",
+      "subCategory": "Furniture",
+      "price": 299.99,
+      "discount": 25,
+      "stock": 100,
+      "sku": "FURNITURE-004",
+      "seller_email": "seller@gmail.com",
+      "images": [
+        "https://example.com/images/furniture1.jpg"
+      ],
+      "specifications": {
+        "brand": "HomeStyle",
+        "material": "Solid Wood",
+        "dimensions": "6 x 3 feet",
+        "color": "Brown"
+      },
+      "tags": [
+        "furniture",
+        "dining table",
+        "wooden table",
+        "home"
+      ],
+      "shippingDetails": {
+        "weight": "30kg",
+        "dimensions": "180 x 90 x 75 cm",
+        "origin": "Bangladesh",
+        "availableCountries": ["Bangladesh", "USA", "UK", "Germany"],
+        "shippingCost": {
+          "Bangladesh": 49.99,
+          "USA": 99.99,
+          "UK": 119.99,
+          "Germany": 129.99
+        }
+      },
+      "createdAt": "2024-12-27",
+      "updatedAt": "2024-12-27",
+      "isActive": true
+    },
+    {
+      "id": "prod_042",
+      "name": "Plastic Storage Box Set",
+      "description": "Stackable plastic storage boxes to organize your home.",
+      "category": "cat_011",
+      "subCategory": "Storage Solutions",
+      "price": 24.99,
+      "discount": 10,
+      "stock": 400,
+      "sku": "STORAGE-005",
+      "seller_email": "seller@gmail.com",
+      "images": [
+        "https://example.com/images/storage1.jpg"
+      ],
+      "specifications": {
+        "brand": "NeatNest",
+        "material": "Plastic",
+        "capacity": "50L",
+        "color": "Transparent"
+      },
+      "tags": [
+        "storage",
+        "organizer",
+        "home organization",
+        "plastic box"
+      ],
+      "shippingDetails": {
+        "weight": "3kg",
+        "dimensions": "60 x 40 x 30 cm",
+        "origin": "UK",
+        "availableCountries": ["UK", "Bangladesh", "USA", "Canada"],
+        "shippingCost": {
+          "UK": 19.99,
+          "Bangladesh": 24.99,
+          "USA": 29.99,
+          "Canada": 34.99
+        }
+      },
+      "createdAt": "2024-12-27",
+      "updatedAt": "2024-12-27",
+      "isActive": true
+    },
+    {
+        "id": "prod_043",
+        "name": "LED Ceiling Light",
+        "description": "Energy-efficient LED ceiling light for modern home lighting.",
+        "category": "cat_011",
+        "subCategory": "Lighting",
+        "price": 49.99,
+        "discount": 15,
+        "stock": 250,
+        "sku": "LIGHT-006",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/lighting1.jpg"
+        ],
+        "specifications": {
+          "brand": "BrightHome",
+          "wattage": "24W",
+          "colorTemperature": "Warm White",
+          "lifespan": "50,000 hours",
+          "dimensions": "12 x 12 inches"
+        },
+        "tags": [
+          "lighting",
+          "LED light",
+          "home decor",
+          "ceiling light"
+        ],
+        "shippingDetails": {
+          "weight": "2kg",
+          "dimensions": "35 x 35 x 10 cm",
+          "origin": "China",
+          "availableCountries": ["Bangladesh", "USA", "Canada", "Australia"],
+          "shippingCost": {
+            "Bangladesh": 9.99,
+            "USA": 14.99,
+            "Canada": 19.99,
+            "Australia": 24.99
+          }
+        },
+        "createdAt": "2024-12-27",
+        "updatedAt": "2024-12-27",
+        "isActive": true
+      },
+      {
+        "id": "prod_044",
+        "name": "Multi-Surface Cleaning Spray",
+        "description": "Powerful multi-surface cleaning spray for everyday home cleaning needs.",
+        "category": "cat_011",
+        "subCategory": "Cleaning Supplies",
+        "price": 12.99,
+        "discount": 10,
+        "stock": 500,
+        "sku": "CLEAN-007",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/cleaning1.jpg"
+        ],
+        "specifications": {
+          "brand": "FreshHome",
+          "volume": "750ml",
+          "fragrance": "Citrus",
+          "safeFor": "All surfaces"
+        },
+        "tags": [
+          "cleaning supplies",
+          "home cleaning",
+          "disinfectant",
+          "multi-purpose cleaner"
+        ],
+        "shippingDetails": {
+          "weight": "1kg",
+          "dimensions": "25 x 10 x 10 cm",
+          "origin": "USA",
+          "availableCountries": ["USA", "Bangladesh", "UK", "Germany"],
+          "shippingCost": {
+            "USA": 4.99,
+            "Bangladesh": 9.99,
+            "UK": 12.99,
+            "Germany": 14.99
+          }
+        },
+        "createdAt": "2024-12-27",
+        "updatedAt": "2024-12-27",
+        "isActive": true
+      },
+      {
+        "id": "prod_045",
+        "name": "Organic Cotton Baby Clothing Set",
+        "description": "Soft and breathable organic cotton clothing set for newborns.",
+        "category": "cat_012",
+        "subCategory": "Baby Clothing",
+        "price": 29.99,
+        "discount": 10,
+        "stock": 300,
+        "sku": "BABY-CLOTH-001",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/babyclothing1.jpg"
+        ],
+        "specifications": {
+          "brand": "BabyCare",
+          "material": "Organic Cotton",
+          "size": "0-12 months",
+          "color": "Pastel Assortment"
+        },
+        "tags": [
+          "baby clothing",
+          "organic",
+          "soft fabric",
+          "newborn"
+        ],
+        "shippingDetails": {
+          "weight": "500g",
+          "dimensions": "30 x 20 x 10 cm",
+          "origin": "India",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Canada"],
+          "shippingCost": {
+            "Bangladesh": 5.99,
+            "USA": 9.99,
+            "UK": 12.99,
+            "Canada": 14.99
+          }
+        },
+        "createdAt": "2024-12-27",
+        "updatedAt": "2024-12-27",
+        "isActive": true
+      },
+      {
+        "id": "prod_046",
+        "name": "Disposable Baby Diapers",
+        "description": "Leak-proof disposable baby diapers with extra absorption.",
+        "category": "cat_012",
+        "subCategory": "Diapers",
+        "price": 19.99,
+        "discount": 15,
+        "stock": 400,
+        "sku": "DIAPER-002",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/diapers1.jpg"
+        ],
+        "specifications": {
+          "brand": "SoftCare",
+          "size": "M",
+          "absorption": "12 hours",
+          "count": "72 pcs"
+        },
+        "tags": [
+          "diapers",
+          "baby care",
+          "leak-proof",
+          "absorbent"
+        ],
+        "shippingDetails": {
+          "weight": "2kg",
+          "dimensions": "40 x 30 x 15 cm",
+          "origin": "USA",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Australia"],
+          "shippingCost": {
+            "Bangladesh": 9.99,
+            "USA": 14.99,
+            "UK": 19.99,
+            "Australia": 24.99
+          }
+        },
+        "createdAt": "2024-12-27",
+        "updatedAt": "2024-12-27",
+        "isActive": true
+      },
+      {
+        "id": "prod_047",
+        "name": "Organic Baby Food Pack",
+        "description": "Nutrient-rich organic baby food pack with natural ingredients.",
+        "category": "cat_012",
+        "subCategory": "Baby Food",
+        "price": 15.99,
+        "discount": 10,
+        "stock": 500,
+        "sku": "BABYFOOD-003",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/babyfood1.jpg"
+        ],
+        "specifications": {
+          "brand": "NutriBaby",
+          "flavor": "Apple & Banana",
+          "weight": "500g",
+          "ageGroup": "6-12 months"
+        },
+        "tags": [
+          "baby food",
+          "organic",
+          "healthy",
+          "nutrition"
+        ],
+        "shippingDetails": {
+          "weight": "1kg",
+          "dimensions": "25 x 15 x 10 cm",
+          "origin": "Germany",
+          "availableCountries": ["Bangladesh", "Germany", "USA", "UK"],
+          "shippingCost": {
+            "Bangladesh": 7.99,
+            "Germany": 9.99,
+            "USA": 12.99,
+            "UK": 14.99
+          }
+        },
+        "createdAt": "2024-12-27",
+        "updatedAt": "2024-12-27",
+        "isActive": true
+      },
+      {
+        "id": "prod_048",
+        "name": "Baby Stroller with Canopy",
+        "description": "Lightweight and foldable baby stroller with protective canopy.",
+        "category": "cat_012",
+        "subCategory": "Strollers",
+        "price": 129.99,
+        "discount": 20,
+        "stock": 200,
+        "sku": "STROLLER-004",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/stroller1.jpg"
+        ],
+        "specifications": {
+          "brand": "BabyMove",
+          "weightCapacity": "25kg",
+          "foldable": "Yes",
+          "color": "Gray"
+        },
+        "tags": [
+          "baby stroller",
+          "foldable",
+          "portable",
+          "parenting"
+        ],
+        "shippingDetails": {
+          "weight": "10kg",
+          "dimensions": "80 x 50 x 40 cm",
+          "origin": "UK",
+          "availableCountries": ["Bangladesh", "UK", "USA", "Canada"],
+          "shippingCost": {
+            "Bangladesh": 19.99,
+            "UK": 24.99,
+            "USA": 29.99,
+            "Canada": 34.99
+          }
+        },
+        "createdAt": "2024-12-27",
+        "updatedAt": "2024-12-27",
+        "isActive": true
+      },
+      {
+        "id": "prod_049",
+        "name": "Soft Plush Baby Toy Set",
+        "description": "Safe and soft plush toy set designed for babies and toddlers.",
+        "category": "cat_012",
+        "subCategory": "Toys",
+        "price": 24.99,
+        "discount": 10,
+        "stock": 300,
+        "sku": "TOY-005",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/toys1.jpg"
+        ],
+        "specifications": {
+          "brand": "TinyTots",
+          "material": "Plush",
+          "ageGroup": "0-3 years",
+          "washable": "Yes"
+        },
+        "tags": [
+          "baby toys",
+          "soft toys",
+          "plush",
+          "baby play"
+        ],
+        "shippingDetails": {
+          "weight": "800g",
+          "dimensions": "30 x 20 x 15 cm",
+          "origin": "China",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Australia"],
+          "shippingCost": {
+            "Bangladesh": 6.99,
+            "USA": 9.99,
+            "UK": 12.99,
+            "Australia": 14.99
+          }
+        },
+        "createdAt": "2024-12-27",
+        "updatedAt": "2024-12-27",
+        "isActive": true
+      },
+      {
+        "id": "prod_050",
+        "name": "Breastfeeding Nursing Pillow",
+        "description": "Ergonomic nursing pillow for comfortable breastfeeding support.",
+        "category": "cat_012",
+        "subCategory": "Nursing Products",
+        "price": 39.99,
+        "discount": 15,
+        "stock": 150,
+        "sku": "NURSING-006",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/nursing1.jpg"
+        ],
+        "specifications": {
+          "brand": "MomEase",
+          "material": "Cotton",
+          "washable": "Yes",
+          "color": "Blue"
+        },
+        "tags": [
+          "nursing products",
+          "breastfeeding",
+          "baby care",
+          "maternity"
+        ],
+        "shippingDetails": {
+          "weight": "1.2kg",
+          "dimensions": "50 x 40 x 20 cm",
+          "origin": "India",
+          "availableCountries": ["Bangladesh", "USA", "Canada", "UK"],
+          "shippingCost": {
+            "Bangladesh": 10.99,
+            "USA": 14.99,
+            "Canada": 19.99,
+            "UK": 22.99
+          }
+        },
+        "createdAt": "2024-12-27",
+        "updatedAt": "2024-12-27",
+        "isActive": true
+      },
+      {
+        "id": "prod_051",
+        "name": "Baby Bath Essentials Kit",
+        "description": "Complete baby bath essentials kit with shampoo, soap, and lotion.",
+        "category": "cat_012",
+        "subCategory": "Bath Essentials",
+        "price": 19.99,
+        "discount": 10,
+        "stock": 400,
+        "sku": "BATH-007",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/bath1.jpg"
+        ],
+        "specifications": {
+          "brand": "GentleBaby",
+          "ingredients": "Organic",
+          "suitableFor": "Sensitive skin",
+          "volume": "500ml"
+        },
+        "tags": [
+          "baby bath",
+          "bath essentials",
+          "baby care",
+          "organic skincare"
+        ],
+        "shippingDetails": {
+          "weight": "1kg",
+          "dimensions": "30 x 15 x 10 cm",
+          "origin": "USA",
+          "availableCountries": ["Bangladesh", "USA", "Germany", "UK"],
+          "shippingCost": {
+            "Bangladesh": 8.99,
+            "USA": 12.99,
+            "Germany": 15.99,
+            "UK": 18.99
+          }
+        },
+        "createdAt": "2024-12-27",
+        "updatedAt": "2024-12-27",
+        "isActive": true
+      },
+      {
+        "id": "prod_052",
+        "name": "Premium Dog Food 5kg",
+        "description": "Nutritious and balanced dog food for all breeds and sizes.",
+        "category": "cat_013",
+        "subCategory": "Pet Food",
+        "price": 34.99,
+        "discount": 10,
+        "stock": 250,
+        "sku": "PETFOOD-001",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/petfood1.jpg"
+        ],
+        "specifications": {
+          "brand": "HealthyPaws",
+          "weight": "5kg",
+          "flavor": "Chicken & Rice",
+          "suitableFor": "Dogs of all ages"
+        },
+        "tags": [
+          "pet food",
+          "dog food",
+          "nutrition",
+          "healthy pets"
+        ],
+        "shippingDetails": {
+          "weight": "5.5kg",
+          "dimensions": "30 x 20 x 15 cm",
+          "origin": "USA",
+          "availableCountries": ["Bangladesh", "USA", "Canada", "UK"],
+          "shippingCost": {
+            "Bangladesh": 12.99,
+            "USA": 9.99,
+            "Canada": 14.99,
+            "UK": 16.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_053",
+        "name": "Interactive Cat Toy Set",
+        "description": "Fun and interactive toy set to keep your cat entertained.",
+        "category": "cat_013",
+        "subCategory": "Pet Toys",
+        "price": 19.99,
+        "discount": 15,
+        "stock": 500,
+        "sku": "PETTOY-002",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/pettoys1.jpg"
+        ],
+        "specifications": {
+          "brand": "FelineFun",
+          "material": "Plastic & Fabric",
+          "suitableFor": "Cats",
+          "includes": "3 toys"
+        },
+        "tags": [
+          "pet toys",
+          "cat toys",
+          "interactive play",
+          "fun for pets"
+        ],
+        "shippingDetails": {
+          "weight": "800g",
+          "dimensions": "25 x 15 x 10 cm",
+          "origin": "China",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Germany"],
+          "shippingCost": {
+            "Bangladesh": 5.99,
+            "USA": 8.99,
+            "UK": 10.99,
+            "Germany": 12.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_054",
+        "name": "Pet Grooming Kit",
+        "description": "Complete grooming kit for dogs and cats with brushes and trimmers.",
+        "category": "cat_013",
+        "subCategory": "Grooming Products",
+        "price": 29.99,
+        "discount": 20,
+        "stock": 200,
+        "sku": "GROOMING-003",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/grooming1.jpg"
+        ],
+        "specifications": {
+          "brand": "PetGroom",
+          "includes": "Brush, Nail Clipper, Trimmer",
+          "suitableFor": "Dogs & Cats",
+          "color": "Blue"
+        },
+        "tags": [
+          "pet grooming",
+          "dog grooming",
+          "cat grooming",
+          "pet care"
+        ],
+        "shippingDetails": {
+          "weight": "1.2kg",
+          "dimensions": "30 x 25 x 10 cm",
+          "origin": "UK",
+          "availableCountries": ["Bangladesh", "UK", "USA", "Australia"],
+          "shippingCost": {
+            "Bangladesh": 9.99,
+            "UK": 12.99,
+            "USA": 15.99,
+            "Australia": 18.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_055",
+        "name": "Soft Plush Pet Bed",
+        "description": "Cozy and comfortable pet bed for small to medium-sized pets.",
+        "category": "cat_013",
+        "subCategory": "Pet Beds",
+        "price": 49.99,
+        "discount": 10,
+        "stock": 150,
+        "sku": "PETBED-004",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/petbed1.jpg"
+        ],
+        "specifications": {
+          "brand": "CozyPets",
+          "size": "Medium",
+          "material": "Plush",
+          "washable": "Yes"
+        },
+        "tags": [
+          "pet bed",
+          "comfortable bed",
+          "dog bed",
+          "cat bed"
+        ],
+        "shippingDetails": {
+          "weight": "2.5kg",
+          "dimensions": "50 x 40 x 30 cm",
+          "origin": "Germany",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Canada"],
+          "shippingCost": {
+            "Bangladesh": 14.99,
+            "USA": 19.99,
+            "UK": 22.99,
+            "Canada": 25.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_056",
+        "name": "Adjustable Dog Leash and Collar Set",
+        "description": "Durable and comfortable adjustable dog leash and collar set.",
+        "category": "cat_013",
+        "subCategory": "Leashes & Collars",
+        "price": 15.99,
+        "discount": 10,
+        "stock": 300,
+        "sku": "LEASH-001",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/leash1.jpg"
+        ],
+        "specifications": {
+          "brand": "PawPerfect",
+          "material": "Nylon",
+          "length": "6 feet",
+          "color": "Red"
+        },
+        "tags": [
+          "dog leash",
+          "pet collar",
+          "adjustable leash",
+          "pet accessories"
+        ],
+        "shippingDetails": {
+          "weight": "500g",
+          "dimensions": "20 x 10 x 5 cm",
+          "origin": "USA",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Canada"],
+          "shippingCost": {
+            "Bangladesh": 5.99,
+            "USA": 7.99,
+            "UK": 9.99,
+            "Canada": 11.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_057",
+        "name": "Winter Pet Sweater",
+        "description": "Cozy winter sweater to keep your pet warm and stylish.",
+        "category": "cat_013",
+        "subCategory": "Pet Clothing",
+        "price": 22.99,
+        "discount": 15,
+        "stock": 200,
+        "sku": "PETCLOTH-002",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/petclothing1.jpg"
+        ],
+        "specifications": {
+          "brand": "FurStyle",
+          "size": "Medium",
+          "material": "Wool Blend",
+          "color": "Blue"
+        },
+        "tags": [
+          "pet clothing",
+          "dog sweater",
+          "winter pet wear",
+          "pet fashion"
+        ],
+        "shippingDetails": {
+          "weight": "600g",
+          "dimensions": "30 x 20 x 10 cm",
+          "origin": "UK",
+          "availableCountries": ["Bangladesh", "USA", "Germany", "Australia"],
+          "shippingCost": {
+            "Bangladesh": 8.99,
+            "USA": 10.99,
+            "Germany": 12.99,
+            "Australia": 14.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_058",
+        "name": "Glass Fish Aquarium 20L",
+        "description": "Stylish 20L glass fish aquarium with LED lighting.",
+        "category": "cat_013",
+        "subCategory": "Aquariums",
+        "price": 89.99,
+        "discount": 20,
+        "stock": 100,
+        "sku": "AQUA-003",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/aquarium1.jpg"
+        ],
+        "specifications": {
+          "brand": "AquaLife",
+          "capacity": "20L",
+          "material": "Glass",
+          "features": "LED lighting, water filter"
+        },
+        "tags": [
+          "aquariums",
+          "fish tank",
+          "glass aquarium",
+          "pet fish"
+        ],
+        "shippingDetails": {
+          "weight": "6kg",
+          "dimensions": "40 x 30 x 30 cm",
+          "origin": "China",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Singapore"],
+          "shippingCost": {
+            "Bangladesh": 15.99,
+            "USA": 19.99,
+            "UK": 24.99,
+            "Singapore": 29.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_059",
+        "name": "Superhero Action Figure Set",
+        "description": "A set of 5 collectible superhero action figures with movable joints.",
+        "category": "cat_014",
+        "subCategory": "Action Figures",
+        "price": 29.99,
+        "discount": 10,
+        "stock": 300,
+        "sku": "ACTFIG-001",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/actionfigures1.jpg"
+        ],
+        "specifications": {
+          "brand": "HeroWorld",
+          "material": "Plastic",
+          "ageGroup": "5+ years",
+          "setIncludes": "5 figures"
+        },
+        "tags": [
+          "action figures",
+          "superhero toys",
+          "collectibles",
+          "kids toys"
+        ],
+        "shippingDetails": {
+          "weight": "1kg",
+          "dimensions": "25 x 15 x 10 cm",
+          "origin": "USA",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Canada"],
+          "shippingCost": {
+            "Bangladesh": 9.99,
+            "USA": 7.99,
+            "UK": 11.99,
+            "Canada": 12.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_060",
+        "name": "Classic Board Game Collection",
+        "description": "A collection of classic board games including chess, checkers, and ludo.",
+        "category": "cat_014",
+        "subCategory": "Board Games",
+        "price": 39.99,
+        "discount": 15,
+        "stock": 200,
+        "sku": "BOARDGAME-002",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/boardgames1.jpg"
+        ],
+        "specifications": {
+          "brand": "GameMaster",
+          "material": "Wood & Plastic",
+          "ageGroup": "6+ years",
+          "gamesIncluded": "3"
+        },
+        "tags": [
+          "board games",
+          "family games",
+          "strategy games",
+          "fun games"
+        ],
+        "shippingDetails": {
+          "weight": "2kg",
+          "dimensions": "30 x 25 x 8 cm",
+          "origin": "UK",
+          "availableCountries": ["Bangladesh", "USA", "Australia", "Germany"],
+          "shippingCost": {
+            "Bangladesh": 12.99,
+            "USA": 14.99,
+            "Australia": 18.99,
+            "Germany": 20.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_061",
+        "name": "STEM Educational Toy Kit",
+        "description": "Educational toy kit to enhance STEM skills in children.",
+        "category": "cat_014",
+        "subCategory": "Educational Toys",
+        "price": 49.99,
+        "discount": 20,
+        "stock": 150,
+        "sku": "EDUTOY-003",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/educationaltoy1.jpg"
+        ],
+        "specifications": {
+          "brand": "EduPlay",
+          "material": "Plastic",
+          "ageGroup": "8+ years",
+          "features": "STEM learning"
+        },
+        "tags": [
+          "educational toys",
+          "STEM learning",
+          "kids development",
+          "learning toys"
+        ],
+        "shippingDetails": {
+          "weight": "1.5kg",
+          "dimensions": "35 x 20 x 10 cm",
+          "origin": "China",
+          "availableCountries": ["Bangladesh", "USA", "India", "Canada"],
+          "shippingCost": {
+            "Bangladesh": 10.99,
+            "USA": 13.99,
+            "India": 11.99,
+            "Canada": 15.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_062",
+        "name": "Fashion Doll with Accessories",
+        "description": "A beautiful fashion doll with stylish accessories and outfits.",
+        "category": "cat_014",
+        "subCategory": "Dolls",
+        "price": 24.99,
+        "discount": 10,
+        "stock": 300,
+        "sku": "DOLL-004",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/doll1.jpg"
+        ],
+        "specifications": {
+          "brand": "DollHouse",
+          "material": "Plastic & Fabric",
+          "ageGroup": "4+ years",
+          "includes": "Doll, Outfits, Accessories"
+        },
+        "tags": [
+          "fashion dolls",
+          "kids toys",
+          "doll accessories",
+          "dress-up"
+        ],
+        "shippingDetails": {
+          "weight": "1kg",
+          "dimensions": "30 x 15 x 10 cm",
+          "origin": "Germany",
+          "availableCountries": ["Bangladesh", "UK", "USA", "France"],
+          "shippingCost": {
+            "Bangladesh": 8.99,
+            "UK": 11.99,
+            "USA": 13.99,
+            "France": 14.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_063",
+        "name": "500-Piece Jigsaw Puzzle",
+        "description": "A beautifully illustrated 500-piece jigsaw puzzle for all ages.",
+        "category": "cat_014",
+        "subCategory": "Puzzles",
+        "price": 19.99,
+        "discount": 10,
+        "stock": 250,
+        "sku": "PUZZLE-005",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/puzzle1.jpg"
+        ],
+        "specifications": {
+          "brand": "PuzzleMaster",
+          "material": "Cardboard",
+          "ageGroup": "6+ years",
+          "pieceCount": "500"
+        },
+        "tags": [
+          "jigsaw puzzle",
+          "puzzles for kids",
+          "brain games",
+          "fun activities"
+        ],
+        "shippingDetails": {
+          "weight": "800g",
+          "dimensions": "30 x 20 x 5 cm",
+          "origin": "USA",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Germany"],
+          "shippingCost": {
+            "Bangladesh": 7.99,
+            "USA": 9.99,
+            "UK": 12.99,
+            "Germany": 14.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_064",
+        "name": "Kids Outdoor Play Slide",
+        "description": "Durable and colorful outdoor slide set for kids.",
+        "category": "cat_014",
+        "subCategory": "Outdoor Play Equipment",
+        "price": 89.99,
+        "discount": 15,
+        "stock": 100,
+        "sku": "OUTDOOR-006",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/outdoorplay1.jpg"
+        ],
+        "specifications": {
+          "brand": "PlayTime",
+          "material": "Plastic",
+          "ageGroup": "3+ years",
+          "features": "Safe and sturdy design"
+        },
+        "tags": [
+          "outdoor toys",
+          "kids slides",
+          "play equipment",
+          "garden toys"
+        ],
+        "shippingDetails": {
+          "weight": "5kg",
+          "dimensions": "100 x 50 x 40 cm",
+          "origin": "Canada",
+          "availableCountries": ["Bangladesh", "USA", "Australia", "France"],
+          "shippingCost": {
+            "Bangladesh": 15.99,
+            "USA": 18.99,
+            "Australia": 22.99,
+            "France": 24.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_065",
+        "name": "Creative Building Blocks Set",
+        "description": "A 200-piece creative building blocks set to enhance imagination and creativity.",
+        "category": "cat_014",
+        "subCategory": "Building Blocks",
+        "price": 34.99,
+        "discount": 20,
+        "stock": 150,
+        "sku": "BLDBLOCKS-007",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/buildingblocks1.jpg"
+        ],
+        "specifications": {
+          "brand": "BlockWorld",
+          "material": "Plastic",
+          "ageGroup": "4+ years",
+          "pieces": "200"
+        },
+        "tags": [
+          "building blocks",
+          "creative toys",
+          "educational toys",
+          "kids blocks"
+        ],
+        "shippingDetails": {
+          "weight": "1.5kg",
+          "dimensions": "35 x 25 x 10 cm",
+          "origin": "China",
+          "availableCountries": ["Bangladesh", "USA", "UK", "India"],
+          "shippingCost": {
+            "Bangladesh": 9.99,
+            "USA": 12.99,
+            "UK": 14.99,
+            "India": 16.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_066",
+        "name": "Premium Green Tea",
+        "description": "High-quality green tea leaves packed in eco-friendly tea bags.",
+        "category": "cat_015",
+        "subCategory": "Beverages",
+        "price": 14.99,
+        "discount": 5,
+        "stock": 500,
+        "sku": "BEV-001",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/greentea1.jpg"
+        ],
+        "specifications": {
+          "brand": "GreenLeaf",
+          "type": "Green Tea",
+          "weight": "100g",
+          "ingredients": "Organic Green Tea"
+        },
+        "tags": [
+          "green tea",
+          "beverages",
+          "organic tea",
+          "healthy drinks"
+        ],
+        "shippingDetails": {
+          "weight": "150g",
+          "dimensions": "10 x 8 x 4 cm",
+          "origin": "Japan",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Canada"],
+          "shippingCost": {
+            "Bangladesh": 4.99,
+            "USA": 7.99,
+            "UK": 6.99,
+            "Canada": 8.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_067",
+        "name": "Assorted Snacks Pack",
+        "description": "A variety pack of healthy snacks including nuts, dried fruits, and chips.",
+        "category": "cat_015",
+        "subCategory": "Snacks",
+        "price": 19.99,
+        "discount": 10,
+        "stock": 400,
+        "sku": "SNACKS-002",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/snacks1.jpg"
+        ],
+        "specifications": {
+          "brand": "SnackMasters",
+          "weight": "250g",
+          "ingredients": "Nuts, dried fruits, chips"
+        },
+        "tags": [
+          "snacks",
+          "healthy snacks",
+          "assorted snacks",
+          "nuts and fruits"
+        ],
+        "shippingDetails": {
+          "weight": "300g",
+          "dimensions": "20 x 15 x 8 cm",
+          "origin": "India",
+          "availableCountries": ["Bangladesh", "USA", "India", "UK"],
+          "shippingCost": {
+            "Bangladesh": 5.99,
+            "USA": 8.99,
+            "India": 6.99,
+            "UK": 9.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_068",
+        "name": "Organic Fresh Apples",
+        "description": "Fresh organic apples, handpicked for quality.",
+        "category": "cat_015",
+        "subCategory": "Fresh Produce",
+        "price": 12.99,
+        "discount": 5,
+        "stock": 300,
+        "sku": "FRUIT-003",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/apples1.jpg"
+        ],
+        "specifications": {
+          "brand": "FarmFresh",
+          "type": "Apple",
+          "weight": "1kg",
+          "origin": "USA"
+        },
+        "tags": [
+          "organic apples",
+          "fresh produce",
+          "fruit",
+          "healthy snacks"
+        ],
+        "shippingDetails": {
+          "weight": "1kg",
+          "dimensions": "20 x 15 x 10 cm",
+          "origin": "USA",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Canada"],
+          "shippingCost": {
+            "Bangladesh": 6.99,
+            "USA": 7.99,
+            "UK": 8.99,
+            "Canada": 9.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_069",
+        "name": "Whole Wheat Bread",
+        "description": "Freshly baked whole wheat bread with no preservatives.",
+        "category": "cat_015",
+        "subCategory": "Bakery Products",
+        "price": 3.99,
+        "discount": 2,
+        "stock": 600,
+        "sku": "BREAD-004",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/bread1.jpg"
+        ],
+        "specifications": {
+          "brand": "BakeMasters",
+          "type": "Whole Wheat",
+          "weight": "500g",
+          "ingredients": "Whole wheat flour, yeast, water"
+        },
+        "tags": [
+          "whole wheat bread",
+          "bakery products",
+          "fresh bread",
+          "healthy bread"
+        ],
+        "shippingDetails": {
+          "weight": "600g",
+          "dimensions": "25 x 10 x 8 cm",
+          "origin": "Canada",
+          "availableCountries": ["Bangladesh", "USA", "Canada", "UK"],
+          "shippingCost": {
+            "Bangladesh": 2.99,
+            "USA": 4.99,
+            "Canada": 3.99,
+            "UK": 5.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_070",
+        "name": "Fresh Salmon Fillet",
+        "description": "Premium quality fresh salmon fillet, rich in omega-3.",
+        "category": "cat_015",
+        "subCategory": "Meat & Seafood",
+        "price": 24.99,
+        "discount": 10,
+        "stock": 150,
+        "sku": "MEAT-005",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/salmon1.jpg"
+        ],
+        "specifications": {
+          "brand": "SeaFresh",
+          "type": "Salmon",
+          "weight": "500g",
+          "origin": "Norway"
+        },
+        "tags": [
+          "fresh salmon",
+          "seafood",
+          "omega-3",
+          "healthy eating"
+        ],
+        "shippingDetails": {
+          "weight": "600g",
+          "dimensions": "20 x 15 x 10 cm",
+          "origin": "Norway",
+          "availableCountries": ["Bangladesh", "USA", "Canada", "UK"],
+          "shippingCost": {
+            "Bangladesh": 8.99,
+            "USA": 12.99,
+            "Canada": 10.99,
+            "UK": 14.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_071",
+        "name": "Organic Milk",
+        "description": "Fresh organic milk with no added hormones.",
+        "category": "cat_015",
+        "subCategory": "Dairy Products",
+        "price": 5.99,
+        "discount": 3,
+        "stock": 400,
+        "sku": "DAIRY-006",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/milk1.jpg"
+        ],
+        "specifications": {
+          "brand": "MilkFarm",
+          "type": "Organic",
+          "weight": "1L",
+          "ingredients": "Milk"
+        },
+        "tags": [
+          "organic milk",
+          "dairy products",
+          "healthy milk",
+          "fresh milk"
+        ],
+        "shippingDetails": {
+          "weight": "1.2kg",
+          "dimensions": "15 x 10 x 5 cm",
+          "origin": "USA",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Canada"],
+          "shippingCost": {
+            "Bangladesh": 3.99,
+            "USA": 5.99,
+            "UK": 6.99,
+            "Canada": 7.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      },
+      {
+        "id": "prod_072",
+        "name": "Household Cleaning Kit",
+        "description": "Complete cleaning kit for all your household needs.",
+        "category": "cat_015",
+        "subCategory": "Household Essentials",
+        "price": 29.99,
+        "discount": 15,
+        "stock": 250,
+        "sku": "CLEAN-007",
+        "seller_email": "seller@gmail.com",
+        "images": [
+          "https://example.com/images/cleaningkit1.jpg"
+        ],
+        "specifications": {
+          "brand": "CleanMaster",
+          "itemsIncluded": "Multi-purpose cleaner, disinfectant, gloves, cloths"
+        },
+        "tags": [
+          "household essentials",
+          "cleaning kit",
+          "home cleaning",
+          "disinfectant"
+        ],
+        "shippingDetails": {
+          "weight": "1.5kg",
+          "dimensions": "30 x 20 x 15 cm",
+          "origin": "USA",
+          "availableCountries": ["Bangladesh", "USA", "UK", "Canada"],
+          "shippingCost": {
+            "Bangladesh": 6.99,
+            "USA": 8.99,
+            "UK": 9.99,
+            "Canada": 10.99
+          }
+        },
+        "createdAt": "2024-12-28",
+        "updatedAt": "2024-12-28",
+        "isActive": true
+      }
+  ]
+  

@@ -1,0 +1,21 @@
+[
+    {
+        "_id":"asf",
+        "productId":"prod_001",
+        "categoryId":"cat_001",
+        "subCategory": "subCategory",
+        "user_email":"buyer@gmail.com",
+        "reviews": {
+            "averageRating": 4.7,
+            "totalReviews": 214,
+            "reviewDetails": {
+              "5stars": 160,
+              "4stars": 40,
+              "3stars": 10,
+              "2stars": 3,
+              "1star": 1
+            },
+            "review":"user give me review"
+          }
+    }
+]

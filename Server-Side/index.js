@@ -22,13 +22,47 @@ const dbConnect = async () => {
   try {
     client.connect();
     // Mongo Db Collection
+    const categoryCollection = client.db("Shop-Point").collection("category");
+const usersCollection = client.db('Shop-Point').collection("users")
 
+    app.get("/category", async (req, res) => {
+      try {
+        const result = await categoryCollection.find().toArray(); // Add 'await' here
+        res.send(result);
+      } catch (error) {
+        console.error("Error fetching categories:", error.message);
+        res.status(500).send({ error: "Failed to fetch categories" });
+      }
+    });
+    app.post('/users', async (req, res) => {
+      const data = req.body; // Get the data directly from the request body
+      try {
+        const result = await usersCollection.insertOne(data); // Insert the data
+        res.send(result); // Send back the inserted data or success message
+      } catch (error) {
+        console.error("Error inserting user data:", error.message);
+        res.status(500).send({ error: "Failed to register user" });
+      }
+    });
+    
+    app.get("/users", async (req, res) => {
+      try {
+        const result = await usersCollection.find().toArray(); // Retrieve all users from the collection
+        res.send(result); // Send back the result
+      } catch (error) {
+        console.error("Error fetching users:", error.message);
+        res.status(500).send({ error: "Failed to fetch users" });
+      }
+    });
+    
     // Mongo Db Api
     console.log("Database Connect Successfully");
   } catch (error) {
     console.log(error.message);
   }
 };
+// dbConnect().catch(console.dir);
+
 dbConnect();
 // Express Api
 app.get("/", (req, res) => {
